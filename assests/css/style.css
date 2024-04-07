@@ -3,16 +3,39 @@
 
 /* Universal selector that applies to all elements by default */
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
+
 /* General style rule for body element */
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /* Generic project styles */
-    color: #740505;
-    font-family: 'Alegreya', sans-serif;
+    color: #c2ee7c;
+    font-family: "Raleway", sans-serif;
+}
+header {
+    overflow: auto; /* Add overflow:auto to the header */
+}
+
+/* #logo-box {
+    float: left; /* Float the container to the left */
+/* } */
+
+#logo {
+    text-decoration: none;
+}
+
+/* #logo img {
+    width: 50px;
+    height: auto;
+} */
+
+h1 {
+    float: left;
+    width: calc(100% - 50px);
+    margin: 0;
+    color:#808000;
 }
