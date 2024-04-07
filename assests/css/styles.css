@@ -1,12 +1,12 @@
-/* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
-/* Universal selector that applies to all elements by default */
-* {
+
+
+/* Universal selector that applies to all elements by default 
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+}*/
 
 /* General style rule for body element */
 body {
@@ -24,14 +24,11 @@ header {
     float: left; /* Float the container to the left */
 /* } */
 
-#logo {
-    text-decoration: none;
-}
+.logo {
 
-/* #logo img {
-    width: 50px;
-    height: auto;
-} */
+    width: 300px;
+   
+  }
 
 h1 {
     float: left;
