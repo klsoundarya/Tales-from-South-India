@@ -15,7 +15,7 @@ body {
     flex-direction: column;
     margin: 0px;
     color: #cfb42c;
-    font-family: "Roboto Slab", sans-serif;
+    font-family: Georgia, serif;
 }
 
 /* styling for header */
@@ -37,7 +37,6 @@ header {
 header a {
     text-decoration: none;
     color:#0D647E;
-    font-family: 'Oldenburg', sans-serif;
 }
 
 .logo {
@@ -50,6 +49,7 @@ header a {
 #menu-box {
     font-size: 110%;
     list-style-type: none;
+    font-family: "Oldenburg", serif;
 }
 
 #menu-box >li {
