@@ -1,38 +1,89 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
-
-
-/* Universal selector that applies to all elements by default 
-{
+Universal selector that applies to all elements by default 
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}*/
+}
 
 /* General style rule for body element */
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    color: #c2ee7c;
-    font-family: "Raleway", sans-serif;
-}
-header {
-    overflow: auto; /* Add overflow:auto to the header */
+    margin: 0px;
+    color: #cfb42c;
+    font-family: "Roboto Slab", sans-serif;
 }
 
-/* #logo-box {
-    float: left; /* Float the container to the left */
-/* } */
+/* styling for header */
+header {
+    background-color:#3e6545;
+    padding: 0;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    position: fixed;
+    margin:0%;
+    z-index: 7;
+    width: 100%;
+    border-bottom: 3px solid #ffd700;
+    /* this makes all header elements align evenly on top */
+    display: flex;
+    justify-content: space-around;
+}
+
+header a {
+    text-decoration: none;
+    color:#0D647E;
+    font-family: 'Oldenburg', sans-serif;
+}
 
 .logo {
-
-    width: 300px;
-   
+    width: 250px;
+    align-items: center;
+    padding-bottom: 10px;
   }
 
-h1 {
-    float: left;
-    width: calc(100% - 50px);
-    margin: 0;
-    color:#808000;
+/* this section styles the nav bar */
+#menu-box {
+    font-size: 110%;
+    list-style-type: none;
+}
+
+#menu-box >li {
+    margin-bottom: 5px;
+}
+
+.active {
+    border-bottom: 2px solid #0D647E;
+}
+
+/* nav bar styling */
+nav {
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding-left: 0px;
+    margin-bottom:3px;
+    display: none;
+    top: 100%;
+    border-bottom: 2px solid #0D647E;
+}
+
+/* nav check box/toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 150%;
+    padding:20px 10px 15px 0px;
+    color:#ffd700;
 }
