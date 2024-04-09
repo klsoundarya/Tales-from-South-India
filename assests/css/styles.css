@@ -1,8 +1,7 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
-Universal selector that applies to all elements by default 
-*{
+Universal selector that applies to all elements by default * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -14,19 +13,19 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0px;
-    color: #cfb42c;
-    font-family: Georgia, serif;
+    color: #000000;
+    font-family: "Georgia", serif;
 }
 
 /* styling for header */
 header {
-    background-color:#3e6545;
+    background-color: #3e6545;
     padding: 0;
     padding-top: 2px;
     padding-bottom: 2px;
     position: fixed;
-    margin:0%;
-    z-index: 7;
+    margin: 0%;
+    z-index: 99;
     width: 100%;
     border-bottom: 3px solid #ffd700;
     /* this makes all header elements align evenly on top */
@@ -36,14 +35,17 @@ header {
 
 header a {
     text-decoration: none;
-    color:#0D647E;
+    color: #0D647E;
 }
 
 .logo {
-    width: 250px;
-    align-items: center;
-    padding-bottom: 10px;
-  }
+    width: 120px;
+    /* align-items: center; */
+    padding-top: 40px;
+    padding-right: 35px;
+    padding-bottom: 8px;
+    padding-left: 0px;
+}
 
 /* this section styles the nav bar */
 #menu-box {
@@ -52,7 +54,7 @@ header a {
     font-family: "Oldenburg", serif;
 }
 
-#menu-box >li {
+#menu-box>li {
     margin-bottom: 5px;
 }
 
@@ -67,7 +69,7 @@ nav {
     width: 100%;
     left: 0;
     padding-left: 0px;
-    margin-bottom:3px;
+    margin-bottom: 3px;
     display: none;
     top: 100%;
     border-bottom: 2px solid #0D647E;
@@ -83,7 +85,77 @@ nav {
 }
 
 .nav-toggle-label {
+    font-size: 156%;
+    padding: 48px 22px 48px 0px;
+    margin-right: 20px;
+    color: #ffd700;
+}
+
+/* Main content */
+main {
+    /* Make main element take up any surplus space to push footer down */
+    flex: 1 0 auto;
+    margin-top: 12px;
+}
+
+/* Hero section */
+#hero-banner {
+    height: 660px;
+    width: 100%;
+    background: url("../images/jog-falls.jpg") no-repeat center center/cover;
+    position: relative;
+    margin-top: 60px;
+    margin-bottom: 0px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 390px;
+}
+
+/* breif description on South India */
+#short-text {
+    text-align: justify;
+    display: inline-block;
+    position: absolute;
+    padding-top: 260px;
+    padding-right: 21px;
+    padding-left: 2px;
+    padding-bottom: 0px;
+    margin: 0px, 0px, 16px, 0px;
+    background-color: rgb(255, 255, 255);
+    color:rgb(15, 15, 217);
+    /* background-clip: padding-box; */
+    background-clip: text;
+    /* color: transparent; */
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+/* footer */
+footer {
+    background-color: #3e6545;
+    z-index: 96;
+}
+
+#social-platforms {
+    text-align: center;
+    padding: 10px, 0, 10px;
+    padding-left: 0px;
+    margin: 10px, 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-platforms i {
     font-size: 150%;
-    padding:20px 10px 15px 0px;
-    color:#ffd700;
+    padding: 3%;
+    color: #ffd700;
 }
