@@ -5,7 +5,7 @@
 The purpose of this website is to showcase the unique culture, heritage, and attractions of South India in an effective and informative way. View the live site [here](https://github.com/klsoundarya/Tales-from-South-India).
 
 GitHub Profile: <https://github.com/klsoundarya/Tales-from-South-India>
-Deployed Site: <>
+Deployed Site: <https://klsoundarya.github.io/Tales-from-South-India/>
 
 ![Tales from South India-website look on various screen sizes](read-me/media/.png)
 
