@@ -43,7 +43,7 @@ header a {
     width: 120px;
     padding-top: 40px;
     padding-right: 35px;
-    padding-bottom: 8px;
+    padding-bottom: 40px;
     padding-left: 0px;
 }
 
@@ -54,10 +54,6 @@ header a {
     font-family: "Oldenburg", serif;
     letter-spacing: 2px;
 }
-
-/* #menu-box a {
-    color: #ffffff;
-} */
 
 #menu-box>li {
     margin-bottom: 5px;
@@ -73,16 +69,17 @@ nav {
     background-color: #3e6545;
     width: 100%;
     left: 0;
-    padding-left: 0px;
+    /* padding-left: 0px; */
     margin-bottom: 3px;
+    margin-top: 20px;
     display: none;
     top: 100%;
-    /* border-bottom: 2px solid #0D647E; */
+    padding: 0 1rem;
     box-shadow: 5px 2px 3px gold;
-    /* z-index: 101; */
+    z-index: 101;
 }
 
-/* nav check box/toggle */
+/* Nav toggle */
 #nav-toggle:checked~nav {
     display: block;
 }
@@ -92,11 +89,14 @@ nav {
 }
 
 .nav-toggle-label {
+    /* font-size: 2rem; */
     font-size: 156%;
-    padding: 48px 0px 48px 0px;
-    margin-right: 7px;
     color: #ffd700;
+    margin-top: 35px;
+    margin-right: 45px;
+    padding-top: 12px;
 }
+
 
 /* Main content */
 main {
@@ -112,36 +112,40 @@ main {
     background: url("../images/jog-falls.jpg") no-repeat center center/cover;
     position: relative;
     margin-top: 60px;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
     background-size: cover;
     background-position: center;
-    margin-bottom: 390px;
+    margin-bottom: 0px;
 }
 
 /* breif description on South India */
 #short-text {
-    text-align: start;
-    display: inline-block;
-    position: relative;
-    top: 300px;
-    left: 80px;
-    padding-right: 24px;
+    text-align: center;
+    display: block;
+    position: absolute;
+    top: 70px;
+    left: 35px;
+    right: 40px;
+    /* bottom: 22.800px; */
+    padding-right: 18px;
     padding-left: 18px;
-    margin-bottom: 16px;
+    margin-bottom: 9px;
     margin-left: 0px;
-    margin-right: 16px;
+    margin-right: 70px;
     background-color: hsl(60, 56%, 91%, 0.7);
     color: rgb(0, 0, 0);
     font-size: 16px;
-    width: 55%;
-    min-height: 73px;
+    width: 80%;
+    /* min-height: 73px; */
+    border-radius: 12px;
 }
+
 
 .states-highlight {
     color: rgb(130, 77, 11);
 }
 
-/* Button styles */
+/* Buttons styles */
 .button {
     display: inline-block;
     padding: 10px 20px;
@@ -159,33 +163,33 @@ main {
 }
 
 /* Center the buttons */
-#destination-button {
+#buttons {
     text-align: center;
     margin-top: 20px;
 }
 
 
 /* default styling to make video responsive in all screens- from w3 schools (https://www.w3schools.com/howto/howto_css_responsive_iframes.asp) */
-#places-in-south {
+/* #places-in-south {
     position: relative;
     overflow: hidden;
     width: 100%;
     height: 85%;
     padding-top: 80%;
-    margin: 2.5% auto;
+    margin: 1.5% auto;
     max-width: 863px;
 }
 
 .places-in-south-video {
     position: absolute;
-    top: 0;
+    top: 280;
     left: 0;
     bottom: 0;
     right: 0;
     width: 100%;
     height: 100%;
     max-height: 650px;
-}
+} */
 
 /* footer */
 footer {
@@ -213,6 +217,11 @@ footer {
 @media screen and (min-width: 477px) {
     #short-text {
         margin-top: 200px;
+        margin-right: 60px;
+    }
+
+    #hero-banner {
+        margin-bottom: 0px;
     }
 }
 
@@ -221,11 +230,15 @@ footer {
 @media screen and (min-width: 768px) {
 
     /* Header */
+    #hero-banner {
+        margin-bottom: 0px;
+    }
+
     .logo {
-        border-bottom-width:0px ;
+        border-bottom-width: 0px;
         margin-bottom: 20px;
     }
-    
+
     nav {
         /* display: block; */
         position: relative;
@@ -234,6 +247,10 @@ footer {
         margin-top: 30px;
         padding-right: 1rem;
         display: block;
+    }
+
+    .nav-toggle-label {
+        display: none;
     }
 
     #menu-box {
@@ -246,10 +263,6 @@ footer {
 
     }
 
-    .nav-toggle-label {
-        display: none;
-    }
-
     /* Main content */
     main {
         /* Push main content down to accommodate larger header */
@@ -259,15 +272,17 @@ footer {
     /* Hero-banner */
     #short-text {
         width: 350px;
-        right: 400px;
-        left: 220px;
-        top: 320px;
+        right: 200px;
+        left: 260px;
+        top: 90px;
         align-items: center;
+        border-radius: 12px;
     }
 
+    /* 
     #places-in-south {
         padding-bottom: 40%;
-    }
+    } */
 
     /* Large devices (laptops and desktops, 992px and up) */
     @media screen and (min-width: 992px) {
@@ -275,33 +290,44 @@ footer {
             border-bottom: 1px solid #3e6545;
         }
 
-        #places-in-south {
+        /* #places-in-south {
             padding-bottom: 40%;
-        }
+        } */
 
-        #short-text {
-            padding-left: 24px;
-            margin-left: 280px;
-            right: 400px;
-            top: 300px;
-            width: 350px;
-            left: 30px;
-        }
-    }
-
-    @media screen and (min-width: 1200px) {
-
-        #places-in-south {
-            padding-bottom: 25%;
+        #hero-banner {
+            margin-bottom: 0px;
         }
 
         #short-text {
             padding-left: 24px;
             margin-left: 450px;
             right: 280px;
-            top: 320px;
-            width: 350px;
-            left: 30px;
+            top: 80px;
+            width: 380px;
+            left: 100px;
+            border-radius: 12px;
         }
+    }
+
+    @media screen and (min-width: 1200px) {
+        #hero-banner {
+            margin-bottom: 0px;
+        }
+
+
+        #short-text {
+            padding-left: 24px;
+            margin-left: 450px;
+            right: 500px;
+            top: 80px;
+            width: 400px;
+            left: 100px;
+            border-radius: 12px;
+        }
+
+        /* #places-in-south {
+            padding-bottom: 0px;
+            margin-bottom: 0px;
+        } */
     }
 }
