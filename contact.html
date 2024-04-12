@@ -39,35 +39,58 @@
         </label>
         <nav>
             <ul id="menu-box">
-                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="destinations.html">Destination</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <!-- Main content for home page-->
     <main>
-        <!-- hero image -->
-        <section id="hero-banner">
-            <div id="short-text">
-                <p>India is like a magical storybook, and the southern region adds enchanting chapters to this tale.
-                    <strong class="states-highlight">Telangana, Andhra Pradesh, Tamil Nadu, Kerala, Karnataka, and the
-                        union territories of Lakshadweep
-                        and Puducherry</strong> are the treasures that make up this region, where every page is filled
-                    with wonder
-                    and delight. Majestic palaces and temples adorned with intricate designs, vibrant festivals that
-                    fill the streets with music and dancing, and lush green forests teeming with wildlife all add to the
-                    charm. Each place tells its own story of history and culture, creating a rich tapestry of
-                    experiences. Let us embark on a journey to explore the beauty of South India together.
-                </p>
-                <!-- About and Destinations buttons -->
-                <div id="buttons">
-                    <a href="about.html" class="button">About</a>
-                    <a href="destinations.html" class="button">Destination</a>
+        <section id="contact">
+            <form id="contact-me-form" method="POST" action="https://formdump.codeinstitute.net">
+                <h2><i class="fa-solid fa-paper-plane"></i>Get In Touch</h2>
+                <p id="tag-line">Excited to learn more about <strong>South India</strong>? <br><span id="sub-line"><em>Stay connected by filling out this form!</em></span></p>
+                <label for="First-Name">First Name:</label>
+                <input type="text" name="first_name" id="First-Name" class="input-details" placeholder="Your First Name" required>
+                <br>
+                <label for="Last-Name">Last Name:</label>
+                <input type="text" name="last_name" id="Last-Name" class="input-details" placeholder="Your Last Name" required>
+                <br>
+                <label for="Email-Address">Email Address:</label>
+                <input type="email" name="email_address" id="Email-Address" class="input-details" placeholder="@gmail.com" required>
+                <br>
+                <label for="Share-Opinions">Message:</label>
+                <input type="text" name="message_me" id="Share-Opinions" class="input-details" placeholder="Your Message" required>
+                <br>
+                <div class="rating-buttons">
+                    <h3>Rate my work</h3>
+                    <div>
+                        <label for="star5">5</label>
+                        <input type="radio" name="performance" id="star5" value="5" required checked>
+                    </div>
+                    <div>
+                        <label for="star4">4</label>
+                        <input type="radio" name="performance" id="star4" value="4">
+                    </div>
+                    <div>
+                        <label for="star3">3</label>
+                        <input type="radio" name="performance" id="star3" value="3"x>
+                    </div>
+                    <div>
+                        <label for="star2">2</label>
+                        <input type="radio" name="performance" id="star2" value="2">
+                    </div>
+                    <div>
+                        <label for="star1">1</label>
+                        <input type="radio" name="performance" id="star1" value="1">
+                    </div>
                 </div>
+                <button type="submit" class="send-btn">Submit</button>
+            </form>
         </section>
     </main>
 

@@ -69,7 +69,6 @@ nav {
     background-color: #3e6545;
     width: 100%;
     left: 0;
-    /* padding-left: 0px; */
     margin-bottom: 3px;
     margin-top: 20px;
     display: none;
@@ -89,7 +88,6 @@ nav {
 }
 
 .nav-toggle-label {
-    /* font-size: 2rem; */
     font-size: 156%;
     color: #ffd700;
     margin-top: 35px;
@@ -101,8 +99,10 @@ nav {
 /* Main content */
 main {
     /* Make main element take up any surplus space to push footer down */
-    flex: 2 0 auto;
+    flex: 1 0 auto;
     margin-top: 12px;
+    /* display:flex;
+    flex-direction: column; */
 }
 
 /* Hero section */
@@ -126,7 +126,6 @@ main {
     top: 70px;
     left: 35px;
     right: 40px;
-    /* bottom: 22.800px; */
     padding-right: 18px;
     padding-left: 18px;
     margin-bottom: 9px;
@@ -136,7 +135,6 @@ main {
     color: rgb(0, 0, 0);
     font-size: 16px;
     width: 80%;
-    /* min-height: 73px; */
     border-radius: 12px;
 }
 
@@ -190,6 +188,63 @@ main {
     height: 100%;
     max-height: 650px;
 } */
+
+/* Form */
+#contact {
+    background-image: url("../images/signup-image.webp");
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+}
+
+
+#contact-me-form {
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 30px;
+}
+
+
+#contact-me-form>h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+#tag-line {
+    color:blue;
+}
+
+
+.input-details {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+
+
+.rating-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.send-btn {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    font-size: 100%;
+    background-color: #454b1b;
+    color: #fafafa;
+}
+.send-btn:hover {
+    background-color: #bece0c;
+}
 
 /* footer */
 footer {
