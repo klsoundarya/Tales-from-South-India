@@ -41,10 +41,10 @@ header a {
 
 .logo {
     width: 120px;
-    padding-top: 40px;
+    padding-top: 15px;
     padding-right: 35px;
-    padding-bottom: 40px;
-    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-left: 23px;
 }
 
 /* this section styles the nav bar */
@@ -70,7 +70,7 @@ nav {
     width: 100%;
     left: 0;
     margin-bottom: 3px;
-    margin-top: 20px;
+    margin-top: 0px;
     display: none;
     top: 100%;
     padding: 0 1rem;
@@ -90,7 +90,7 @@ nav {
 .nav-toggle-label {
     font-size: 156%;
     color: #ffd700;
-    margin-top: 35px;
+    margin-top: 10px;
     margin-right: 45px;
     padding-top: 12px;
 }
@@ -101,6 +101,7 @@ main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 12px;
+    /* background-color: beige; */
     /* display:flex;
     flex-direction: column; */
 }
@@ -111,7 +112,7 @@ main {
     width: 100%;
     background: url("../images/jog-falls.jpg") no-repeat center center/cover;
     position: relative;
-    margin-top: 60px;
+    margin-top: 50px;
     margin-bottom: 10px;
     background-size: cover;
     background-position: center;
@@ -123,7 +124,7 @@ main {
     text-align: center;
     display: block;
     position: absolute;
-    top: 70px;
+    top: 50px;
     left: 35px;
     right: 40px;
     padding-right: 18px;
@@ -138,6 +139,9 @@ main {
     border-radius: 12px;
 }
 
+#india-tale {
+    margin-right: 23px;
+}
 
 .states-highlight {
     color: rgb(130, 77, 11);
@@ -191,11 +195,13 @@ main {
 
 /* Form */
 #contact {
-    background-image: url("../images/signup-image.webp");
+    background-image: url("../images/SI-background.jpg");
     background-size: cover;
     background-position: 75%;
     padding: 20px 10% 0 10%;
     flex-grow: 1;
+    backdrop-filter: blur(30px);
+    z-index: 99;
 }
 
 
@@ -203,6 +209,8 @@ main {
     color: #ffffff;
     background-color: rgba(60, 60, 60, 0.6);
     padding: 30px;
+    border-radius: 30px;
+    top: 3px;
 }
 
 
@@ -211,37 +219,44 @@ main {
     margin-bottom: 20px;
 }
 
-#tag-line {
-    color:blue;
+#imp-text {
+    color: #ffffff;
 }
 
+#tag-line {
+    color: #ffd700;
+}
+
+#sub-line {
+    color: aquamarine;
+}
 
 .input-details {
-    background: transparent;
-    color: #fafafa;
+    background: hsl(132, 13%, 84%, 0.5);
+    color: hsla(0, 0%, 0%, 1.3);
     width: 100%;
     height: 25px;
-    margin: 5px 0 20px 0;
-    border: 1px solid #fafafa;
-    border-radius: 2px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #ffd700;
+    border-radius: 4px;
     padding: 0 5px;
 }
-
 
 .rating-buttons {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .send-btn {
-    margin-top: 20px;
-    border-radius: 2px;
-    padding: 15px 32px;
+    margin-top: 15px;
+    border-radius: 5px;
+    padding: 10px 20px;
     font-size: 100%;
-    background-color: #454b1b;
+    background-color: #464737;
     color: #fafafa;
 }
+
 .send-btn:hover {
     background-color: #bece0c;
 }
@@ -250,6 +265,8 @@ main {
 footer {
     background-color: #3e6545;
     z-index: 96;
+    display: flex;
+    flex-direction: column;
 }
 
 #social-platforms {
@@ -268,7 +285,7 @@ footer {
     color: #ffd700;
 }
 
-/* Media query: (477px and up) */
+/* Media query: large or landscape view (477px and up) */
 @media screen and (min-width: 477px) {
     #short-text {
         margin-top: 200px;
@@ -299,7 +316,7 @@ footer {
         position: relative;
         box-shadow: none;
         width: fit-content;
-        margin-top: 30px;
+        margin-top: 5px;
         padding-right: 1rem;
         display: block;
     }
@@ -329,9 +346,58 @@ footer {
         width: 350px;
         right: 200px;
         left: 260px;
-        top: 90px;
+        top: 70px;
         align-items: center;
         border-radius: 12px;
+    }
+
+    #contact {
+        background-image: url("../images/SI-background.jpg");
+        background-size: cover;
+        background-position: 75%;
+        padding: 20px 10% 0 10%;
+        flex-grow: 1;
+        backdrop-filter: blur(30px);
+        z-index: 99;
+    }
+
+    #contact-me-form {
+        max-width: 380px;
+        position: absolute;
+        left: 30%;
+        top: 70px;
+    }
+
+
+    #contact-me-form>h2 {
+        color: #fafafa;
+        margin-bottom: 20px;
+    }
+
+    #work-rate {
+        margin-top: 0px;
+        padding-right: 10px;
+    }
+
+    .rating-buttons {
+        margin-top: 0%;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .send-btn {
+        margin-top: 0px;
+        border-radius: 2px;
+        padding: 15px 32px;
+        font-size: 100%;
+        background-color: #454b1b;
+        color: #fafafa;
+    }
+
+
+    .input-details:hover {
+        border-color: aquamarine;
     }
 
     /* 
@@ -341,6 +407,7 @@ footer {
 
     /* Large devices (laptops and desktops, 992px and up) */
     @media screen and (min-width: 992px) {
+
         #menu-box a:hover {
             border-bottom: 1px solid #3e6545;
         }
@@ -351,34 +418,40 @@ footer {
 
         #hero-banner {
             margin-bottom: 0px;
+            margin-top: 60px;
         }
 
         #short-text {
             padding-left: 24px;
             margin-left: 450px;
             right: 280px;
-            top: 80px;
+            top: 40px;
             width: 380px;
             left: 100px;
             border-radius: 12px;
+        }
+
+        #india-tale {
+            margin-right: 15px;
         }
     }
 
     @media screen and (min-width: 1200px) {
         #hero-banner {
             margin-bottom: 0px;
-        }
+            margin-top: 60px;
 
+        }
 
         #short-text {
             padding-left: 24px;
             margin-left: 450px;
             right: 500px;
-            top: 80px;
             width: 400px;
             left: 100px;
             border-radius: 12px;
         }
+
 
         /* #places-in-south {
             padding-bottom: 0px;
