@@ -103,6 +103,7 @@ main {
     margin-top: 12px;
     background-color: hsl(60, 56%, 91%, 0.6);
     width: 100%;
+    height: auto;
 }
 
 /* Hero section */
@@ -172,7 +173,7 @@ main {
 #South-India-highpoints {
     margin-top: 60px;
     margin-bottom: 9px;
-    padding: 10px 10px 10px 9px;
+    padding: 10px 15px 10px 9px;
     color: #0f0f0e;
     font-size: 14px;
     height: 20px;
@@ -188,9 +189,10 @@ main {
 #places-in-south {
     position: relative;
     overflow: hidden;
-    width: 100%;
-    height: 85%;
-    padding-top: 30px;
+    width: 120%;
+    height: 95%;
+    padding: 30px 20px 0px 0px;
+    margin-right:15px;
     max-width: 863px;
 }
 
@@ -204,18 +206,43 @@ main {
 #picturize {
     margin-top: 14px;
     margin-bottom: 0px;
-    padding: 10px 10px 10px 9px;
-
+    padding: 10px 15px 10px 9px;
+    text-align: justify;
+    word-spacing: -2px;
 }
 
 #experience-the-beauty {
     color: #E2725B;
 }
-#places-to-explore {
-    margin-top: 0px;
-    margin-bottom: 80px;
-    padding: 10px 10px 10px 9px;
 
+hr {
+    border: dashed darkgreen;
+}
+
+#icon-styling {
+   margin-left: 100px;
+}
+
+#states-of-SI {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 10px 15px 10px 9px;
+    text-align: justify;
+    word-spacing: -1px;
+    
+}
+#places-to-explore {
+    text-align: justify;
+    padding: 10px 15px 10px 9px;
+    word-spacing: -1px;
+}
+
+#blog-on-SI p:last-child {
+    font-weight: bold;
+    margin-bottom: 80px;
+    padding: 2px 15px 5px 5px;
+    text-align: justify;
+    word-spacing: -1px;
 }
 
 /* Form */
@@ -327,7 +354,7 @@ footer {
 }
 
 /* Media query: large or landscape view (425px and up) */
-@media screen and (min-width: 495px) {
+@media screen and (min-width: 425px) {
     #short-text {
         margin-top: 200px;
         margin-right: 60px;
@@ -336,6 +363,26 @@ footer {
     #hero-banner {
         margin-bottom: 0px;
     }
+
+    #places-in-south {
+        padding-left: 50px;
+    }
+    #icon-styling{
+        margin-left: 152px;
+    }
+    #picturize {
+        margin-right:10px;
+    }
+    #states-of-SI {
+        margin-right: 10px;
+    }
+    #places-to-explore {
+        margin-right:10px;
+    }
+    #blog-on-SI p:last-child {
+        margin-right: 5px;
+    }
+
 
     #contact {
         padding-top: 100px;
@@ -365,6 +412,7 @@ footer {
         box-shadow: none;
         width: fit-content;
         margin-top: 5px;
+        /* margin-right: 140px; */
         padding-right: 1rem;
         display: block;
     }
@@ -387,6 +435,7 @@ footer {
     main {
         /* Push main content down to accommodate larger header */
         margin-top: 20px;
+        padding: 100px 100px 200px 50px;
     }
 
     /* Hero-banner */
@@ -398,6 +447,14 @@ footer {
         margin-top: 150px;
         align-items: center;
         border-radius: 12px;
+    }
+
+    #places-in-south {
+        margin-left: 150px;
+        margin-right:10px;
+    }
+    #icon-styling{
+        margin-left: 320px;
     }
 
     #contact {
