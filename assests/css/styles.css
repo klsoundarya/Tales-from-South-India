@@ -103,7 +103,6 @@ main {
     margin-top: 12px;
     background-color: hsl(60, 56%, 91%, 0.6);
     width: 100%;
-    height: auto;
 }
 
 /* Hero section */
@@ -412,7 +411,6 @@ footer {
         box-shadow: none;
         width: fit-content;
         margin-top: 5px;
-        /* margin-right: 140px; */
         padding-right: 1rem;
         display: block;
     }
@@ -435,7 +433,7 @@ footer {
     main {
         /* Push main content down to accommodate larger header */
         margin-top: 20px;
-        padding: 100px 100px 200px 50px;
+        /* padding: 100px 100px 200px 50px; */
     }
 
     /* Hero-banner */
