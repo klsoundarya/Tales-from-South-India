@@ -246,11 +246,17 @@ hr {
 
 #blog-on-SI p:last-child {
     font-weight: bold;
-    margin-bottom: 80px;
-    padding: 2px 15px 5px 5px;
+    margin: 0px;
+    padding: 2px 15px 5px 8px;
     text-align: justify;
     word-spacing: -1px;
 }
+
+#map-link {
+    margin: 10px 0px 50px 0px;
+    padding: 2px 15px 30px 8px;
+}
+
 
 /* Form */
 #contact {
@@ -403,6 +409,10 @@ footer {
         word-spacing: 1px;
     }
 
+    #map-link {
+        font-size: 16px;
+    }
+
     #contact {
         padding-top: 100px;
     }
@@ -430,7 +440,7 @@ footer {
         box-shadow: none;
         width: fit-content;
         margin-top: 5px;
-        margin-right:70px;
+        margin-right: 70px;
         padding-right: 1rem;
         display: block;
     }
@@ -468,11 +478,17 @@ footer {
 
     #South-India-highpoints {
         font-size: 18px;
+        margin-bottom: 0px;
     }
 
     #places-in-south {
         margin-left: 0px;
         margin-right: 0px;
+    }
+
+    .places-in-south-video {
+        width: 75%;
+        height: 55vh; 
     }
 
     #blog-on-SI {
@@ -484,7 +500,7 @@ footer {
     }
 
     #icon-styling {
-        margin-left: 400px;
+        margin-left: 20px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -499,6 +515,10 @@ footer {
     }
 
     #blog-on-SI p:last-child {
+        font-size: 18px;
+    }
+
+    #map-link {
         font-size: 18px;
     }
 
@@ -556,10 +576,20 @@ footer {
 
         #South-India-highpoints {
             text-align: center;
+            padding-top: 20px;
         }
 
         #places-in-south {
-            padding-top: 0px;
+            padding-top: 12px;
+        }
+
+        .places-in-south-video {
+            width: 55%;
+            height: 55vh; 
+        }
+
+        hr {
+            display: none;
         }
 
         #icon-styling {
@@ -567,6 +597,10 @@ footer {
             display: flex;
             justify-content: center;
             align-items: center;
+        }
+
+        #map-link {
+            text-align: center;
         }
 
         #contact {
@@ -596,6 +630,9 @@ footer {
             border-radius: 12px;
         }
 
+        hr {
+            display: none;
+        }
 
         #icon-styling {
             display: flex;
