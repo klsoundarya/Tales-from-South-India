@@ -113,6 +113,7 @@ main {
     position: relative;
     margin-top: 50px;
     margin-bottom: 10px;
+    padding-bottom: 10px;
     background-size: cover;
     background-position: center;
     margin-bottom: 0px;
@@ -123,12 +124,13 @@ main {
     text-align: center;
     display: block;
     position: absolute;
-    top: 50px;
+    top: 10px;
     left: 35px;
     right: 40px;
     padding-right: 18px;
     padding-left: 18px;
-    margin-bottom: 9px;
+    padding-bottom: 35px;
+    margin-bottom: 40px;
     margin-left: 0px;
     margin-right: 70px;
     background-color: hsl(60, 56%, 91%, 0.7);
@@ -186,13 +188,16 @@ main {
 
 /* /* default styling to make video responsive* */
 #places-in-south {
-    position: relative;
-    overflow: hidden;
-    width: 120%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 95%;
-    padding: 30px 20px 0px 0px;
-    margin-right:15px;
-    max-width: 863px;
+    padding-top: 30px;
+    overflow: hidden;
+}
+
+.places-in-south-video {
+    max-width: 100%;
 }
 
 #blog-on-SI {
@@ -219,7 +224,9 @@ hr {
 }
 
 #icon-styling {
-   margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #states-of-SI {
@@ -228,8 +235,9 @@ hr {
     padding: 10px 15px 10px 9px;
     text-align: justify;
     word-spacing: -1px;
-    
+
 }
+
 #places-to-explore {
     text-align: justify;
     padding: 10px 15px 10px 9px;
@@ -333,7 +341,7 @@ footer {
     flex-direction: column;
     bottom: 0px;
     position: fixed;
-    width:100%;
+    width: 100%;
 }
 
 #social-platforms {
@@ -364,24 +372,36 @@ footer {
     }
 
     #places-in-south {
-        padding-left: 50px;
-    }
-    #icon-styling{
-        margin-left: 152px;
-    }
-    #picturize {
-        margin-right:10px;
-    }
-    #states-of-SI {
-        margin-right: 10px;
-    }
-    #places-to-explore {
-        margin-right:10px;
-    }
-    #blog-on-SI p:last-child {
-        margin-right: 5px;
+        padding-left: 10px;
     }
 
+    #icon-styling {
+        margin-left: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #picturize {
+        margin-right: 10px;
+        font-size: 16px;
+    }
+
+    #states-of-SI {
+        margin-right: 10px;
+        font-size: 16px;
+    }
+
+    #places-to-explore {
+        margin-right: 10px;
+        font-size: 16px;
+    }
+
+    #blog-on-SI p:last-child {
+        margin-right: 5px;
+        font-size: 16px;
+        word-spacing: 1px;
+    }
 
     #contact {
         padding-top: 100px;
@@ -391,7 +411,6 @@ footer {
         margin-left: 65px;
     }
 }
-
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
@@ -411,6 +430,7 @@ footer {
         box-shadow: none;
         width: fit-content;
         margin-top: 5px;
+        margin-right:70px;
         padding-right: 1rem;
         display: block;
     }
@@ -433,7 +453,6 @@ footer {
     main {
         /* Push main content down to accommodate larger header */
         margin-top: 20px;
-        /* padding: 100px 100px 200px 50px; */
     }
 
     /* Hero-banner */
@@ -447,12 +466,40 @@ footer {
         border-radius: 12px;
     }
 
-    #places-in-south {
-        margin-left: 150px;
-        margin-right:10px;
+    #South-India-highpoints {
+        font-size: 18px;
     }
-    #icon-styling{
-        margin-left: 320px;
+
+    #places-in-south {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    #blog-on-SI {
+        font-size: 18px;
+    }
+
+    #picturize {
+        font-size: 18px;
+    }
+
+    #icon-styling {
+        margin-left: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #states-of-SI {
+        font-size: 18px;
+    }
+
+    #places-to-explore {
+        font-size: 18px;
+    }
+
+    #blog-on-SI p:last-child {
+        font-size: 18px;
     }
 
     #contact {
@@ -467,18 +514,13 @@ footer {
     }
 
     #contact-me-form>h2 {
-        margin-bottom: 30px;
+        margin-bottom: 0px;
         margin-left: 70px;
     }
 
     .send-btn {
         margin-left: 120px;
     }
-
-    /* 
-    #places-in-south {
-        padding-bottom: 40%;
-    } */
 
     /* Large devices (laptops and desktops, 992px and up) */
     @media screen and (min-width: 992px) {
@@ -492,10 +534,6 @@ footer {
         #menu-box a:hover {
             border-bottom: 1px solid #3e6545;
         }
-
-        /* #places-in-south {
-            padding-bottom: 40%;
-        } */
 
         #hero-banner {
             margin-bottom: 0px;
@@ -516,6 +554,20 @@ footer {
             margin-right: 15px;
         }
 
+        #South-India-highpoints {
+            text-align: center;
+        }
+
+        #places-in-south {
+            padding-top: 0px;
+        }
+
+        #icon-styling {
+            margin-left: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
 
         #contact {
             padding-top: 100px;
@@ -545,10 +597,11 @@ footer {
         }
 
 
-        /* #places-in-south {
-            padding-bottom: 0px;
-            margin-bottom: 0px;
-        } */
+        #icon-styling {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
 
     }
 }
