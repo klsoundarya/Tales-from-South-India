@@ -47,22 +47,6 @@ header a {
     padding-left: 23px;
 }
 
-/* this section styles the nav bar */
-#menu-box {
-    font-size: 110%;
-    list-style-type: none;
-    font-family: "Oldenburg", serif;
-    letter-spacing: 2px;
-}
-
-#menu-box>li {
-    margin-bottom: 5px;
-}
-
-.active {
-    border-bottom: 2px solid #ffffff;
-}
-
 /* nav bar styling */
 nav {
     position: absolute;
@@ -95,10 +79,26 @@ nav {
     padding-top: 12px;
 }
 
+/* this section styles the nav bar */
+#menu-box {
+    font-size: 110%;
+    list-style-type: none;
+    font-family: "Oldenburg", serif;
+    letter-spacing: 2px;
+}
+
+#menu-box>li {
+    margin-bottom: 5px;
+}
+
+.active {
+    border-bottom: 2px solid #ffffff;
+}
+
 
 /* Main content */
 main {
-    /* Make main element take up any surplus space to push footer down */
+    /* Main element takes up any surplus space to push footer down */
     flex: 2 0 auto;
     margin-top: 12px;
     background-color: hsl(60, 56%, 91%, 0.6);
@@ -144,6 +144,7 @@ main {
     margin-right: 23px;
 }
 
+/* strong element styling */
 .states-highlight {
     color: rgb(130, 77, 11);
 }
@@ -171,6 +172,7 @@ main {
     margin-top: 20px;
 }
 
+/* Main content for about page */
 #South-India-highpoints {
     margin-top: 60px;
     margin-bottom: 9px;
@@ -186,7 +188,7 @@ main {
     color: #006400;
 }
 
-/* /* default styling to make video responsive* */
+/* default styling to make video responsive* */
 #places-in-south {
     display: flex;
     justify-content: center;
@@ -252,11 +254,41 @@ hr {
     word-spacing: -1px;
 }
 
+/* styling for the map */
 #map-link {
     margin: 10px 0px 50px 0px;
     padding: 2px 15px 30px 8px;
 }
 
+/* Gallery page */
+#images img {
+    width: 100%;
+    line-height: 1em;
+}
+
+#photos-of-telangana {
+    line-height: 0;
+}
+
+#photos-of-andhra {
+    line-height: 0;
+}
+
+#photos-of-tamilnadu {
+    line-height: 0;
+}
+
+#photos-of-kerala {
+    line-height: 0;
+}
+
+#photos-of-karnataka {
+    line-height: 0;
+}
+
+h3{
+    padding-top: 50px;
+}
 
 /* Form */
 #contact {
@@ -277,7 +309,6 @@ hr {
     border-radius: 30px;
     top: 13px;
 }
-
 
 #contact-me-form>h2 {
     color: #fafafa;
@@ -373,10 +404,12 @@ footer {
         margin-right: 60px;
     }
 
+    /* hero banner */
     #hero-banner {
         margin-bottom: 0px;
     }
 
+    /* Main content for about page */
     #places-in-south {
         padding-left: 10px;
     }
@@ -409,10 +442,33 @@ footer {
         word-spacing: 1px;
     }
 
+    /* map link styling that is in about page */
     #map-link {
         font-size: 16px;
     }
+    /* gallery */
+    #photos-of-telangana {
+        column-count: 2;
+        column-gap: 0;
+    }
+    #photos-of-andhra {
+        column-count: 2;
+        column-gap: 0;
+    }
+    #photos-of-tamilnadu {
+        column-count: 2;
+        column-gap: 0;
+    }
+    #photos-of-kerala {
+        column-count: 2;
+        column-gap: 0;
+    }
+    #photos-of-karnataka {
+        column-count: 2;
+        column-gap: 0;
+    }
 
+    /* Form  */
     #contact {
         padding-top: 100px;
     }
@@ -435,6 +491,7 @@ footer {
         margin-bottom: 20px;
     }
 
+    /* nav bar styling */
     nav {
         position: relative;
         box-shadow: none;
@@ -449,6 +506,7 @@ footer {
         display: none;
     }
 
+    /* nav bar styling */
     #menu-box {
         display: flex;
     }
@@ -456,16 +514,14 @@ footer {
     #menu-box>li {
         padding-left: 1rem;
         padding-right: 3px;
-
     }
 
     /* Main content */
     main {
-        /* Push main content down to accommodate larger header */
         margin-top: 20px;
     }
 
-    /* Hero-banner */
+    /* breif description on South India home page*/
     #short-text {
         width: 350px;
         right: 200px;
@@ -476,6 +532,7 @@ footer {
         border-radius: 12px;
     }
 
+    /* Main content for about page */
     #South-India-highpoints {
         font-size: 18px;
         margin-bottom: 0px;
@@ -488,7 +545,7 @@ footer {
 
     .places-in-south-video {
         width: 75%;
-        height: 55vh; 
+        height: 55vh;
     }
 
     #blog-on-SI {
@@ -522,9 +579,26 @@ footer {
         font-size: 18px;
     }
 
+    /* Gallery */
+    #photos-of-telangana {
+        column-count: 3;
+    }
+    #photos-of-andhra {
+        column-count: 3;
+    }
+    #photos-of-tamilnadu {
+        column-count: 3;
+    }
+    #photos-of-kerala {
+        column-count: 3;
+    }
+    #photos-of-karnataka {
+        column-count: 3;
+    }
+
+    /* form */
     #contact {
         padding-top: 100px;
-
     }
 
     #contact-me-form {
@@ -544,22 +618,26 @@ footer {
 
     /* Large devices (laptops and desktops, 992px and up) */
     @media screen and (min-width: 992px) {
+
+        /* nav bar styling */
         nav {
             margin-right: 100px;
             margin-left: 120px;
             left: 120px;
         }
 
-
+        /* nav bar styling */
         #menu-box a:hover {
             border-bottom: 1px solid #3e6545;
         }
 
+        /* hero banner */
         #hero-banner {
             margin-bottom: 0px;
             margin-top: 60px;
         }
 
+        /* breif description on South India styling*/
         #short-text {
             padding-left: 24px;
             margin-left: 450px;
@@ -574,6 +652,7 @@ footer {
             margin-right: 15px;
         }
 
+        /* Main content for about page */
         #South-India-highpoints {
             text-align: center;
             padding-top: 20px;
@@ -585,7 +664,7 @@ footer {
 
         .places-in-south-video {
             width: 55%;
-            height: 55vh; 
+            height: 55vh;
         }
 
         hr {
@@ -603,6 +682,39 @@ footer {
             text-align: center;
         }
 
+        /* Gallery */
+        #photos-of-telangana {
+            column-count: 6;
+            /* display: flex;
+            flex-wrap: wrap; */
+        }
+
+        /* #photos-of-telangana {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        #photos-of-telangana img {
+            width: calc(33.33% - 20px); /* Adjust the width and margin as needed */
+            /* margin: 10px; */
+            /* box-sizing: border-box; */
+        /* } */
+
+        #photos-of-andhra {
+            column-count: 6;
+        }
+        #photos-of-tamilnadu {
+            column-count: 6;
+        }
+        #photos-of-kerala {
+            column-count: 6;
+        }
+        #photos-of-karnataka {
+            column-count: 6;
+        }
+
+
+        /* form */
         #contact {
             padding-top: 100px;
         }
@@ -615,12 +727,15 @@ footer {
 
     /* Large devices (1200px) */
     @media screen and (min-width: 1200px) {
+
+        /* hero banner */
         #hero-banner {
             margin-bottom: 0px;
             margin-top: 60px;
 
         }
 
+        /* breif description on South India */
         #short-text {
             padding-left: 24px;
             margin-left: 340px;
