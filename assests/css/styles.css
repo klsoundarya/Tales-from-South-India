@@ -237,7 +237,6 @@ hr {
     padding: 10px 15px 10px 9px;
     text-align: justify;
     word-spacing: -1px;
-
 }
 
 #places-to-explore {
@@ -261,33 +260,161 @@ hr {
 }
 
 /* Gallery page */
+#images {
+    background-color: whitesmoke;
+}
+
 #images img {
     width: 100%;
     line-height: 1em;
 }
 
-#photos-of-telangana {
-    line-height: 0;
-}
-
-#photos-of-andhra {
-    line-height: 0;
-}
-
-#photos-of-tamilnadu {
-    line-height: 0;
-}
-
-#photos-of-kerala {
-    line-height: 0;
-}
-
-#photos-of-karnataka {
-    line-height: 0;
-}
-
-h3{
+/* All h3 states styling */
+#Telangana-state {
+    margin-top: 20px;
+    margin-bottom: 10px;
     padding-top: 50px;
+    text-align: center;
+    text-decoration: underline;
+    color: #c60c0c;
+}
+
+#Andhra-state {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+    text-decoration: underline;
+    color: #ff4500;
+}
+
+#TamilNadu-state {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+    text-decoration: underline;
+    color: #DC143C;
+}
+
+#Kerala-state {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+    text-decoration: underline;
+    color: #800000;
+}
+
+#Karnataka-state {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+    text-decoration: underline;
+    color: #8B0000;
+}
+
+/* styling all div class text from gallery page */
+.image-text {
+    text-align: center;
+    color: darkslategray;
+    font-weight: bolder;
+    font-size: medium;
+    padding-bottom: 10px;
+}
+
+.Telangana-SI {
+    border: 1px solid darkgreen;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.Andhra-SI {
+    border: 1px solid darkgreen;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.TamilNadu-SI {
+    border: 1px solid darkgreen;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.Kerala-SI {
+    border: 1px solid darkgreen;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.Karnataka {
+    border: 1px solid darkgreen;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+/* #photos-of-telangana-1,
+#photos-of-telangana-2,
+#photos-of-telangana-3,
+#photos-of-telangana-4,
+#photos-of-telangana-5 {
+    border: 1px solid darkgreen;
+    border-radius: 4px;
+    margin-bottom: 10px;
+} */
+
+/* #photos-of-andhra-1,
+#photos-of-andhra-2,
+#photos-of-andhra-3,
+#photos-of-andhra-4,
+#photos-of-andhra-5 {
+    border: 1px solid darkgreen;
+    border-radius: 4px;
+    margin-bottom: 10px;
+} */
+
+/* #photos-of-tamilnadu-1,
+#photos-of-tamilnadu-2,
+#photos-of-tamilnadu-3,
+#photos-of-tamilnadu-4,
+#photos-of-tamilnadu-5 {
+    border: 1px solid darkgreen;
+    border-radius: 4px;
+    margin-bottom: 10px;
+} */
+
+/* #photos-of-kerala-1,
+#photos-of-kerala-2,
+#photos-of-kerala-3,
+#photos-of-kerala-4,
+#photos-of-kerala-5 {
+    border: 1px solid darkgreen;
+    border-radius: 4px;
+    margin-bottom: 10px;
+} */
+
+/* #photos-of-karnataka-1,
+#photos-of-karnataka-2,
+#photos-of-karnataka-3,
+#photos-of-karnataka-4,
+#photos-of-karnataka-5 {
+    border: 1px solid darkgreen;
+    border-radius: 4px;
+    margin-bottom: 10px;
+ } */
+
+#photos-of-karnataka-5 {
+    padding-bottom: 40px;
 }
 
 /* Form */
@@ -446,23 +573,28 @@ footer {
     #map-link {
         font-size: 16px;
     }
+
     /* gallery */
     #photos-of-telangana {
         column-count: 2;
         column-gap: 0;
     }
+
     #photos-of-andhra {
         column-count: 2;
         column-gap: 0;
     }
+
     #photos-of-tamilnadu {
         column-count: 2;
         column-gap: 0;
     }
+
     #photos-of-kerala {
         column-count: 2;
         column-gap: 0;
     }
+
     #photos-of-karnataka {
         column-count: 2;
         column-gap: 0;
@@ -580,20 +712,49 @@ footer {
     }
 
     /* Gallery */
-    #photos-of-telangana {
-        column-count: 3;
+    /* styling all div class text from gallery page */
+
+    #images img {
+        width: 300px;
     }
-    #photos-of-andhra {
-        column-count: 3;
+
+    .Telangana-SI {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
     }
-    #photos-of-tamilnadu {
-        column-count: 3;
+
+    .Andhra-SI {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
     }
-    #photos-of-kerala {
-        column-count: 3;
+
+    .TamilNadu-SI {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
     }
-    #photos-of-karnataka {
-        column-count: 3;
+
+    .Kerala-SI {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .Karnataka {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .image-text {
+        font-size: 18px;
     }
 
     /* form */
@@ -681,39 +842,6 @@ footer {
         #map-link {
             text-align: center;
         }
-
-        /* Gallery */
-        #photos-of-telangana {
-            column-count: 6;
-            /* display: flex;
-            flex-wrap: wrap; */
-        }
-
-        /* #photos-of-telangana {
-            display: flex;
-            flex-wrap: wrap;
-        }
-        
-        #photos-of-telangana img {
-            width: calc(33.33% - 20px); /* Adjust the width and margin as needed */
-            /* margin: 10px; */
-            /* box-sizing: border-box; */
-        /* } */
-
-        #photos-of-andhra {
-            column-count: 6;
-        }
-        #photos-of-tamilnadu {
-            column-count: 6;
-        }
-        #photos-of-kerala {
-            column-count: 6;
-        }
-        #photos-of-karnataka {
-            column-count: 6;
-        }
-
-
         /* form */
         #contact {
             padding-top: 100px;
