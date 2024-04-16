@@ -372,6 +372,8 @@ hr {
     padding: 40px 10% 100px 10%;
     flex-grow: 1;
     backdrop-filter: blur(30px);
+    width: 100%;
+    height: 100vh;
 }
 
 #contact-me-form {
