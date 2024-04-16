@@ -372,7 +372,6 @@ hr {
     padding: 40px 10% 100px 10%;
     flex-grow: 1;
     backdrop-filter: blur(30px);
-    width: 100%;
     height: 100vh;
 }
 
@@ -436,7 +435,7 @@ hr {
     margin-top: 15px;
     margin-left: 35px;
     border-radius: 2px;
-    padding: 10px 35px 10px 30px;
+    padding: 10px 35px 10px 35px;
     font-size: 100%;
     background-color: #464737;
     color: #fafafa;
@@ -555,7 +554,7 @@ footer {
     }
 
     .send-btn {
-        margin-left: 65px;
+        margin-left: 75px;
     }
 }
 
