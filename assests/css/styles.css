@@ -249,13 +249,9 @@ hr {
     word-spacing: -1px;
 }
 
-/* #blog-on-SI p:last-child {
-    font-weight: bold;
-    margin: 0px;
-    padding: 2px 15px 5px 8px;
-    text-align: justify;
-    word-spacing: -1px;
-} */
+.must-visit-places {
+    color: green;
+}
 
 #journey-through {
     padding-left:10px;
