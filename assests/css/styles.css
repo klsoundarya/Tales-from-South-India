@@ -113,10 +113,8 @@ h1 {
 #hero-banner {
     height: 100vh;
     width: 100%;
-    background: url("../images/jog-falls.jpg") no-repeat center center/cover;
+    background: url("../images/jog-falls.webp") no-repeat center center/cover;
     position: relative;
-    margin-top: 50px;
-    margin-bottom: 10px;
     padding-bottom: 10px;
     background-size: cover;
     background-position: center;
@@ -128,7 +126,7 @@ h1 {
     text-align: center;
     display: block;
     position: absolute;
-    top: 10px;
+    top: 60px;
     left: 35px;
     right: 40px;
     padding-right: 18px;
@@ -222,7 +220,7 @@ h1 {
 }
 
 #experience-the-beauty {
-    color: #E2725B;
+    color: darkred;
 }
 
 hr {
@@ -366,7 +364,7 @@ hr {
 
 /* Form */
 #contact {
-    background-image: url("../images/SI-background.jpg");
+    background-image: url("../images/SI-background.webp");
     background-size: cover;
     background-position: 100%;
     padding: 40px 10% 100px 10%;
