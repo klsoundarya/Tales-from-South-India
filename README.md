@@ -12,4 +12,3 @@ Deployed Site: <https://klsoundarya.github.io/Tales-from-South-India/>
 South India is the southern region of India, known for its diverse landscapes, rich cultural heritage, and vibrant traditions. It comprises Kerala, Tamil Nadu, Karnataka, Telangana, and Andhra Pradesh states, along with the union territories of Puducherry and Lakshadweep, and offers a unique mix of history, spirituality, and natural beauty.
 
 The people of South India offer a truly unforgettable experience by making it a welcoming destination for travelers from around the world.
-<br>  
