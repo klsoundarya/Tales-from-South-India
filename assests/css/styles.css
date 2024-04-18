@@ -85,10 +85,16 @@ nav {
     list-style-type: none;
     font-family: "Oldenburg", serif;
     letter-spacing: 2px;
+    transition: background-color 0.3s;
+}
+
+#menu-box a:hover {
+    background-color: #008080;
 }
 
 #menu-box>li {
     margin-bottom: 5px;
+
 }
 
 .active {
