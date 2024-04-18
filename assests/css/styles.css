@@ -99,7 +99,7 @@ nav {
 /* Main content */
 main {
     /* Main element takes up any surplus space to push footer down */
-    flex: 2 0 auto;
+    flex: 1 0 auto;
     margin-top: 12px;
     background-color: hsl(60, 56%, 91%, 0.6);
     width: 100%;
@@ -112,38 +112,29 @@ h1 {
 /* Hero section */
 #hero-banner {
     height: 100vh;
-    width: 100%;
     background: url("../images/jog-falls.webp") no-repeat center center/cover;
     position: relative;
-    padding-bottom: 10px;
+    padding: 20px 0px 10px 0px;
     background-size: cover;
     background-position: center;
-    margin-bottom: 0px;
 }
 
 /* breif description on South India */
 #short-text {
+    margin: 70px 0px 0px 30px;
     text-align: center;
-    display: block;
     position: absolute;
-    top: 60px;
-    left: 35px;
-    right: 40px;
-    padding-right: 18px;
-    padding-left: 18px;
-    padding-bottom: 35px;
-    margin-bottom: 40px;
-    margin-left: 0px;
-    margin-right: 70px;
+    top: 50px;
     background-color: hsl(60, 56%, 91%, 0.7);
+    padding: 10px 10px 0px 10px;
     color: rgb(0, 0, 0);
-    font-size: 16px;
-    width: 80%;
+    font-size: 14px;
     border-radius: 12px;
 }
 
 #india-tale {
-    margin-right: 23px;
+    margin: 14px 10px 14px 5px;
+    padding-right: 8px;
 }
 
 /* strong element styling */
@@ -155,8 +146,7 @@ h1 {
 .button {
     display: inline-block;
     padding: 10px 20px;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin: 0px 10px 0px 10px;
     background-color: #3e6545;
     color: white;
     text-decoration: none;
@@ -252,8 +242,8 @@ hr {
 }
 
 #journey-through {
-    padding-left:10px;
-    padding-right:10px;
+    padding-left: 10px;
+    padding-right: 10px;
     font-size: 16px;
 }
 
@@ -452,6 +442,7 @@ footer {
     bottom: 0px;
     position: fixed;
     width: 100%;
+    transition: background-color 0.3s;
 }
 
 #social-platforms {
@@ -464,17 +455,22 @@ footer {
     list-style-type: none;
 }
 
-#social-platforms i {
+#social-platforms a:hover {
+    background-color: white;
     font-size: 150%;
-    padding: 3%;
+}
+
+#social-platforms i {
+    font-size: 120%;
+    /* padding: 3%; */
     color: #ffd700;
 }
 
 /* Media query: large or landscape view (425px and up) */
 @media screen and (min-width: 425px) {
     #short-text {
-        margin-top: 200px;
-        margin-right: 60px;
+        margin: 90px 60px 0px 40px;
+        font-size: 16px;
     }
 
     /* hero banner */
@@ -611,6 +607,7 @@ footer {
         margin-top: 150px;
         align-items: center;
         border-radius: 12px;
+        font-size: 18px;
     }
 
     /* Main content for about page */
@@ -729,7 +726,7 @@ footer {
     #social-platforms {
         margin-top: 0px;
     }
- 
+
 
     /* Large devices (laptops and desktops, 992px and up) */
     @media screen and (min-width: 992px) {
@@ -762,6 +759,7 @@ footer {
             width: 380px;
             left: 100px;
             border-radius: 12px;
+            font-size: 18px;
         }
 
         #india-tale {
