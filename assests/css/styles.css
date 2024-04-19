@@ -36,7 +36,7 @@ header {
 
 header a {
     text-decoration: none;
-    color: gold;
+    color: #ffd700;
 }
 
 .logo {
@@ -58,7 +58,7 @@ nav {
     display: none;
     top: 100%;
     padding: 0 1rem;
-    box-shadow: 5px 2px 3px gold;
+    box-shadow: 5px 2px 3px rgb(255, 215, 0);
     z-index: 101;
 }
 
@@ -154,7 +154,7 @@ h1 {
     display: inline-block;
     padding: 10px 20px;
     margin: 0px 10px 0px 10px;
-    background-color: #3e6545;
+    background-color: rgb(62, 101, 69);
     color: white;
     text-decoration: none;
     border-radius: 7px;
@@ -221,7 +221,7 @@ h1 {
 }
 
 hr {
-    border: dashed darkgreen;
+    border: dashed #006400;
 }
 
 #icon-styling {
@@ -245,7 +245,7 @@ hr {
 }
 
 .must-visit-places {
-    color: green;
+    color: #008000;
 }
 
 #journey-through {
@@ -321,31 +321,31 @@ hr {
 }
 
 .Telangana-SI {
-    border: 1px solid darkgreen;
+    border: 1px solid #006400;
     border-radius: 4px;
     margin-bottom: 10px;
 }
 
 .Andhra-SI {
-    border: 1px solid darkgreen;
+    border: 1px solid #006400;
     border-radius: 4px;
     margin-bottom: 10px;
 }
 
 .TamilNadu-SI {
-    border: 1px solid darkgreen;
+    border: 1px solid #006400;
     border-radius: 4px;
     margin-bottom: 10px;
 }
 
 .Kerala-SI {
-    border: 1px solid darkgreen;
+    border: 1px solid #006400;
     border-radius: 4px;
     margin-bottom: 10px;
 }
 
 .Karnataka {
-    border: 1px solid darkgreen;
+    border: 1px solid #006400;
     border-radius: 4px;
     margin-bottom: 10px;
 }
