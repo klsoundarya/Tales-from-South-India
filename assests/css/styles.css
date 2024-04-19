@@ -435,6 +435,48 @@ hr {
     background-color: #bece0c;
 }
 
+/* video css styling from w3 schools(https://www.w3schools.com/howto/howto_css_fullscreen_video.asp) */
+#thankyou-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    backdrop-filter: blur(60px);
+}
+
+/* thank you message styling */
+#Confirmation-note {
+    font-size: 16px;
+    text-align: center;
+    background-color: rgba(39, 23, 23, 0.1);
+    margin-bottom: 2px;
+    padding: 0px 15px 2px 15px;
+    border-radius: 30px;
+    top: 23px;
+    position: fixed;
+    color: #ffffff;
+    width: 100%;
+}
+
+#submit-note {
+    font-weight: bold;
+    margin: 200px 15px 13px 0px;
+    top: 150px;
+    padding: 10px 10px 10px 0px;
+}
+
+#submission-form {
+    margin: 0px 15px 13px 0px;
+    padding: 10px 10px 10px 0px;
+    color: rgb(9, 250, 226);
+}
+
+h4 {
+    margin: 0px 15px 13px 0px;
+    padding: 0px 10px 10px 0px;
+}
+
 /* footer */
 footer {
     background-color: #3e6545;
@@ -474,7 +516,7 @@ footer {
         margin: 90px 60px 0px 40px;
         font-size: 16px;
     }
-    
+
 
     /* Main content for about page */
     #places-in-south {
