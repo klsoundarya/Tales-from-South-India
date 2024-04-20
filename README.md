@@ -94,11 +94,11 @@ There are four media query breakpoints used: 425px, 768px, 992px, 1200px. This c
 
 ### Accessability
 
-    - I have used semantic HTML elements like header, nav, main, body, footer, h1, p, strong, em, and a appropriately, which helps the readers to understand the technologies & structure of my content.
-    - Added high contrast text against the background color in many places, which improves readability for users with visual impairments.
-    - Provided descriptive alt & aria label attributes for images, which is essential for users who rely on screen readers to understand the content of the images.
-    - Focus styles are applied to interactive elements like links and buttons, making it easier for keyboard users to navigate your site.
-    - Used media queries and responsive design principles to ensure that website is accessible on a variety of devices, including mobile phones and tablets.
+  - I have used semantic HTML elements like header, nav, main, body, footer, h1, p, strong, em, and a appropriately, which helps the readers to understand the technologies & structure of my content.
+  - Added high contrast text against the background color in many places, which improves readability for users with visual impairments.
+  - Provided descriptive alt & aria label attributes for images, which is essential for users who rely on screen readers to understand the content of the images.
+  - Focus styles are applied to interactive elements like links and buttons, making it easier for keyboard users to navigate your site.
+  - Used media queries and responsive design principles to ensure that website is accessible on a variety of devices, including mobile phones and tablets.
 
 ## Testing
 
