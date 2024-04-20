@@ -111,6 +111,11 @@ main {
     width: 100%;
 }
 
+#top {
+    text-align: center;
+    padding-bottom: 75px;
+}
+
 h1 {
     display: none;
 }
@@ -244,8 +249,16 @@ hr {
     word-spacing: -1px;
 }
 
-.must-visit-places {
-    color: #008000;
+#places-to-explore .must-visit-places{
+    transition: background-color 0.3s;
+    background-color: gold;
+}
+
+.must-visit-places:hover {
+    color: orangered;
+    text-transform: capitalize;
+    font-weight: bolder;
+    text-decoration: underline;
 }
 
 #journey-through {
@@ -256,8 +269,8 @@ hr {
 
 /* styling for the map */
 #map-link {
-    margin: 10px 0px 50px 0px;
-    padding: 2px 15px 30px 8px;
+    margin: 10px 0px 0px 0px;
+    padding: 2px 15px 8px 8px;
 }
 
 /* Gallery page */
@@ -489,11 +502,18 @@ footer {
     transition: background-color 0.3s;
 }
 
+.created-mark {
+    color: #ffffff;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    font-size: 60%;
+}
+
 #social-platforms {
     text-align: center;
-    padding: 10px 0 10px;
-    padding-left: 0px;
-    margin: 10px 0;
+    padding: 10px 0 0px 0px;
+    margin: 10px 0px 0px 0px;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
@@ -506,7 +526,6 @@ footer {
 
 #social-platforms i {
     font-size: 120%;
-    /* padding: 3%; */
     color: #ffd700;
 }
 

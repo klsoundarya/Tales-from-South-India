@@ -4,13 +4,11 @@ South India is in the southern region of India, known for its diverse landscapes
 
 The beauty of the southern region of India is not just in its landscapes and architecture, but also in its people and their warm hospitality. The people of South India offers a truly unforgettable experience by making it a welcoming destination for travelers from around the world welcoming with open arms and treated to delicious cuisine.
 
-![Tales from South India](https://github.com/klsoundarya/Tales-from-South-India)
-
--__Target Audience__
+- __Target Audience__
 
 The tales-from-South-India website is for people who love to travel and want to explore unique experiences, history, culture, and nature in South India. It is to captivate individuals who appreciate storytelling that brings a destination to life, drawing them to explore the vibrant beauty of South India's landscapes, history, and culture through engaging narratives and insightful travel guides.
 
-The purpose of this website is to showcase the unique culture, heritage, and attractions of South India in an effective and informative way. View the live site [here](https://klsoundarya.github.io/Tales-from-South-India/).
+The purpose of this website is to showcase the unique culture, heritage, and tourist attractions of South India in an effective and informative way. View the live site [here](https://klsoundarya.github.io/Tales-from-South-India/).
 
 GitHub Profile: <https://github.com/klsoundarya/Tales-from-South-India>
 Deployed Site: <https://klsoundarya.github.io/Tales-from-South-India/>
@@ -25,31 +23,63 @@ Deployed Site: <https://klsoundarya.github.io/Tales-from-South-India/>
 
 - __Navigation__
 
-- The navigation features the logo image in the left side of the nav bar in all the four pages and other element links to the right of the nav bar.
-- The links include Home, About, Gallery, and Contact.
-- The user can experience hassle-free navigation on our website with the burger toggle icon for responsive media screens and,
-- Users can navigate through the four navigation elements - Home, About, Gallery, and Contact from page to page across all devices without having to press "back" button.
+  - The navigation features the logo image in the left side of the nav bar in all the four pages and other element links to the right of the nav bar.
+  - The links include Home, About, Gallery, and Contact with hovering feature.
+  - The user can experience hassle-free navigation on our website with the burger toggle icon for responsive media screens and,
+  - Users can navigate through the four navigation elements - Home, About, Gallery, and Contact from page to page across all devices without having to press "back" button.
 
 There are four media query breakpoints used: 425px, 768px, 992px, 1200px. This convenient feature allows users to easily access different sections of the website, making the browsing experience smoother and more efficient. User can Simply click on the burger icon to reveal the navigation menu and can also click the link of the pages, providing quick and intuitive access to all the important pages and sections of the website.
 
-![Tales from South India-website Nav look on Laptop](readme-documents/Features/Laptop-nav-border-look.PNG)
-![Tales from South India-website Nav look on Phone](readme-documents/Features/Phone-Nav-burger-look.PNG)
-![Tales from South India-website Nav look on Phone](readme-documents/Features/Phone-Nav-menubox-look.PNG)
+![Tales from South India-website Nav look on phone & Laptop](readme-documents/Features/Laptop-phone-nav.PNG)
 
 - __The landing page__
 
-- The landing page includes a hero banner that features a captivating image that draws users in.
-- The short text provides a brief description of South India's highlights, enticing users to learn more.
-- The buttons below the short text offer quick access to the About and Gallery pages, encouraging users to explore more content.
+  - The landing page will be the first user interaction where it includes a hero banner that features a captivating image that draws users in.
+  - This is accompained by a transparent background short text that provides a brief description of South India's highlights, enticing users to learn more.
+  - The buttons below the text offers quick access to the About and Gallery pages, encouraging users to explore more content.
 
-![Tales from South India-website landing page look on laptop](readme-documents/Features/Laptop-banner-summary-look.PNG)
-![Tales from South India-website landing page look on Phone](readme-documents/Features/Phone-homepage.PNG)
+![Tales from South India-website landing page look on phone & laptop](readme-documents/Features/Laptop-phone-landing-page.PNG)
 
 - __About page__
 
-- The goal is to paint a vivid and captivating portrait of South India, inviting readers to immerse themselves in its beauty and culture firsthand.
-- Added a captivating visual video, to enhance the storytelling experience and give readers a glimpse of what South India has to offer.
-- Included an interactive clickable elements like maps to further engage readers and help them plan their own adventures.
+  - The goal is to paint a vivid and captivating portrait of South India States, inviting readers to immerse themselves in its beauty and culture firsthand.
+  - Added a captivating visual video, to enhance the storytelling experience and give readers a glimpse of what South India has to offer.
+  - Included an interactive clickable element like maps to further engage readers and help them plan their own adventures.
+  - Added hover to the State names to make the states name highlighted.
 
-![Tales from South India-website About page look on laptop](readme-documents/Features/Laptop-about-page-look.PNG)
-![Tales from South India-website About page look on Phone](readme-documents/Features/Phone-about-look.PNG)
+![Tales from South India-website About page look on phone & laptop](readme-documents/Features/Laptop-phone-about-page.PNG)
+
+- __Gallery page__
+
+  - The page features stunning images of tourist destinations in South India, including Telangana, Andhra Pradesh, Tamil Nadu, Kerala, and Karnataka.
+  - The images are neatly organized under each state, making it easy for visitors to browse through the different destinations.
+  - Each image is accompanied by a name description, providing context and enhancing the viewer's experience.
+
+![Tales from South India-website gallery page look on phone & laptop](readme-documents/Features/laptop-phone-gallery-page.PNG)
+
+- __Contact page__
+
+  - The purpose of a contact page is to provide readers with a way to easily get in touch with the me.
+  - It serves as a communication gateway, allowing readers to ask questions, provide feedback, report issues, or engage in further discussions related to the website.
+  - The form is created by keeping user in mind by enhancing user experience by making it convenient for readers to reach out, ultimately fostering a stronger connection between the website and its audience.
+  - The form includes clear labels for each input field, making it easy for users to understand what information is required.
+  - The rating buttons allow users to easily rate my work, providing valuable feedback and suggestions.
+  - The form prominently displays a "Submit" button, encouraging users to send their message or feedback easily.
+
+![Tales from South India-website contact page look on phone & laptop](readme-documents/Features/laptop-phone-contact-page.PNG)
+
+- __Thank-You page__
+
+  - Added a fullscreen video background that adds a dynamic and engaging element to the page, making it visually appealing.
+  - The layout appears to be responsive, adjusting appropriately to different screen sizes for a consistent user experience.
+  - The thank you message is clear and prominently displayed, letting users know that their submission was successful.
+
+![Tales from South India-website thankyou page look on phone, Galaxy-fold & laptop](readme-documents/Features/laptop-phone-thankyou-page.PNG)
+
+- __Footer__
+
+  - Added a fullscreen video background that adds a dynamic and engaging element to the page, making it visually appealing.
+  - The layout appears to be responsive, adjusting appropriately to different screen sizes for a consistent user experience.
+  - The thank you message is clear and prominently displayed, letting users know that their submission was successful.
+
+![Tales from South India-website Footer look on phone & laptop](readme-documents/Features/Laptop-phone-footer.PNG)
