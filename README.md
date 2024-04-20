@@ -134,13 +134,13 @@ All pages passed through the Lighthouse test
 - [Lighthouse test for Contact Page](readme-documents/testing-validators/Lighthouse-test-contact-page.PNG)
 - [Lighthouse test for thankyou Page](readme-documents/testing-validators/Lighthouse-test-thankyou-page.PNG)
 
-- __HTML__
+### HTML
 
 All pages have passed through the [W3 Markup HTML Validator](https://validator.w3.org/)
 
 - ![All pages passed through the HTML validator](readme-documents/testing-validators/All-html-pages.png)
 
-- __CSS__
+### CSS
 
 CSS stylesheet have passed through the [W3 CSS Validator](https://jigsaw.w3.org/css-validator/)
 
@@ -148,27 +148,19 @@ CSS stylesheet have passed through the [W3 CSS Validator](https://jigsaw.w3.org/
 
 ### Wireframes
 
-To adhere to best practices, I created wireframes for mobile, tablet, and desktop screen sizes.
-
-I have used [Canva](https://www.canva.com/) to design my website wireframes.
+I have used [Canva](https://www.canva.com/) to design my website wireframes for mobile, laptop and desktop screen sizes.
 
 ### Mobile Wireframes
 
 <details>
-
-<summary>Phone Wireframes</summary>
-
-![screenshot](readme-documents/wireframes/Phone%20wireframes.PNG)
-
+<summary>Mobile Wireframes</summary>
+![phone wireframes](readme-documents/wireframes/Phone%20wireframes.PNG)
 </details>
 
-### Laptop Wireframes
+### Laptop & Desktop Wireframes
 
 <details>
-
-<summary>Laptop Wireframes</summary>
-
+<summary>Laptop & Desktop Wireframes</summary>
 ![Laptop Wireframes](readme-documents/wireframes/home%20and%20about%20page.PNG)
 ![Laptop Wireframes](readme-documents/wireframes/gallery%20and%20contact%20page.PNG)
-
 </details>
