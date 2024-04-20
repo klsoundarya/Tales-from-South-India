@@ -90,6 +90,7 @@ There are four media query breakpoints used: 425px, 768px, 992px, 1200px. This c
   - Will add an calendar of local events and festivals for travelers to take an experience of cultural experience in south india.
   - Develop detailed travel guides for each state, covering attractions, culture, cuisine, and tips.
   - I will Expand the content with engaging blogs and articles sharing travel stories and tips.
+  - Will add a dark mode toggle in the future to allow users to switch between a light and dark color scheme. This feature gives users the option to choose the mode that is more comfortable for them, especially in low-light environments or for those who prefer darker interfaces.
 
 ### Accessability
 
@@ -98,11 +99,10 @@ There are four media query breakpoints used: 425px, 768px, 992px, 1200px. This c
     - Provided descriptive alt & aria label attributes for images, which is essential for users who rely on screen readers to understand the content of the images.
     - Focus styles are applied to interactive elements like links and buttons, making it easier for keyboard users to navigate your site.
     - Used media queries and responsive design principles to ensure that website is accessible on a variety of devices, including mobile phones and tablets.
-    - Will add a dark mode toggle to allow users to switch between a light and dark color scheme. This feature gives users the option to choose the mode that is more comfortable for them, especially in low-light environments or for those who prefer darker interfaces.
 
 ## Testing
 
-- Manual Testing
+- __Manual Testing__
   
   - Nav bar allows users to go to the expected section page
   - Map opens up in a new tab
@@ -123,3 +123,52 @@ There are four media query breakpoints used: 425px, 768px, 992px, 1200px. This c
   - Tablet
   - Large screen mobile
   - Galaxy Fold
+
+### Validator Testing
+
+All pages passed through the Lighthouse test
+
+- [Lighthouse test for Home Page](readme-documents/testing-validators/Lighthouse-test-home-page.PNG)
+- [Lighthouse test for About Page](readme-documents/testing-validators/Lighthouse-test-about-page.PNG)
+- [Lighthouse test for Gallery Page](readme-documents/testing-validators/Lighthouse-test-gallery-page.PNG)
+- [Lighthouse test for Contact Page](readme-documents/testing-validators/Lighthouse-test-contact-page.PNG)
+- [Lighthouse test for thankyou Page](readme-documents/testing-validators/Lighthouse-test-thankyou-page.PNG)
+
+- __HTML__
+
+All pages have passed through the [W3 Markup HTML Validator](https://validator.w3.org/)
+
+- ![All pages passed through the HTML validator](readme-documents/testing-validators/All-html-pages.png)
+
+- __CSS__
+
+CSS stylesheet have passed through the [W3 CSS Validator](https://jigsaw.w3.org/css-validator/)
+
+- ![CSS stylesheet passed through the CSS validator](readme-documents/testing-validators/CSS-validator.PNG)
+
+### Wireframes
+
+To adhere to best practices, I created wireframes for mobile, tablet, and desktop screen sizes.
+
+I have used [Canva](https://www.canva.com/) to design my website wireframes.
+
+### Mobile Wireframes
+
+<details>
+
+<summary>Phone Wireframes</summary>
+
+![screenshot](readme-documents/wireframes/Phone%20wireframes.PNG)
+
+</details>
+
+### Laptop Wireframes
+
+<details>
+
+<summary>Laptop Wireframes</summary>
+
+![Laptop Wireframes](readme-documents/wireframes/home%20and%20about%20page.PNG)
+![Laptop Wireframes](readme-documents/wireframes/gallery%20and%20contact%20page.PNG)
+
+</details>
