@@ -91,7 +91,7 @@ There are four media query breakpoints used: 425px, 768px, 992px, 1200px. This c
   - Develop detailed travel guides for each state, covering attractions, culture, cuisine, and tips.
   - I will Expand the content with engaging blogs and articles sharing travel stories and tips.
 
-  - __Accessability__
+### Accessability
 
     - I have used semantic HTML elements like header, nav, main, body, footer, h1, p, strong, em, and a appropriately, which helps the readers to understand the technologies & structure of my content.
     - Added high contrast text against the background color in many places, which improves readability for users with visual impairments.
