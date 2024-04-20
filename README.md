@@ -154,13 +154,15 @@ I have used [Canva](https://www.canva.com/) to design my website wireframes for 
 
 <details>
 <summary>Mobile Wireframes</summary>
-![phone wireframes](readme-documents/wireframes/Phone%20wireframes.PNG)
+
+![phone wireframes](readme-documents/wireframes/Phone_wireframes.PNG)
 </details>
 
 ### Laptop & Desktop Wireframes
 
 <details>
 <summary>Laptop & Desktop Wireframes</summary>
-![Laptop Wireframes](readme-documents/wireframes/home%20and%20about%20page.PNG)
-![Laptop Wireframes](readme-documents/wireframes/gallery%20and%20contact%20page.PNG)
+
+![Laptop Wireframes](readme-documents/wireframes/home_about_page.PNG)
+![Laptop Wireframes](readme-documents/wireframes/gallery_contact_page.PNG)
 </details>
