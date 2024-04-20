@@ -78,8 +78,48 @@ There are four media query breakpoints used: 425px, 768px, 992px, 1200px. This c
 
 - __Footer__
 
-  - Added a fullscreen video background that adds a dynamic and engaging element to the page, making it visually appealing.
-  - The layout appears to be responsive, adjusting appropriately to different screen sizes for a consistent user experience.
+  - Have included links to Facebook, YouTube, Instagram, and LinkedIn pages making it easy for visitors to connect on various social media platforms.
+  - It also has a link to a map, that allows visitors to explore the locations talking about more easily.
   - The thank you message is clear and prominently displayed, letting users know that their submission was successful.
 
 ![Tales from South India-website Footer look on phone & laptop](readme-documents/Features/Laptop-phone-footer.PNG)
+
+- __Features to Implement__
+
+  - I will Integrate maps to showcase tourist spots, hotels, and transport availabilities.
+  - Will add an calendar of local events and festivals for travelers to take an experience of cultural experience in south india.
+  - Develop detailed travel guides for each state, covering attractions, culture, cuisine, and tips.
+  - I will Expand the content with engaging blogs and articles sharing travel stories and tips.
+
+  - __Accessability__
+
+    - I have used semantic HTML elements like header, nav, main, body, footer, h1, p, strong, em, and a appropriately, which helps the readers to understand the technologies & structure of my content.
+    - Added high contrast text against the background color in many places, which improves readability for users with visual impairments.
+    - Provided descriptive alt & aria label attributes for images, which is essential for users who rely on screen readers to understand the content of the images.
+    - Focus styles are applied to interactive elements like links and buttons, making it easier for keyboard users to navigate your site.
+    - Used media queries and responsive design principles to ensure that website is accessible on a variety of devices, including mobile phones and tablets.
+    - Will add a dark mode toggle to allow users to switch between a light and dark color scheme. This feature gives users the option to choose the mode that is more comfortable for them, especially in low-light environments or for those who prefer darker interfaces.
+
+## Testing
+
+- Manual Testing
+  
+  - Nav bar allows users to go to the expected section page
+  - Map opens up in a new tab
+  - Gallery page images load without delay
+  - Embedded youtube video allow users to play as expected
+  - Links in the footer takes user to the expected social media platform
+  - Form submits without an error and receives a thank you note
+
+- Tales from South India website is tested and verified with no issues in
+  
+  - Google Chrome
+  - Mozilla Firefox
+  - Microsoft Edge
+
+- Tales from South India website is tested and verified in various screen devices by using Google chrome web developer tools
+  
+  - Laptop
+  - Tablet
+  - Large screen mobile
+  - Galaxy Fold
