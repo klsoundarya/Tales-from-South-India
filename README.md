@@ -131,7 +131,7 @@ There are four media query breakpoints used: 425px, 768px, 992px, 1200px. This c
 
 The font used in the logo is Lemonada-It has a friendly and unique look, which can make the logo stand out, and for all headings the font is Oldenburg-It is decorative and adds a touch of elegance to the headings, making them more visually appealing. The font that is used in text is Georgia-It is a classic serif font that is easy to read, providing a comfortable reading experience for your website visitors. Used a fallback serif font to ensure that even if the custom fonts fail to load, the overall design and readability of the website are maintained.
 
-#### Imagery
+#### Gallery
 <!-- used shorten link to incorporate the links (https://www.shorturl.at/) -->
 The images featured on the Home and gallery page is sourced from various websites and google images, [Travelogy India](https://shorturl.at/etDIO), [Travel Triangle](https://shorturl.at/fiyM8), [Indian Holiday](https://shorturl.at/xIMS1), and [Google](https://shorturl.at/rDR79).
 The background video for the Thankyou section page was sourced from Canva.
@@ -140,7 +140,7 @@ The background video for the Thankyou section page was sourced from Canva.
 
 The color scheme chosen for this website consists of a harmonious color scheme that uses earthy tones like #3e6545 and accent colors like #ffd700 and #bece0c, creating a warm and inviting visual experience.
 
-![Color scheme used on website](readme-documents/Features/Primary-colors-used.png)
+![Color scheme used on website](readme-documents//Features/primary-colors-used.PNG)
 
 ## Testing
 
