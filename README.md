@@ -94,30 +94,72 @@ There are four media query breakpoints used: 425px, 768px, 992px, 1200px. This c
 
 ### Accessability
 
-  - I have used semantic HTML elements like header, nav, main, body, footer, h1, p, strong, em, and a appropriately, which helps the readers to understand the technologies & structure of my content.
-  - Added high contrast text against the background color in many places, which improves readability for users with visual impairments.
-  - Provided descriptive alt & aria label attributes for images, which is essential for users who rely on screen readers to understand the content of the images.
-  - Focus styles are applied to interactive elements like links and buttons, making it easier for keyboard users to navigate your site.
-  - Used media queries and responsive design principles to ensure that website is accessible on a variety of devices, including mobile phones and tablets.
+- I have used semantic HTML elements like header, nav, main, body, footer, h1, p, strong, em, and a appropriately, which helps the readers to understand the technologies & structure of my content.
+- Added high contrast text against the background color in many places, which improves readability for users with visual impairments.
+- Provided descriptive alt & aria label attributes for images, which is essential for users who rely on screen readers to understand the content of the images.
+- Focus styles are applied to interactive elements like links and buttons, making it easier for keyboard users to navigate your site.
+- Used media queries and responsive design principles to ensure that website is accessible on a variety of devices, including mobile phones and tablets.
+
+### User Stories
+
+#### First time User Goals
+
+- As a user, I want to learn about the culture, history, and tourist attractions of South India through the website.
+- As a user, I want to plan a trip to South India, including finding information on tourist spots, accommodations, and local cuisine.
+- As a user, I want to understand the format of the website and want to navigate the site easily.
+- As a user, I want the website to be user friendly, and want to open the site in various screen devices.
+
+#### Returning Site Users
+
+- As a returning user, I want to explore new articles, stories, or updates after the last visit.
+- As a returning user, I want to know information on travel tips, cultural insights, or updates on tourist attractions.
+- As a returning user, I want to continue to learn about the culture, history, and attractions of South India.
+- As a returning user, I want to engage with other users through comments, forums, or social media.
+
+#### Site Owner Goals
+
+- As a site owner, I want to Ensure all content is up-to-date and accurate, reflecting the latest information about South India's attractions, culture, and tourism.
+- As a site owner, I want to clearly communicate the website's purpose and goals to visitors, emphasizing its role as a resource for exploring South India's beauty, culture, and history.
+- As a site owner, I want the website to perform well, with fast loading times and efficient code, to enhance user satisfaction and engagement.
+- As a site owner, I want the website to be accessible and functional across various devices and screen sizes, providing a seamless user experience for all visitors.
+- As a site owner, I will regularly validate all the code to ensure compliance with web standards and best practices, reducing the risk of errors and improving overall site quality.
+- As a site owner, I will proactively identify and address any bugs or issues that may arise, when maintaining the website's functionality and reliability for users.
+
+### Design
+
+#### Typography
+
+The font used in the logo is Lemonada-It has a friendly and unique look, which can make the logo stand out, and for all headings the font is Oldenburg-It is decorative and adds a touch of elegance to the headings, making them more visually appealing. The font that is used in text is Georgia-It is a classic serif font that is easy to read, providing a comfortable reading experience for your website visitors. Used a fallback serif font to ensure that even if the custom fonts fail to load, the overall design and readability of the website are maintained.
+
+#### Imagery
+<!-- used shorten link to incorporate the links (https://www.shorturl.at/) -->
+The images featured on the Home and gallery page is sourced from various websites and google images, [Travelogy India](https://shorturl.at/etDIO), [Travel Triangle](https://shorturl.at/fiyM8), [Indian Holiday](https://shorturl.at/xIMS1), and [Google](https://shorturl.at/rDR79).
+The background video for the Thankyou section page was sourced from Canva.
+
+#### Color Scheme
+
+The color scheme chosen for this website consists of a harmonious color scheme that uses earthy tones like #3e6545 and accent colors like #ffd700 and #bece0c, creating a warm and inviting visual experience.
+
+![Color scheme used on website](readme-documents/Features/Primary-colors-used.png)
 
 ## Testing
 
 - __Manual Testing__
   
-  - Nav bar allows users to go to the expected section page
+  - I confirm that Nav bar allows users to understand and go to the expected section page which is easily accessible and readable.
   - Map opens up in a new tab
   - Gallery page images load without delay
   - Embedded youtube video allow users to play as expected
   - Links in the footer takes user to the expected social media platform
-  - Form submits without an error and receives a thank you note
+  - The Form submits without an error when given all the required input field and receives a thank you note at the end
 
-- Tales from South India website is tested and verified with no issues in
+- Tales from South India website is tested and verified with no issues in different browsers:
   
   - Google Chrome
   - Mozilla Firefox
   - Microsoft Edge
 
-- Tales from South India website is tested and verified in various screen devices by using Google chrome web developer tools
+- Tales from South India website is tested and verified that my website is responsive in various screen devices by using Google chrome web developer tools
   
   - Laptop
   - Tablet
@@ -148,7 +190,7 @@ CSS stylesheet have passed through the [W3 CSS Validator](https://jigsaw.w3.org/
 
 ### Wireframes
 
-I have used [Canva](https://www.canva.com/) to design my website wireframes for mobile, laptop and desktop screen sizes.
+I have used [Canva](https://www.canva.com/) to design my website wireframes for mobile, laptop and desktop screen sizes to see and work on my website designing.
 
 ### Mobile Wireframes
 
