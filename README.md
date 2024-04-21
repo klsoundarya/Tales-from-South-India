@@ -140,7 +140,7 @@ The background video for the Thankyou section page was sourced from Canva.
 
 The color scheme chosen for this website consists of a harmonious color scheme that uses earthy tones like #3e6545 and accent colors like #ffd700 and #bece0c, creating a warm and inviting visual experience.
 
-![Color scheme used on website](readme-documents//Features/primary-colors-used.PNG)
+![Color scheme used on website](readme-documents/Features/primary-colors-used.PNG)
 
 ## Testing
 
