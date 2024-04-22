@@ -14,7 +14,7 @@ Deployed Site: <https://klsoundarya.github.io/Tales-from-South-India/>
 ## Table of contents
 
 ### User Stories
-
+<!-- Read few README documents to understand user stories and wrote accordingly -->
 #### First time User Goals
 
 - As a user, I want to learn about the culture, history, and tourist attractions of South India through the website.
@@ -99,13 +99,9 @@ You can fork this repository by using the following steps:
 5. Navigate to the directory where you want the cloned directory to reside.
 6. In your IDE Terminal, input the following command to clone the repository:
 
-  - git clone <https://github.com/klsoundarya/Tales-from-South-India>
+  git clone <https://github.com/klsoundarya/Tales-from-South-India>
 
 7. Press Enter and your local clone will be created.
-
-### Local VS Deployment
-
-There was no difference between local and deployment noticed.
 
 ## Features
 
@@ -188,12 +184,12 @@ There are four media query breakpoints used: 425px, 768px, 992px, 1200px. This c
 - Added high contrast text against the background color in many places, which improves readability for users with visual impairments.
 - Provided descriptive alt & aria label attributes for images, which is essential for users who rely on screen readers to understand the content of the images.
 - Focus [CSS](https://en.wikipedia.org/wiki/CSS) styles are applied to interactive elements like links and buttons, making it easier for keyboard users to navigate your site.
+- [Gitpod](https://gitpod.io) used as a cloud-based IDE for development.
+- [Visual Studio Code](https://code.visualstudio.com/) used as a remote code editor.
 - Used media queries and responsive design principles to ensure that website is accessible on a variety of devices, including mobile phones and tablets.
 - Included [CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) for an enhanced responsive layout.
 - [GitHub](https://github.com) used for secure online code storage.
 - [GitHub Pages](https://pages.github.com) used for hosting the deployed front-end site.
-- [Gitpod](https://gitpod.io) used as a cloud-based IDE for development.
-- [Visual Studio Code](https://code.visualstudio.com/) used as a remote code editor.
 
 ### Design
 
@@ -210,18 +206,20 @@ The background video for the Thankyou section page was sourced from Canva.
 
 The color scheme chosen for this website consists of a harmonious color scheme that uses earthy tones like #3e6545 and accent colors like #ffd700 and #bece0c, creating a warm and inviting visual experience.
 
-![color Scheme](readme-documents/Features/primary-colors-used.PNG)
+![colors used](readme-documents/Features/Main-colors-used.PNG)
 
 ## Testing
 
 - __Manual Testing__
-  
-  - I confirm that Nav bar allows users to understand and go to the expected section page which is easily accessible and readable.
-  - Map opens up in a new tab
-  - Gallery page images load without delay
-  - Embedded youtube video allow users to play as expected
-  - Links in the footer takes user to the expected social media platform
-  - The Form submits without an error when given all the required input field and receives a thank you note at the end
+<!-- learnt how to use table from (https://stackoverflow.com/questions/39378020/how-to-display-table-in-readme-md-file-in-github) -->
+
+  | Page | Action | Expected Behavior | Pass/Fail |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Home | ![index page](readme-documents/testing-validators/Index-page-manual-testing.PNG) | After conducting manual testing, it has been verified that the home page displays a banner with a short text and two buttons for "About" and "Gallery." These buttons correctly link to the respective pages (`about.html` and `gallery.html`) and open them when clicked. The layout, styling, and content of the banner are as expected, providing a positive user experience.| Works as expected(Pass) |
+| About | ![about page](readme-documents/testing-validators/About-page-manual-testing.PNG) | When a user clicks on the "About" button from index page or from nav bar section, it will be directed to the "about.html" page, where it contains information about the tourists places to see in South India and a map that links all the states. The page functions correctly and it will provide a seamless user experience across different devices and browsers.| Works as expected(Pass) |
+| Gallery | ![gallery page](readme-documents/testing-validators/Gallery-page-manual-testing.PNG) | Similarly, when a user clicks on the "Gallery" button, it will be directed to the "gallery.html" page, which showcases a collection of images related to South India. The page functions correctly as expected| Works as expected(Pass) |
+| Contact | ![contact page](readme-documents/testing-validators/Contact-form-page-manual-testing.PNG) | When a user navigates to the contact page, they encounter a form where they must fill in their first name, last name, and email address. These fields are required and must be completed before the form can be submitted. If any of these fields are left blank, the form cannot be submitted, ensuring that all necessary information is provided. Once the user has filled in all the required details and submits the form, they are redirected to a thank you page. All input areas function perfectly, providing a seamless user experience. | Works as expected(Pass) |
+| Footer | ![footer](readme-documents/testing-validators/footer-links.png) | When a user clicks on any of the social media icons (Facebook, Instagram, LinkedIn, YouTube) or the map icon, each link opens in a new tab and functions correctly, providing users with seamless access to the respective platforms. | Works as expected(Pass) |
 
 - Tales from South India website is tested and verified with no issues in different browsers:
   
@@ -260,4 +258,15 @@ CSS stylesheet have passed through the [W3 CSS Validator](https://jigsaw.w3.org/
 
 ### Bugs
 
+| NO. | Bugs | Expected Behavior | Solution | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 1. | ![Bug 1](readme-documents/Errors/burger-icon-issue.PNG) | The burger icon should properly be aligned with the logo in nav, but it is postioned wrongly. | I have adjusted the toggle by applying margins and padding to ensure they are evenly aligned with the logo. | Fixed the bug |
+| 2. | ![Bug 2](readme-documents/Errors/buttons-too-close.PNG) | The buttons in the homepage text were too close to each other, which shouldn't be. | I adjusted them by using `display: inline-block` and also by applying margins and padding to ensure they are evenly distributed within the transparent background. | Fixed the bug |
+| 3. | ![Bug 3](readme-documents/Errors/css-error.PNG) | The number should have a unit after it.| I have entered the unit px after the number | Fixed the bug |
+| 4. | ![Bug 4](readme-documents/Errors/Error405-when-submitting-contact-form.PNG) | After user submitting the form, it should take it to the thank you message page, instead it is throwing a 405 error| I have removed POST method and gave action file a html file and the bug is gone | Fixed the bug |
+| 5. | ![Bug 5](readme-documents/Errors/Hero-banner-errors.PNG) | The hero banner image should fill the background, but failed due to not mentioning the height to 100vh | I gave height - 100vh and issue is resolved | Fixed the bug |
+| 6. | ![Bug 6](readme-documents/Errors/videoborder-content-close.PNG) | The video border and the text content below it are very close without a gap in between them | I adjusted it by giving a unit number to padding & margin. | Fixed the bug |
+
 ### Unfixed Bugs
+
+There are no more bugs to be fixed.

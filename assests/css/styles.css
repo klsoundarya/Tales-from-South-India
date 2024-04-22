@@ -133,7 +133,7 @@ h1 {
 
 /* breif description on South India */
 #short-text {
-    margin: 70px 0px 0px 30px;
+    margin: 150px 30px 0px 30px;
     text-align: center;
     position: absolute;
     top: 50px;
@@ -249,7 +249,7 @@ hr {
     word-spacing: -1px;
 }
 
-#places-to-explore .must-visit-places{
+#places-to-explore .must-visit-places {
     transition: background-color 0.3s;
     background-color: gold;
 }
@@ -381,11 +381,10 @@ hr {
 #contact-me-form {
     color: #ffffff;
     background-color: rgba(60, 60, 60, 0.6);
-    margin-top: 40px;
-    margin-bottom: 2px;
+    margin-top: 100px;
     padding: 10px 30px 30px 30px;
     border-radius: 30px;
-    top: 13px;
+    top: 15px;
 }
 
 #contact-me-form>h2 {
@@ -531,11 +530,10 @@ footer {
 
 /* Media query: large or landscape view (425px and up) */
 @media screen and (min-width: 425px) {
-    #short-text {
-        margin: 90px 60px 0px 40px;
-        font-size: 16px;
-    }
 
+    #short-text {
+        width: 350px;
+    }
 
     /* Main content for about page */
     #places-in-south {
@@ -659,10 +657,9 @@ footer {
 
     /* breif description on South India home page*/
     #short-text {
-        width: 350px;
-        right: 200px;
-        left: 240px;
         top: 50px;
+        right: 200px;
+        left: 180px;
         margin-top: 120px;
         align-items: center;
         border-radius: 12px;
@@ -769,8 +766,9 @@ footer {
 
     #contact-me-form {
         max-width: 380px;
-        left: 40%;
         top: 50px;
+        left: 40%;
+        margin-left: 75px;
     }
 
     #contact-me-form>h2 {
@@ -808,16 +806,15 @@ footer {
             margin-top: 60px;
         }
 
-        /* breif description on South India styling*/
+        /* breif description on South India styling of index page*/
         #short-text {
-            padding-left: 24px;
-            margin-left: 450px;
-            right: 280px;
             top: 40px;
+            right: 280px;
+            bottom: 120px;
+            left: 160px;
             width: 380px;
-            left: 100px;
-            border-radius: 12px;
-            font-size: 18px;
+            margin: 120px 0px 0px 180px;
+            padding: 10px 10px 20px 10px;
         }
 
         #india-tale {
@@ -855,13 +852,9 @@ footer {
         }
 
         /* form */
-        #contact {
-            padding-top: 100px;
-        }
-
         #contact-me-form {
             margin-top: 70px;
-            margin-left: 130px;
+            margin-left: 180px;
         }
     }
 
@@ -870,12 +863,13 @@ footer {
 
         /* breif description on South India */
         #short-text {
-            margin-left: 340px;
-            right: 500px;
             width: 400px;
+            right: 500px;
             left: 140px;
+            margin-left: 360px;
         }
 
+        /* about page styling */
         hr {
             display: none;
         }
@@ -884,6 +878,11 @@ footer {
             display: flex;
             justify-content: center;
             align-items: center;
+        }
+
+        /* form */
+        #contact-me-form {
+            margin-left: 340px;
         }
 
     }
