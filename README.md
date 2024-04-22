@@ -99,21 +99,13 @@ You can fork this repository by using the following steps:
 5. Navigate to the directory where you want the cloned directory to reside.
 6. In your IDE Terminal, input the following command to clone the repository:
 
-  - git clone https://github.com/klsoundarya/Tales-from-South-India
+  - git clone <https://github.com/klsoundarya/Tales-from-South-India>
 
 7. Press Enter and your local clone will be created.
 
 ### Local VS Deployment
 
 There was no difference between local and deployment noticed.
-
-$ git clone https://github.com/klsoundarya/Tales-from-South-India
-
-> Cloning into `CI-Clone`...
-> remote: Counting objects: 10, done.
-> remote: Compressing objects: 100% (8/8), done.
-> remove: Total 10 (delta 1), reused 10 (delta 1)
-> Unpacking objects: 100% (10/10), done.
 
 ## Features
 
@@ -218,7 +210,7 @@ The background video for the Thankyou section page was sourced from Canva.
 
 The color scheme chosen for this website consists of a harmonious color scheme that uses earthy tones like #3e6545 and accent colors like #ffd700 and #bece0c, creating a warm and inviting visual experience.
 
-![Color scheme used on website](readme-documents/Features/primary-colors-used.PNG)
+![color Scheme](readme-documents/Features/primary-colors-used.PNG)
 
 ## Testing
 
