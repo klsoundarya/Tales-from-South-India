@@ -1,14 +1,10 @@
 # Tales from South India
 
+## Introduction
+
 South India is in the southern region of India, known for its diverse landscapes, rich cultural heritage, and vibrant traditions. It comprises Kerala, Tamil Nadu, Karnataka, Telangana, and Andhra Pradesh states, along with the union territories of Puducherry and Lakshadweep, and offers a unique mix of history, spirituality, and natural beauty.
 
 The beauty of the southern region of India is not just in its landscapes and architecture, but also in its people and their warm hospitality. The people of South India offers a truly unforgettable experience by making it a welcoming destination for travelers from around the world welcoming with open arms and treated to delicious cuisine.
-
-- __Target Audience__
-
-The tales-from-South-India website is for people who love to travel and want to explore unique experiences, history, culture, and nature in South India. It is to captivate individuals who appreciate storytelling that brings a destination to life, drawing them to explore the vibrant beauty of South India's landscapes, history, and culture through engaging narratives and insightful travel guides.
-
-The purpose of this website is to showcase the unique culture, heritage, and tourist attractions of South India in an effective and informative way. View the live site [here](https://klsoundarya.github.io/Tales-from-South-India/).
 
 GitHub Profile: <https://github.com/klsoundarya/Tales-from-South-India>
 Deployed Site: <https://klsoundarya.github.io/Tales-from-South-India/>
@@ -16,6 +12,108 @@ Deployed Site: <https://klsoundarya.github.io/Tales-from-South-India/>
 ![Tales from South India-website look on various screen sizes](readme-documents/am-i-responsive/Various-web-screens-view.PNG)
 
 ## Table of contents
+
+### User Stories
+
+#### First time User Goals
+
+- As a user, I want to learn about the culture, history, and tourist attractions of South India through the website.
+- As a user, I want to plan a trip to South India, including finding information on tourist spots, accommodations, and local cuisine.
+- As a user, I want to understand the format of the website and want to navigate the site easily.
+- As a user, I want the website to be user friendly, and want to open the site in various screen devices.
+
+#### Returning Site Users
+
+- As a returning user, I want to explore new articles, stories, or updates after the last visit.
+- As a returning user, I want to know information on travel tips, cultural insights, or updates on tourist attractions.
+- As a returning user, I want to continue to learn about the culture, history, and attractions of South India.
+- As a returning user, I want to engage with other users through comments, forums, or social media.
+
+#### Site Owner Goals
+
+- As a site owner, I want to Ensure all content is up-to-date and accurate, reflecting the latest information about South India's attractions, culture, and tourism.
+- As a site owner, I want to clearly communicate the website's purpose and goals to visitors, emphasizing its role as a resource for exploring South India's beauty, culture, and history.
+- As a site owner, I want the website to perform well, with fast loading times and efficient code, to enhance user satisfaction and engagement.
+- As a site owner, I want the website to be accessible and functional across various devices and screen sizes, providing a seamless user experience for all visitors.
+- As a site owner, I will regularly validate all the code to ensure compliance with web standards and best practices, reducing the risk of errors and improving overall site quality.
+- As a site owner, I will proactively identify and address any bugs or issues that may arise, when maintaining the website's functionality and reliability for users.
+
+- __Target Audience__
+
+The tales-from-South-India website is for people who love to travel and want to explore unique experiences, history, culture, and nature in South India. It is to captivate individuals who appreciate storytelling that brings a destination to life, drawing them to explore the vibrant beauty of South India's landscapes, history, and culture through engaging narratives and insightful travel guides.
+
+The purpose of this website is to showcase the unique culture, heritage, and tourist attractions of South India in an effective and informative way. View the live site [here](https://klsoundarya.github.io/Tales-from-South-India/).
+
+### Wireframes
+
+I have used [Canva](https://www.canva.com/) to design my website wireframes for mobile, laptop and desktop screen sizes to see and work on my website designing.
+
+### Mobile Wireframes
+
+<details>
+<summary>Mobile Wireframes</summary>
+
+![phone wireframes](readme-documents/wireframes/Phone_wireframes.PNG)
+</details>
+
+### Laptop & Desktop Wireframes
+
+<details>
+<summary>Laptop & Desktop Wireframes</summary>
+
+![Laptop Wireframes](readme-documents/wireframes/home_about_page.PNG)
+![Laptop Wireframes](readme-documents/wireframes/gallery_contact_page.PNG)
+</details>
+
+## Deployment
+
+### GitHub Pages
+
+The project was deployed to GitHub Pages using the following steps...
+
+1. Log in to GitHub and locate [Tales-from-South-India Repository](https://github.com/klsoundarya/Tales-from-South-India)
+2. At the top of the Repository, locate the "Settings" Button on the menu.
+3. Scroll down to "GitHub Pages" Section in Settings page.
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+5. The page will automatically refresh.
+6. Scroll back down through the page to locate the now published site [link](https://klsoundarya.github.io/Tales-from-South-India/) in the "GitHub Pages" section.
+
+If using Gitpod, you can click below to create your own workspace using this repository.
+
+#### Forking
+
+By forking the GitHub Repository, we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original owner's repository.
+
+You can fork this repository by using the following steps:
+
+1. Log in to GitHub and locate the [Tales-from-South-India Repository](https://github.com/klsoundarya/Tales-from-South-India)
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3. Once clicked, you should now have a copy of the original repository in your own GitHub account!
+
+### Making a Local Clone
+
+1. Log in to GitHub and locate the [Tales-from-South-India Repository](https://github.com/klsoundarya/Tales-from-South-India)
+2. Find the Code button situated above the file list and give it a click.
+3. Choose your preferred cloning method — whether it's HTTPS, SSH, or GitHub and hit the copy button to copy the URL to your clipboard.
+4. Launch Git Bash or Terminal.
+5. Navigate to the directory where you want the cloned directory to reside.
+6. In your IDE Terminal, input the following command to clone the repository:
+
+  - git clone https://github.com/klsoundarya/Tales-from-South-India
+
+7. Press Enter and your local clone will be created.
+
+### Local VS Deployment
+
+There was no difference between local and deployment noticed.
+
+$ git clone https://github.com/klsoundarya/Tales-from-South-India
+
+> Cloning into `CI-Clone`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
 
 ## Features
 
@@ -92,38 +190,18 @@ There are four media query breakpoints used: 425px, 768px, 992px, 1200px. This c
   - I will Expand the content with engaging blogs and articles sharing travel stories and tips.
   - Will add a dark mode toggle in the future to allow users to switch between a light and dark color scheme. This feature gives users the option to choose the mode that is more comfortable for them, especially in low-light environments or for those who prefer darker interfaces.
 
-### Accessability
+### Tools & Technologies Used
 
-- I have used semantic HTML elements like header, nav, main, body, footer, h1, p, strong, em, and a appropriately, which helps the readers to understand the technologies & structure of my content.
+- I have used semantic [HTML](https://en.wikipedia.org/wiki/HTML5) elements like header, nav, main, body, footer, h1, p, strong, em, and a appropriately, which helps the readers to understand the technologies & structure of my content.
 - Added high contrast text against the background color in many places, which improves readability for users with visual impairments.
 - Provided descriptive alt & aria label attributes for images, which is essential for users who rely on screen readers to understand the content of the images.
-- Focus styles are applied to interactive elements like links and buttons, making it easier for keyboard users to navigate your site.
+- Focus [CSS](https://en.wikipedia.org/wiki/CSS) styles are applied to interactive elements like links and buttons, making it easier for keyboard users to navigate your site.
 - Used media queries and responsive design principles to ensure that website is accessible on a variety of devices, including mobile phones and tablets.
-
-### User Stories
-
-#### First time User Goals
-
-- As a user, I want to learn about the culture, history, and tourist attractions of South India through the website.
-- As a user, I want to plan a trip to South India, including finding information on tourist spots, accommodations, and local cuisine.
-- As a user, I want to understand the format of the website and want to navigate the site easily.
-- As a user, I want the website to be user friendly, and want to open the site in various screen devices.
-
-#### Returning Site Users
-
-- As a returning user, I want to explore new articles, stories, or updates after the last visit.
-- As a returning user, I want to know information on travel tips, cultural insights, or updates on tourist attractions.
-- As a returning user, I want to continue to learn about the culture, history, and attractions of South India.
-- As a returning user, I want to engage with other users through comments, forums, or social media.
-
-#### Site Owner Goals
-
-- As a site owner, I want to Ensure all content is up-to-date and accurate, reflecting the latest information about South India's attractions, culture, and tourism.
-- As a site owner, I want to clearly communicate the website's purpose and goals to visitors, emphasizing its role as a resource for exploring South India's beauty, culture, and history.
-- As a site owner, I want the website to perform well, with fast loading times and efficient code, to enhance user satisfaction and engagement.
-- As a site owner, I want the website to be accessible and functional across various devices and screen sizes, providing a seamless user experience for all visitors.
-- As a site owner, I will regularly validate all the code to ensure compliance with web standards and best practices, reducing the risk of errors and improving overall site quality.
-- As a site owner, I will proactively identify and address any bugs or issues that may arise, when maintaining the website's functionality and reliability for users.
+- Included [CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) for an enhanced responsive layout.
+- [GitHub](https://github.com) used for secure online code storage.
+- [GitHub Pages](https://pages.github.com) used for hosting the deployed front-end site.
+- [Gitpod](https://gitpod.io) used as a cloud-based IDE for development.
+- [Visual Studio Code](https://code.visualstudio.com/) used as a remote code editor.
 
 ### Design
 
@@ -188,23 +266,6 @@ CSS stylesheet have passed through the [W3 CSS Validator](https://jigsaw.w3.org/
 
 - ![CSS stylesheet passed through the CSS validator](readme-documents/testing-validators/CSS-validator.PNG)
 
-### Wireframes
+### Bugs
 
-I have used [Canva](https://www.canva.com/) to design my website wireframes for mobile, laptop and desktop screen sizes to see and work on my website designing.
-
-### Mobile Wireframes
-
-<details>
-<summary>Mobile Wireframes</summary>
-
-![phone wireframes](readme-documents/wireframes/Phone_wireframes.PNG)
-</details>
-
-### Laptop & Desktop Wireframes
-
-<details>
-<summary>Laptop & Desktop Wireframes</summary>
-
-![Laptop Wireframes](readme-documents/wireframes/home_about_page.PNG)
-![Laptop Wireframes](readme-documents/wireframes/gallery_contact_page.PNG)
-</details>
+### Unfixed Bugs
