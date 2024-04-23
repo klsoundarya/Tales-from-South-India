@@ -100,6 +100,7 @@ I have used [Canva](https://www.canva.com/) to design my website wireframes for 
 ## Deployment
 
 ### GitHub Pages
+
 <details>
 <summary>The project was deployed to GitHub Pages using the following steps...</summary>
 <br>

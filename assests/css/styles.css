@@ -131,7 +131,7 @@ h1 {
     background-position: 100%;
 }
 
-/* breif description on South India */
+/* breif description on South India text*/
 #short-text {
     margin: 150px 30px 0px 30px;
     text-align: center;
@@ -535,6 +535,7 @@ footer {
     margin-left: 55px;
 }
 }
+
 /* Media query: large or landscape view (425px and up) */
 @media screen and (min-width: 425px) {
 
