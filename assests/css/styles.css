@@ -528,6 +528,13 @@ footer {
     color: #ffd700;
 }
 
+
+@media screen and (min-width: 375px) {
+
+.send-btn {
+    margin-left: 55px;
+}
+}
 /* Media query: large or landscape view (425px and up) */
 @media screen and (min-width: 425px) {
 

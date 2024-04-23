@@ -13,6 +13,38 @@ Deployed Site: <https://klsoundarya.github.io/Tales-from-South-India/>
 
 ## Table of contents
 
+- [Introduction](#introduction)
+- [User Stories](#user-stories)
+  - [First Time User Goals](#first-time-user-goals)
+  - [Returning Site Users](#returning-site-users)
+  - [Site Owner Goals](#site-owner-goals)
+  - [Target Audience](#target-audience)
+- [Wireframes](#wireframes)
+  - [Mobile Wireframes](#mobile-wireframes)
+  - [Laptop & Desktop Wireframes](#laptop--desktop-wireframes)
+- [Deployment](#deployment)
+  - [GitHub Pages](#github-pages)
+  - [Forking](#forking)
+  - [Making a Local Clone](#making-a-local-clone)
+- [Features](#features)
+  - [Existing Features](#existing-features)
+  - [Features to Implement](#features-to-implement)
+- [Design](#design)
+  - [UX](#ux)
+  - [Typography](#typography)
+  - [Gallery](#gallery)
+  - [Color Scheme](#color-scheme)
+- [Testing](#testing)
+  - [Manual Testing](#manual-testing)
+  - [Validator Testing](#validator-testing)
+    - [HTML](#html)
+    - [CSS](#css)
+  - [Bugs](#bugs)
+    - [Unfixed Bugs](#unfixed-bugs)
+- [Credits](#credits)
+  - [Tools & Technologies Used](#tools--technologies-used)
+  - [Acknowledgements](#acknowledgements)
+
 ### User Stories
 <!-- Read few README documents to understand user stories and wrote accordingly -->
 #### First time User Goals
@@ -38,7 +70,7 @@ Deployed Site: <https://klsoundarya.github.io/Tales-from-South-India/>
 - As a site owner, I will regularly validate all the code to ensure compliance with web standards and best practices, reducing the risk of errors and improving overall site quality.
 - As a site owner, I will proactively identify and address any bugs or issues that may arise, when maintaining the website's functionality and reliability for users.
 
-- __Target Audience__
+### Target Audience
 
 The tales-from-South-India website is for people who love to travel and want to explore unique experiences, history, culture, and nature in South India. It is to captivate individuals who appreciate storytelling that brings a destination to life, drawing them to explore the vibrant beauty of South India's landscapes, history, and culture through engaging narratives and insightful travel guides.
 
@@ -49,10 +81,10 @@ The purpose of this website is to showcase the unique culture, heritage, and tou
 I have used [Canva](https://www.canva.com/) to design my website wireframes for mobile, laptop and desktop screen sizes to see and work on my website designing.
 
 ### Mobile Wireframes
-
+<!-- learnt the dropdown from https://dev.to/asyraf/how-to-add-dropdown-in-markdown-o78 -->
 <details>
 <summary>Mobile Wireframes</summary>
-
+<br>
 ![phone wireframes](readme-documents/wireframes/Phone_wireframes.PNG)
 </details>
 
@@ -60,7 +92,7 @@ I have used [Canva](https://www.canva.com/) to design my website wireframes for 
 
 <details>
 <summary>Laptop & Desktop Wireframes</summary>
-
+<br>
 ![Laptop Wireframes](readme-documents/wireframes/home_about_page.PNG)
 ![Laptop Wireframes](readme-documents/wireframes/gallery_contact_page.PNG)
 </details>
@@ -99,9 +131,9 @@ You can fork this repository by using the following steps:
 5. Navigate to the directory where you want the cloned directory to reside.
 6. In your IDE Terminal, input the following command to clone the repository:
 
-  git clone <https://github.com/klsoundarya/Tales-from-South-India>
+- git clone <https://github.com/klsoundarya/Tales-from-South-India>
 
-7. Press Enter and your local clone will be created.
+7.Press Enter and your local clone will be created.
 
 ## Features
 
@@ -170,37 +202,52 @@ There are four media query breakpoints used: 425px, 768px, 992px, 1200px. This c
 
 ![Tales from South India-website Footer look on phone & laptop](readme-documents/Features/Laptop-phone-footer.PNG)
 
-- __Features to Implement__
+## Features to Implement
 
-  - I will Integrate maps to showcase tourist spots, hotels, and transport availabilities.
+- I will Integrate maps to showcase tourist spots, hotels, and transport availabilities.
   - Will add an calendar of local events and festivals for travelers to take an experience of cultural experience in south india.
   - Develop detailed travel guides for each state, covering attractions, culture, cuisine, and tips.
   - I will Expand the content with engaging blogs and articles sharing travel stories and tips.
   - Will add a dark mode toggle in the future to allow users to switch between a light and dark color scheme. This feature gives users the option to choose the mode that is more comfortable for them, especially in low-light environments or for those who prefer darker interfaces.
 
-### Tools & Technologies Used
-
-- I have used semantic [HTML](https://en.wikipedia.org/wiki/HTML5) elements like header, nav, main, body, footer, h1, p, strong, em, and a appropriately, which helps the readers to understand the technologies & structure of my content.
-- Added high contrast text against the background color in many places, which improves readability for users with visual impairments.
-- Provided descriptive alt & aria label attributes for images, which is essential for users who rely on screen readers to understand the content of the images.
-- Focus [CSS](https://en.wikipedia.org/wiki/CSS) styles are applied to interactive elements like links and buttons, making it easier for keyboard users to navigate your site.
-- [Gitpod](https://gitpod.io) used as a cloud-based IDE for development.
-- [Visual Studio Code](https://code.visualstudio.com/) used as a remote code editor.
-- Used media queries and responsive design principles to ensure that website is accessible on a variety of devices, including mobile phones and tablets.
-- Included [CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) for an enhanced responsive layout.
-- [GitHub](https://github.com) used for secure online code storage.
-- [GitHub Pages](https://pages.github.com) used for hosting the deployed front-end site.
-
 ### Design
+
+## UX
+
+### Five Planes of User Experience
+
+The five planes are like layers that designers think about when making things for people to use. It starts with big ideas and end with the actual look and feel of what users interact with.
+
+#### The Strategy Plane
+
+The strategy reason for my website is to create a platform that showcases the unique culture, heritage, and tourist attractions of South India. It aims to provide a valuable resource for travelers who want to explore the beauty and diversity of South India, offering them insights, tips, and information to plan their trips effectively. The website also seeks to engage with its audience through storytelling and interactive elements, fostering a sense of connection and community among those who share a love for travel and exploration.
+
+#### The Scope Plane
+
+Based on the Strategy Plane, the scope of my website includes the topics, regions, and aspects of South India that will be covered, as well as the specific features and functionalities that will be implemented, such as interactive maps, travel guides, and cultural insights. It helps ensure that the project stays focused and on track, avoiding unnecessary complexity or scope creep.
+
+#### The Structure Plane
+
+After the Scope Plane were decided then its time to create a structure for my website. It includes the layout of pages, navigation menus, and the overall of information. My website may have a homepage with a hero banner and buttons leading to other sections like About, Gallery, and Contact. Each of these sections would then have its own layout and content, creating a easy-to-navigate structure for users.
+
+![structure-plane](readme-documents/Features/structure-plane.PNG)
+
+#### The Skeleton Plane
+
+Please refer to the [Wireframes](#wireframes) section.
+
+#### The Surface Plane
+
+[View the live site here.](https://klsoundarya.github.io/Tales-from-South-India/)
 
 #### Typography
 
 The font used in the logo is Lemonada-It has a friendly and unique look, which can make the logo stand out, and for all headings the font is Oldenburg-It is decorative and adds a touch of elegance to the headings, making them more visually appealing. The font that is used in text is Georgia-It is a classic serif font that is easy to read, providing a comfortable reading experience for your website visitors. Used a fallback serif font to ensure that even if the custom fonts fail to load, the overall design and readability of the website are maintained.
 
 #### Gallery
-<!-- used shorten link to incorporate the links (https://www.shorturl.at/) -->
-The images featured on the Home and gallery page is sourced from various websites and google images, [Travelogy India](https://shorturl.at/etDIO), [Travel Triangle](https://shorturl.at/fiyM8), [Indian Holiday](https://shorturl.at/xIMS1), and [Google](https://shorturl.at/rDR79).
-The background video for the Thankyou section page was sourced from Canva.
+<!-- used shorten link to incorporate the Google link (https://tinyurl.com/app) -->
+The images featured on the Home and gallery page is sourced from various websites and google images, [Tamilnadu Tourism](https://www.tamilnadutourism.tn.gov.in/destinations/pykara-ooty), [Travel Triangle](https://traveltriangle.com/blog/tourist-places-in-south-india-during-summer/), [Indian Holiday](https://www.indianholiday.com/blog/tourist-places-in-south-india/), and [Google](https://tinyurl.com/55mv3mfw).
+The nav logo and background video for the Thankyou section page was sourced from [Canva](https://www.canva.com/).
 
 #### Color Scheme
 
@@ -210,16 +257,16 @@ The color scheme chosen for this website consists of a harmonious color scheme t
 
 ## Testing
 
-- __Manual Testing__
+### Manual Testing
 <!-- learnt how to use table from (https://stackoverflow.com/questions/39378020/how-to-display-table-in-readme-md-file-in-github) -->
 
-  | Page | Action | Expected Behavior | Pass/Fail |
+| Page | Action | Expected Behavior | Pass/Fail |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Home | ![index page](readme-documents/testing-validators/Index-page-manual-testing.PNG) | After conducting manual testing, it has been verified that the home page displays a banner with a short text and two buttons for "About" and "Gallery." These buttons correctly link to the respective pages (`about.html` and `gallery.html`) and open them when clicked. The layout, styling, and content of the banner are as expected, providing a positive user experience.| Works as expected(Pass) |
-| About | ![about page](readme-documents/testing-validators/About-page-manual-testing.PNG) | When a user clicks on the "About" button from index page or from nav bar section, it will be directed to the "about.html" page, where it contains information about the tourists places to see in South India and a map that links all the states. The page functions correctly and it will provide a seamless user experience across different devices and browsers.| Works as expected(Pass) |
-| Gallery | ![gallery page](readme-documents/testing-validators/Gallery-page-manual-testing.PNG) | Similarly, when a user clicks on the "Gallery" button, it will be directed to the "gallery.html" page, which showcases a collection of images related to South India. The page functions correctly as expected| Works as expected(Pass) |
-| Contact | ![contact page](readme-documents/testing-validators/Contact-form-page-manual-testing.PNG) | When a user navigates to the contact page, they encounter a form where they must fill in their first name, last name, and email address. These fields are required and must be completed before the form can be submitted. If any of these fields are left blank, the form cannot be submitted, ensuring that all necessary information is provided. Once the user has filled in all the required details and submits the form, they are redirected to a thank you page. All input areas function perfectly, providing a seamless user experience. | Works as expected(Pass) |
-| Footer | ![footer](readme-documents/testing-validators/footer-links.png) | When a user clicks on any of the social media icons (Facebook, Instagram, LinkedIn, YouTube) or the map icon, each link opens in a new tab and functions correctly, providing users with seamless access to the respective platforms. | Works as expected(Pass) |
+| Home | ![index](readme-documents/testing-validators/Index-page-manual-testing.PNG) | ![index behavior](readme-documents/testing-validators/index-behavior.PNG) | Pass |
+| About | ![about](readme-documents/testing-validators/About-page-manual-testing.PNG) | ![about behavior](readme-documents/testing-validators/about-behavior.PNG) | Pass |
+| Gallery | ![gallery](readme-documents/testing-validators/Gallery-page-manual-testing.PNG) | ![gallery behavior](readme-documents/testing-validators/gallery-behavior.PNG) | Pass |
+| Contact | ![contact](readme-documents/testing-validators/Contact-form-page-manual-testing.PNG) | ![contact behavior](readme-documents/testing-validators/contact-behavior.PNG)  | Pass |
+| Footer | ![footer](readme-documents/testing-validators/footer-links.png) | ![Footer behavior](readme-documents/testing-validators/footer%20behavior.PNG) | Pass |
 
 - Tales from South India website is tested and verified with no issues in different browsers:
   
@@ -258,15 +305,47 @@ CSS stylesheet have passed through the [W3 CSS Validator](https://jigsaw.w3.org/
 
 ### Bugs
 
-| NO. | Bugs | Expected Behavior | Solution | Notes |
+| NO. | Bugs | Solution | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1. | ![Bug 1](readme-documents/Errors/burger-icon-issue.PNG) | The burger icon should properly be aligned with the logo in nav, but it is postioned wrongly. | I have adjusted the toggle by applying margins and padding to ensure they are evenly aligned with the logo. | Fixed the bug |
-| 2. | ![Bug 2](readme-documents/Errors/buttons-too-close.PNG) | The buttons in the homepage text were too close to each other, which shouldn't be. | I adjusted them by using `display: inline-block` and also by applying margins and padding to ensure they are evenly distributed within the transparent background. | Fixed the bug |
-| 3. | ![Bug 3](readme-documents/Errors/css-error.PNG) | The number should have a unit after it.| I have entered the unit px after the number | Fixed the bug |
-| 4. | ![Bug 4](readme-documents/Errors/Error405-when-submitting-contact-form.PNG) | After user submitting the form, it should take it to the thank you message page, instead it is throwing a 405 error| I have removed POST method and gave action file a html file and the bug is gone | Fixed the bug |
-| 5. | ![Bug 5](readme-documents/Errors/Hero-banner-errors.PNG) | The hero banner image should fill the background, but failed due to not mentioning the height to 100vh | I gave height - 100vh and issue is resolved | Fixed the bug |
-| 6. | ![Bug 6](readme-documents/Errors/videoborder-content-close.PNG) | The video border and the text content below it are very close without a gap in between them | I adjusted it by giving a unit number to padding & margin. | Fixed the bug |
+| 1. | ![Bug 1](readme-documents/Errors/burger-icon-issue.PNG) | ![Solution](readme-documents/Errors/Burger-icon-solution.PNG) | Fixed the bug |
+| 2. | ![Bug 2](readme-documents/Errors/buttons-too-close.PNG) | ![Solution](readme-documents/Errors/buttons-solution.PNG) | Fixed the bug |
+| 3. | ![Bug 3](readme-documents/Errors/css-error.PNG) | ![Solution](readme-documents/Errors/CSS-solution.PNG) | Fixed the bug |
+| 4. | ![Bug 4](readme-documents/Errors/Error405-when-submitting-contact-form.PNG) | ![Solution](readme-documents/Errors/Error405-solution.PNG) | Fixed the bug |
+| 5. | ![Bug 5](readme-documents/Errors/Hero-banner-errors.PNG) | ![Solution](readme-documents/Errors/hero-banner-solution.PNG) | Fixed the bug |
+| 6. | ![Bug 6](readme-documents/Errors/videoborder-content-close.PNG) | ![Solution](readme-documents/Errors/Video-content-solution.PNG) | Fixed the bug |
 
 ### Unfixed Bugs
 
 There are no more bugs to be fixed.
+
+## Credits
+
+### Tools & Technologies Used
+
+The following technologies were used in this overall project.
+
+- I have used semantic [HTML](https://en.wikipedia.org/wiki/HTML5) elements like header, nav, main, body, footer, h1, p, strong, em, and a appropriately, which helps the readers to understand the technologies & structure of my content.
+- Added high contrast text against the background color in many places, which improves readability for users with visual impairments.
+- Provided descriptive alt & aria label attributes for images, which is essential for users who rely on screen readers to understand the content of the images.
+- Focus [CSS](https://en.wikipedia.org/wiki/CSS) styles are applied to interactive elements like links and buttons, making it easier for keyboard users to navigate your site.
+- Used media queries and responsive design principles to ensure that website is accessible on a variety of devices, including mobile phones and tablets.
+- [Favicon.io](https://favicon.io/favicon-converter/) is used to create the various favicon files for my website.
+- Used [TinyPNG](https://tinypng.com/) to compress images and convert them to .webp.
+- [cloud convert](https://cloudconvert.com/png-to-webp) was used to for the gallery images to convert from PNG to webp.
+- I utilized Font Joy and Google Fonts for font pairing and to visualize the look and feel of my website.
+- [ChatGPT](https://chat.openai.com/), [Grammarly](https://app.grammarly.com/), and a [plagiarism checker](https://www.duplichecker.com/) is used to review the text and ensure there were no grammar or spelling mistakes.
+- [Learn UI Design](https://www.learnui.design/tools/accessible-color-generator.html) was used to identify primary colours, compliment and contrast color combination for the website's design.
+- I used [Canva](https://www.canva.com/) to create the navigation logo, graphics used in readme, favicon image, "Am I Responsive" design, wireframes, and background video for the Thank You section page. Additionally, I used it to resize all images to a consistent size.
+- I referred to resources such as [MDN](https://developer.mozilla.org/en-US/), [stack overflow](https://stackoverflow.com/), [W3Schools](https://www.w3schools.com/css/default.asp) for assistance in understanding code in few places and finding answers to questions relevant to my website.
+- [Visual Studio Code](https://code.visualstudio.com/) used as a remote code editor.
+- [Gitpod](https://gitpod.io) used as a cloud-based IDE for development.
+- [GitHub](https://github.com) used for secure online code storage.
+- [GitHub Pages](https://pages.github.com) used for hosting the deployed front-end site.
+- [Git](https://git-scm.com/) was used for version control by utilizing the command line terminal in VS code and GitPod to commit and Push to GitHub.
+
+### Acknowledgements-
+
+- I want to express my gratitude to several individuals and groups who supported me throughout this project, My Code Institute mentor, [Dick Vlaanderen](https://github.com/dickvla), for his invaluable support, encouragement, and feedback throughout this project.
+- I would like to thank my Cohort Facilitator, [Amy](https://github.com/amylour), for her guidance, providing us with the relevant learning materials, and steering our team in the right direction that kept me going forward without having a self doubt and
+- The [Code Institute](https://codeinstitute.net) tutor team for their prompt responses and assistance in resolving GitPod issues.
+- I personally want to thank my partner, family and friends for unwavering support, belief, and feedback, which helped me transition into software development. They also helped me by conducting user testing and providing me with their feedback so that I can fix the bugs and improve my website.
