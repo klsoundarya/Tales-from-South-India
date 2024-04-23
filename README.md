@@ -260,13 +260,21 @@ The color scheme chosen for this website consists of a harmonious color scheme t
 ### Manual Testing
 <!-- learnt how to use table from (https://stackoverflow.com/questions/39378020/how-to-display-table-in-readme-md-file-in-github) -->
 
-| Page | Action | Expected Behavior | Pass/Fail |
-| --- | --- | --- | --- | --- | --- | --- | --- |
+<!-- | Page | Action | Expected Behavior | Pass/Fail |
+|----------|--------------|--------------|------------|
 | Home | ![index](readme-documents/testing-validators/Index-page-manual-testing.PNG) | ![index behavior](readme-documents/testing-validators/index-behavior.PNG) | Pass |
 | About | ![about](readme-documents/testing-validators/About-page-manual-testing.PNG) | ![about behavior](readme-documents/testing-validators/about-behavior.PNG) | Pass |
 | Gallery | ![gallery](readme-documents/testing-validators/Gallery-page-manual-testing.PNG) | ![gallery behavior](readme-documents/testing-validators/gallery-behavior.PNG) | Pass |
 | Contact | ![contact](readme-documents/testing-validators/Contact-form-page-manual-testing.PNG) | ![contact behavior](readme-documents/testing-validators/contact-behavior.PNG)  | Pass |
-| Footer | ![footer](readme-documents/testing-validators/footer-links.png) | ![Footer behavior](readme-documents/testing-validators/footer%20behavior.PNG) | Pass |
+| Footer | ![footer](readme-documents/testing-validators/footer-links.png) | ![Footer behavior](readme-documents/testing-validators/footer%20behavior.PNG) | Pass | -->
+
+| Page     | Action                                                                                | Expected Behavior                                                              | Pass/Fail  |
+|--------- |-------------------------------------------------------------------------------------- |------------------------------------------------------------------------------- |----------- |
+| Home     | ![index](readme-documents/testing-validators/Index-page-manual-testing.PNG)           | ![index behavior](readme-documents/testing-validators/index-behavior.PNG)      | Pass       |
+| About    | ![about](readme-documents/testing-validators/About-page-manual-testing.PNG)           | ![about behavior](readme-documents/testing-validators/about-behavior.PNG)      | Pass       |
+| Gallery  | ![gallery](readme-documents/testing-validators/Gallery-page-manual-testing.PNG)       | ![gallery behavior](readme-documents/testing-validators/gallery-behavior.PNG)  | Pass       |
+| Contact  | ![contact](readme-documents/testing-validators/Contact-form-page-manual-testing.PNG)  | ![contact behavior](readme-documents/testing-validators/contact-behavior.PNG)  | Pass       |
+| Footer   | ![footer](readme-documents/testing-validators/footer-links.png)                       | ![Footer behavior](readme-documents/testing-validators/footer-behavior.PNG)  | Pass       |
 
 - Tales from South India website is tested and verified with no issues in different browsers:
   
@@ -304,7 +312,7 @@ CSS stylesheet have passed through the [W3 CSS Validator](https://jigsaw.w3.org/
 - ![CSS stylesheet passed through the CSS validator](readme-documents/testing-validators/CSS-validator.PNG)
 
 ### Bugs
-
+<!-- 
 | NO. | Bugs | Solution | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1. | ![Bug 1](readme-documents/Errors/burger-icon-issue.PNG) | ![Solution](readme-documents/Errors/Burger-icon-solution.PNG) | Fixed the bug |
@@ -312,7 +320,7 @@ CSS stylesheet have passed through the [W3 CSS Validator](https://jigsaw.w3.org/
 | 3. | ![Bug 3](readme-documents/Errors/css-error.PNG) | ![Solution](readme-documents/Errors/CSS-solution.PNG) | Fixed the bug |
 | 4. | ![Bug 4](readme-documents/Errors/Error405-when-submitting-contact-form.PNG) | ![Solution](readme-documents/Errors/Error405-solution.PNG) | Fixed the bug |
 | 5. | ![Bug 5](readme-documents/Errors/Hero-banner-errors.PNG) | ![Solution](readme-documents/Errors/hero-banner-solution.PNG) | Fixed the bug |
-| 6. | ![Bug 6](readme-documents/Errors/videoborder-content-close.PNG) | ![Solution](readme-documents/Errors/Video-content-solution.PNG) | Fixed the bug |
+| 6. | ![Bug 6](readme-documents/Errors/videoborder-content-close.PNG) | ![Solution](readme-documents/Errors/Video-content-solution.PNG) | Fixed the bug | -->
 
 ### Unfixed Bugs
 
