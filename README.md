@@ -46,7 +46,7 @@ Deployed Site: <https://klsoundarya.github.io/Tales-from-South-India/>
   - [Acknowledgements](#acknowledgements)
 
 ### User Stories
-<!-- Read few README documents to understand user stories and wrote accordingly -->
+<!-- Read few README documents of previous batches to understand user stories and wrote accordingly -->
 #### First time User Goals
 
 - As a user, I want to learn about the culture, history, and tourist attractions of South India through the website.
@@ -100,9 +100,9 @@ I have used [Canva](https://www.canva.com/) to design my website wireframes for 
 ## Deployment
 
 ### GitHub Pages
-
-The project was deployed to GitHub Pages using the following steps...
-
+<details>
+<summary>The project was deployed to GitHub Pages using the following steps...</summary>
+<br>
 1. Log in to GitHub and locate [Tales-from-South-India Repository](https://github.com/klsoundarya/Tales-from-South-India)
 2. At the top of the Repository, locate the "Settings" Button on the menu.
 3. Scroll down to "GitHub Pages" Section in Settings page.
@@ -134,6 +134,7 @@ You can fork this repository by using the following steps:
 - git clone <https://github.com/klsoundarya/Tales-from-South-India>
 
 7.Press Enter and your local clone will be created.
+</details>
 
 ## Features
 
@@ -258,23 +259,16 @@ The color scheme chosen for this website consists of a harmonious color scheme t
 ## Testing
 
 ### Manual Testing
-<!-- learnt how to use table from (https://stackoverflow.com/questions/39378020/how-to-display-table-in-readme-md-file-in-github) -->
 
-<!-- | Page | Action | Expected Behavior | Pass/Fail |
-|----------|--------------|--------------|------------|
-| Home | ![index](readme-documents/testing-validators/Index-page-manual-testing.PNG) | ![index behavior](readme-documents/testing-validators/index-behavior.PNG) | Pass |
-| About | ![about](readme-documents/testing-validators/About-page-manual-testing.PNG) | ![about behavior](readme-documents/testing-validators/about-behavior.PNG) | Pass |
-| Gallery | ![gallery](readme-documents/testing-validators/Gallery-page-manual-testing.PNG) | ![gallery behavior](readme-documents/testing-validators/gallery-behavior.PNG) | Pass |
-| Contact | ![contact](readme-documents/testing-validators/Contact-form-page-manual-testing.PNG) | ![contact behavior](readme-documents/testing-validators/contact-behavior.PNG)  | Pass |
-| Footer | ![footer](readme-documents/testing-validators/footer-links.png) | ![Footer behavior](readme-documents/testing-validators/footer%20behavior.PNG) | Pass | -->
+<!-- Created Table from Table generator -->
 
 | Page     | Action                                                                                | Expected Behavior                                                              | Pass/Fail  |
 |--------- |-------------------------------------------------------------------------------------- |------------------------------------------------------------------------------- |----------- |
-| Home     | ![index](readme-documents/testing-validators/Index-page-manual-testing.PNG)           | ![index behavior](readme-documents/testing-validators/index-behavior.PNG)      | Pass       |
-| About    | ![about](readme-documents/testing-validators/About-page-manual-testing.PNG)           | ![about behavior](readme-documents/testing-validators/about-behavior.PNG)      | Pass       |
-| Gallery  | ![gallery](readme-documents/testing-validators/Gallery-page-manual-testing.PNG)       | ![gallery behavior](readme-documents/testing-validators/gallery-behavior.PNG)  | Pass       |
-| Contact  | ![contact](readme-documents/testing-validators/Contact-form-page-manual-testing.PNG)  | ![contact behavior](readme-documents/testing-validators/contact-behavior.PNG)  | Pass       |
-| Footer   | ![footer](readme-documents/testing-validators/footer-links.png)                       | ![Footer behavior](readme-documents/testing-validators/footer-behavior.PNG)  | Pass       |
+| Home     | ![index](readme-documents/testing-validators/Index-page-manual-testing.PNG)           | After conducting manual testing, it has been verified that the home page displays a banner with a short text and two buttons for "About" and "Gallery." These buttons correctly link to the respective pages (about.html and `gallery.html) and open them when clicked. The layout, styling, and content of the banner are as expected, providing a positive user experience. | Pass       |
+| About    | ![about](readme-documents/testing-validators/About-page-manual-testing.PNG)           | When a user clicks on the "About" button from index page or from nav bar section, it will be directed to the "about.html" page, where it contains information about the tourists places to see in South India and a map that links all the states. The page functions correctly and it will provide a seamless user experience across different devices and browsers. | Pass       |
+| Gallery  | ![gallery](readme-documents/testing-validators/Gallery-page-manual-testing.PNG)       | Similarly, when a user clicks on the "Gallery" button, it will be directed to the "gallery.html" page, which showcases a collection of images related to South India. The page functions correctly as expected| Pass       |
+| Contact  | ![contact](readme-documents/testing-validators/Contact-form-page-manual-testing.PNG)  | The contact page contains a form that requires users to fill in their first name, last name, and email address. These fields are mandatory, and the form cannot be submitted unless they are filled. After submission, users are redirected to a thank you page, and all input areas work smoothly. | Pass       |
+| Footer   | ![footer](readme-documents/testing-validators/footer-links.png)                       | When a user clicks on any of the social media icons (Facebook, Instagram, LinkedIn, YouTube) or the map icon, each link opens in a new tab and functions correctly, providing users with seamless access to the respective platforms.  | Pass       |
 
 - Tales from South India website is tested and verified with no issues in different browsers:
   
@@ -312,15 +306,21 @@ CSS stylesheet have passed through the [W3 CSS Validator](https://jigsaw.w3.org/
 - ![CSS stylesheet passed through the CSS validator](readme-documents/testing-validators/CSS-validator.PNG)
 
 ### Bugs
-<!-- 
-| NO. | Bugs | Solution | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 1. | ![Bug 1](readme-documents/Errors/burger-icon-issue.PNG) | ![Solution](readme-documents/Errors/Burger-icon-solution.PNG) | Fixed the bug |
-| 2. | ![Bug 2](readme-documents/Errors/buttons-too-close.PNG) | ![Solution](readme-documents/Errors/buttons-solution.PNG) | Fixed the bug |
-| 3. | ![Bug 3](readme-documents/Errors/css-error.PNG) | ![Solution](readme-documents/Errors/CSS-solution.PNG) | Fixed the bug |
-| 4. | ![Bug 4](readme-documents/Errors/Error405-when-submitting-contact-form.PNG) | ![Solution](readme-documents/Errors/Error405-solution.PNG) | Fixed the bug |
-| 5. | ![Bug 5](readme-documents/Errors/Hero-banner-errors.PNG) | ![Solution](readme-documents/Errors/hero-banner-solution.PNG) | Fixed the bug |
-| 6. | ![Bug 6](readme-documents/Errors/videoborder-content-close.PNG) | ![Solution](readme-documents/Errors/Video-content-solution.PNG) | Fixed the bug | -->
+
+<details>
+<summary>Bugs Fixed</summary>
+<br>
+
+| No.  | Bugs                                                                         | Solution                                                                                                                                                                                                                                               | Notes          |
+|----- |----------------------------------------------------------------------------- |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |--------------- |
+| 1    | ![Bug 1](readme-documents/Errors/burger-icon-issue.PNG)                      | The burger icon should properly be aligned with the logo in nav, but it is postioned wrongly. I I have adjusted the toggle by applying margins and padding to ensure they are evenly aligned with the logo.                                            | Fixed the Bug  |
+| 2    | ![Bug 2](readme-documents/Errors/buttons-too-close.PNG)                      | The buttons in the homepage text were too close to each other, which shouldn't be. I I adjusted them by using display: inline-block and also by applying margins and padding to ensure they are evenly distributed within the transparent background.  | Fixed the Bug  |
+| 3    | ![Bug 3](readme-documents/Errors/css-error.PNG)                              | The number should have a unit after it. I have entered the unit px after the number.                                                                                                                                                                   | Fixed the Bug  |
+| 4    | ![Bug 4](readme-documents/Errors/Error405-when-submitting-contact-form.PNG)  | After form submission, it should redirect to the thank you message page, but it was showing a 405 error. I fixed the bug by removing the POST method and setting the action file to thankyou.html.                                                     | Fixed the Bug  |
+| 5    | ![Bug 5](readme-documents/Errors/Hero-banner-errors.PNG)                     | When a user clicks on any of the social media icons (Facebook, Instagram, LinkedIn, YouTube) or the map icon, each link opens in a new tab and functions correctly, providing users with seamless access to the respective platforms.                  | Fixed the Bug  |
+| 6    | ![Bug 6](readme-documents/Errors/videoborder-content-close.PNG)              | The video border and the text content below it were too close together, lacking a gap between them. I resolved this issue by adding a specific value to the padding and margin.                                                                        | Fixed the Bug  |
+
+<details>
 
 ### Unfixed Bugs
 
