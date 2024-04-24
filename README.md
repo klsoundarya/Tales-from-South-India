@@ -40,8 +40,7 @@ Deployed Site: <https://klsoundarya.github.io/Tales-from-South-India/>
     - [Unfixed Bugs](#unfixed-bugs)
 - [Credits](#credits)
   - [Tools & Technologies Used](#tools--technologies-used)
-  - [Acknowledgements](#acknowledgements)
-  - [Git Commit Mistakes](#git-commit-mistakes)
+  - [Git commit mistakes](#git-commit-mistakes)
 
 ### User Stories
 <!-- Read few README documents of previous batches to understand user stories and wrote accordingly -->
@@ -137,7 +136,7 @@ You can fork this repository by using the following steps:
 
 > git clone <https://github.com/klsoundarya/Tales-from-South-India>
 
-7. Press Enter and your local clone will be created.
+__Press Enter and your local clone will be created.__
 
 </details>
 
@@ -355,6 +354,13 @@ There are no more bugs to be fixed.
 
 ## Credits
 
+### Acknowledgements-
+
+- I want to express my gratitude to several individuals and groups who supported me throughout this project, My Code Institute mentor, [Dick Vlaanderen](https://github.com/dickvla), for his invaluable support, encouragement, and feedback throughout this project.
+- I would like to thank my Cohort Facilitator, [Amy](https://github.com/amylour), for her guidance, providing us with the relevant learning materials, and steering our team in the right direction that kept me going forward without having a self doubt and
+- The [Code Institute](https://codeinstitute.net) tutor team for their prompt responses and assistance in resolving GitPod issues.
+- I personally want to thank my partner, family and my two friends for unwavering support, belief, and feedback, which helped me transition into software development. They also helped me by conducting user testing and providing me with their feedback so that I can fix the bugs and improve my website.
+
 ### Tools & Technologies Used
 
 The following technologies were used in this overall project.
@@ -378,13 +384,6 @@ The following technologies were used in this overall project.
 - [GitHub](https://github.com) used for secure online code storage.
 - [GitHub Pages](https://pages.github.com) used for hosting the deployed front-end site.
 - [Git](https://git-scm.com/) was used for version control by utilizing the command line terminal in VS code and GitPod to commit and Push to GitHub.
-
-### Acknowledgements-
-
-- I want to express my gratitude to several individuals and groups who supported me throughout this project, My Code Institute mentor, [Dick Vlaanderen](https://github.com/dickvla), for his invaluable support, encouragement, and feedback throughout this project.
-- I would like to thank my Cohort Facilitator, [Amy](https://github.com/amylour), for her guidance, providing us with the relevant learning materials, and steering our team in the right direction that kept me going forward without having a self doubt and
-- The [Code Institute](https://codeinstitute.net) tutor team for their prompt responses and assistance in resolving GitPod issues.
-- I personally want to thank my partner, family and my two friends for unwavering support, belief, and feedback, which helped me transition into software development. They also helped me by conducting user testing and providing me with their feedback so that I can fix the bugs and improve my website.
 
 #### Git Commit Mistakes-
 
