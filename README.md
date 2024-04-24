@@ -279,3 +279,56 @@ The color scheme chosen for this website consists of a harmonious color scheme t
 
 </details>
 
+## Testing
+
+### Manual Testing
+
+<!-- Created Table from Table generator -->
+<details>
+<summary>User Testing</summary>
+<br>
+
+| Page     | Action                                                                                | Expected Behavior                                                              | Pass/Fail  |
+|--------- |-------------------------------------------------------------------------------------- |------------------------------------------------------------------------------- |----------- |
+| Home     | ![index](readme/testing-validators/index-page.PNG)           | After conducting manual testing, it has been verified that the home page displays a banner with a short text and two buttons for "About" and "Gallery." These buttons correctly link to the respective pages (about.html and `gallery.html) and open them when clicked. The layout, styling, and content of the banner are as expected, providing a positive user experience. | Pass       |
+| About    | ![about](readme/testing-validators/about-page.PNG)           | When a user clicks on the "About" button from index page or from nav bar section, it will be directed to the "about.html" page, where it contains information about the tourists places to see in South India and a map that links all the states. The page functions correctly and it will provide a seamless user experience across different devices and browsers. | Pass       |
+| Gallery  | ![gallery](readme/testing-validators/gallery-page.PNG)       | Similarly, when a user clicks on the "Gallery" button, it will be directed to the "gallery.html" page, which showcases a collection of images related to South India. The page functions correctly as expected| Pass       |
+| Contact  | ![contact](readme/testing-validators/contact-form-page.PNG)  | The contact page contains a form that requires users to fill in their first name, last name, and email address. These fields are mandatory, and the form cannot be submitted unless they are filled. After submission, users are redirected to a thank you page, and all input areas work smoothly. | Pass       |
+| Footer   | ![footer](readme/testing-validators/footer-links.png)                       | When a user clicks on any of the social media icons (Facebook, Instagram, LinkedIn, YouTube) or the map icon, each link opens in a new tab and functions correctly, providing users with seamless access to the respective platforms.  | Pass       |
+
+- Tales from South India website is tested and verified with no issues in different browsers:
+  
+  - [Google Chrome](https://www.google.com/intl/en_in/chrome/)
+  - [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/)
+  - [Microsoft Edge](https://www.microsoft.com/en-us/edge/welcome?form=MA13FJ)
+
+- Tales from South India website is tested and verified that my website is responsive in various screen devices by using Google chrome web developer tools
+  
+  - Laptop
+  - Tablet
+  - Large screen mobile
+  - Galaxy Fold
+
+### Validator Testing
+
+All pages passed through the Lighthouse test
+
+- [Lighthouse test for Home Page](readme/testing-validators/lighthouse-test-home-page.PNG)
+- [Lighthouse test for About Page](readme/testing-validators/lighthouse-test-about-page.PNG)
+- [Lighthouse test for Gallery Page](readme/testing-validators/lighthouse-test-gallery-page.PNG)
+- [Lighthouse test for Contact Page](readme/testing-validators/lighthouse-test-contact-page.PNG)
+- [Lighthouse test for thankyou Page](readme/testing-validators/lighthouse-test-thankyou-page.PNG)
+
+### HTML
+
+All pages have passed through the [W3 Markup HTML Validator](https://validator.w3.org/)
+
+- ![All pages passed through the HTML validator](readme/testing-validators/all-html-pages.png)
+
+### CSS
+
+CSS stylesheet have passed through the [W3 CSS Validator](https://jigsaw.w3.org/css-validator/)
+
+- ![CSS stylesheet passed through the CSS validator](readme/testing-validators/css-validator.PNG)
+
+</details>
