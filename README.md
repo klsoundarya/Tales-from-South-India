@@ -332,3 +332,60 @@ CSS stylesheet have passed through the [W3 CSS Validator](https://jigsaw.w3.org/
 - ![CSS stylesheet passed through the CSS validator](readme/testing-validators/css-validator.PNG)
 
 </details>
+
+### Bugs
+
+<details>
+<summary>Bugs Fixed</summary>
+<br>
+
+| No.  | Bugs                                                                         | Solution                                                                                                                                                                                                                                               | Notes          |
+|----- |----------------------------------------------------------------------------- |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |--------------- |
+| 1    | ![Bug 1](readme/bugs/burger-icon-issue.PNG)                      | The burger icon should properly be aligned with the logo in nav, but it is postioned wrongly. I I have adjusted the toggle by applying margins and padding to ensure they are evenly aligned with the logo.                                            | Fixed the Bug  |
+| 2    | ![Bug 2](readme/bugs/buttons-too-close.PNG)                      | The buttons in the homepage text were too close to each other, which shouldn't be. I I adjusted them by using display: inline-block and also by applying margins and padding to ensure they are evenly distributed within the transparent background.  | Fixed the Bug  |
+| 3    | ![Bug 3](readme/bugs/css-error.PNG)                              | The number should have a unit after it. I have entered the unit px after the number.                                                                                                                                                                   | Fixed the Bug  |
+| 4    | ![Bug 4](readme/bugs/error405-when-submitting-contact-form.PNG)  | After form submission, it should redirect to the thank you message page, but it was showing a 405 error. I fixed the bug by removing the POST method that i added and setting the action file to thankyou.html.                                                     | Fixed the Bug  |
+| 5    | ![Bug 5](readme/bugs/hero-banner-errors.PNG)                     | The banner image and the transparent is out of the place. I have fixed this bug by keeping height as 100vh and gave padding and margin to keep the tranparent text image to the centre.                 | Fixed the Bug  |
+| 6    | ![Bug 6](readme/bugs/videoborder-content-close.PNG)              | The video border and the text content below it were too close together, lacking a gap between them. I resolved this issue by adding a specific value to the padding and margin.                                                                        | Fixed the Bug  |
+
+### Unfixed Bugs
+
+There are no more bugs to be fixed.
+</details>
+
+## Credits
+
+### Tools & Technologies Used
+
+The following technologies were used in this overall project.
+
+- I have used semantic [HTML](https://en.wikipedia.org/wiki/HTML5) elements like header, nav, main, body, footer, h1, p, strong, em, and a appropriately, which helps the readers to understand the technologies & structure of my content.
+- Added high contrast text against the background color in many places, which improves readability for users with visual impairments.
+- Provided descriptive alt & aria label attributes for images, which is essential for users who rely on screen readers to understand the content of the images.
+- Focus [CSS](https://en.wikipedia.org/wiki/CSS) styles are applied to interactive elements like links and buttons, making it easier for keyboard users to navigate your site.
+- Used media queries and responsive design principles to ensure that website is accessible on a variety of devices, including mobile phones and tablets.
+- [Favicon.io](https://favicon.io/favicon-converter/) is used to create the various favicon files for my website.
+- Used [TinyPNG](https://tinypng.com/) to compress images and convert them to .webp.
+- [cloud convert](https://cloudconvert.com/png-to-webp) was used to for the gallery images to convert from PNG to webp.
+- I utilized Font Joy and Google Fonts for font pairing and to visualize the look and feel of my website.
+- [ChatGPT](https://chat.openai.com/), [Grammarly](https://app.grammarly.com/), and a [plagiarism checker](https://www.duplichecker.com/) is used to review the text and ensure there were no grammar or spelling mistakes.
+- [Learn UI Design](https://www.learnui.design/tools/accessible-color-generator.html) was used to identify primary colours, compliment and contrast color combination for the website's design.
+- I used [Canva](https://www.canva.com/) to create the navigation logo, graphics used in readme, favicon image, "Am I Responsive" design, wireframes, and background video for the Thank You section page. Additionally, I used it to resize all images to a consistent size.
+- [wikipedia](https://en.wikipedia.org/wiki/South_India) is used for content research.
+- I referred to resources such as [MDN](https://developer.mozilla.org/en-US/), [stack overflow](https://stackoverflow.com/), [W3Schools](https://www.w3schools.com/css/default.asp) for assistance in understanding code in few places and finding answers to questions relevant to my website.
+- [Visual Studio Code](https://code.visualstudio.com/) used as a remote code editor.
+- [Gitpod](https://gitpod.io) used as a cloud-based IDE for development.
+- [GitHub](https://github.com) used for secure online code storage.
+- [GitHub Pages](https://pages.github.com) used for hosting the deployed front-end site.
+- [Git](https://git-scm.com/) was used for version control by utilizing the command line terminal in VS code and GitPod to commit and Push to GitHub.
+
+### Acknowledgements-
+
+- I want to express my gratitude to several individuals and groups who supported me throughout this project, My Code Institute mentor, [Dick Vlaanderen](https://github.com/dickvla), for his invaluable support, encouragement, and feedback throughout this project.
+- I would like to thank my Cohort Facilitator, [Amy](https://github.com/amylour), for her guidance, providing us with the relevant learning materials, and steering our team in the right direction that kept me going forward without having a self doubt and
+- The [Code Institute](https://codeinstitute.net) tutor team for their prompt responses and assistance in resolving GitPod issues.
+- I personally want to thank my partner, family and my two friends for unwavering support, belief, and feedback, which helped me transition into software development. They also helped me by conducting user testing and providing me with their feedback so that I can fix the bugs and improve my website.
+
+#### Git Commit Mistakes-
+
+After receiving guidance from my mentor [Dick Vlaanderen](https://github.com/dickvla) during a recent call, I have implemented improvements in the way I compose Git commit messages. Previously, I had inadvertently made spelling errors and used incorrect syntax in my messages. However, following our discussion, I have begun adhering to proper conventions for Git commit messages. This adjustment not only enhances the clarity and professionalism of my contributions but also ensures consistency within our collaborative development environment.
