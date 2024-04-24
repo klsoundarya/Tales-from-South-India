@@ -94,7 +94,7 @@ I have used [Canva](https://www.canva.com/) to design my website wireframes for 
 <br>
 
 ![Laptop Wireframes](readme-documents/wireframes/home-about-page.PNG)
-![Laptop Wireframes](readme-documents/wireframes/gallery-contact-page.PNG)
+![Laptop Wireframes](readme-documents/wireframes/gallery-contact_page.PNG)
 </details>
 
 ## Deployment
@@ -133,12 +133,16 @@ You can fork this repository by using the following steps:
 5. Navigate to the directory where you want the cloned directory to reside.
 6. In your IDE Terminal, input the following command to clone the repository:
 
-- git clone <https://github.com/klsoundarya/Tales-from-South-India>
+> git clone <https://github.com/klsoundarya/Tales-from-South-India>
 
 7.Press Enter and your local clone will be created.
 </details>
 
 ## Features
+
+<details>
+<summary>Project Features</summary>
+<br>
 
 ### Existing Features
 
@@ -213,13 +217,11 @@ There are four media query breakpoints used: 425px, 768px, 992px, 1200px. This c
   - I will Expand the content with engaging blogs and articles sharing travel stories and tips.
   - Will add a dark mode toggle in the future to allow users to switch between a light and dark color scheme. This feature gives users the option to choose the mode that is more comfortable for them, especially in low-light environments or for those who prefer darker interfaces.
 
+  </details>
+
 ### Design
 
 ## UX
-
-<details>
-<summary>User Experience</summary>
-<br>
 
 ### Five Planes of User Experience
 
@@ -261,7 +263,6 @@ The nav logo and background video for the Thankyou section page was sourced from
 The color scheme chosen for this website consists of a harmonious color scheme that uses earthy tones like #3e6545 and accent colors like #ffd700 and #bece0c, creating a warm and inviting visual experience.
 
 ![colors used](readme-documents/features/main-colors-used.PNG)
-</details>
 
 ## Testing
 
@@ -279,7 +280,6 @@ The color scheme chosen for this website consists of a harmonious color scheme t
 | Gallery  | ![gallery](readme-documents/testing-validators/gallery-page-manual-testing.PNG)       | Similarly, when a user clicks on the "Gallery" button, it will be directed to the "gallery.html" page, which showcases a collection of images related to South India. The page functions correctly as expected| Pass       |
 | Contact  | ![contact](readme-documents/testing-validators/contact-form-page-manual-testing.PNG)  | The contact page contains a form that requires users to fill in their first name, last name, and email address. These fields are mandatory, and the form cannot be submitted unless they are filled. After submission, users are redirected to a thank you page, and all input areas work smoothly. | Pass       |
 | Footer   | ![footer](readme-documents/testing-validators/footer-links.png)                       | When a user clicks on any of the social media icons (Facebook, Instagram, LinkedIn, YouTube) or the map icon, each link opens in a new tab and functions correctly, providing users with seamless access to the respective platforms.  | Pass       |
-</details>
 
 - Tales from South India website is tested and verified with no issues in different browsers:
   
@@ -316,6 +316,8 @@ CSS stylesheet have passed through the [W3 CSS Validator](https://jigsaw.w3.org/
 
 - ![CSS stylesheet passed through the CSS validator](readme-documents/testing-validators/css-validator.PNG)
 
+</details>
+
 ### Bugs
 
 <details>
@@ -331,11 +333,10 @@ CSS stylesheet have passed through the [W3 CSS Validator](https://jigsaw.w3.org/
 | 5    | ![Bug 5](readme-documents/errors/hero-banner-errors.PNG)                     | When a user clicks on any of the social media icons (Facebook, Instagram, LinkedIn, YouTube) or the map icon, each link opens in a new tab and functions correctly, providing users with seamless access to the respective platforms.                  | Fixed the Bug  |
 | 6    | ![Bug 6](readme-documents/errors/videoborder-content-close.PNG)              | The video border and the text content below it were too close together, lacking a gap between them. I resolved this issue by adding a specific value to the padding and margin.                                                                        | Fixed the Bug  |
 
-</details>
-
 ### Unfixed Bugs
 
 There are no more bugs to be fixed.
+</details>
 
 ## Credits
 
