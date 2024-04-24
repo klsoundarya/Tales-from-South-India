@@ -214,7 +214,7 @@ There are four media query breakpoints used: 425px, 768px, 992px, 1200px. This c
 - I will Integrate maps to showcase tourist spots, hotels, and transport availabilities.
   - Will add an calendar of local events and festivals for travelers to take an experience of cultural experience in south india.
   - Develop detailed travel guides for each state, covering attractions, culture, cuisine, and tips.
-  - I will Expand the content with engaging blogs and articles sharing travel stories and tips.
+  - I will Expand the content with engaging blogs, images and articles sharing travel stories and tips.
   - Will add a dark mode toggle in the future to allow users to switch between a light and dark color scheme. This feature gives users the option to choose the mode that is more comfortable for them, especially in low-light environments or for those who prefer darker interfaces.
 
   </details>
@@ -222,6 +222,10 @@ There are four media query breakpoints used: 425px, 768px, 992px, 1200px. This c
 ### Design
 
 ## UX
+
+<details>
+<summary>User Experience</summary>
+<br>
 
 ### Five Planes of User Experience
 
@@ -249,6 +253,12 @@ Please refer to the [Wireframes](#wireframes) section.
 
 [View the live site here.](https://klsoundarya.github.io/Tales-from-South-India/)
 
+</details>
+
+<details>
+<summary>Design Overview</summary>
+<br>
+
 #### Typography
 
 The font used in the logo is Lemonada-It has a friendly and unique look, which can make the logo stand out, and for all headings the font is Oldenburg-It is decorative and adds a touch of elegance to the headings, making them more visually appealing. The font that is used in text is Georgia-It is a classic serif font that is easy to read, providing a comfortable reading experience for your website visitors. Used a fallback serif font to ensure that even if the custom fonts fail to load, the overall design and readability of the website are maintained.
@@ -263,6 +273,8 @@ The nav logo and background video for the Thankyou section page was sourced from
 The color scheme chosen for this website consists of a harmonious color scheme that uses earthy tones like #3e6545 and accent colors like #ffd700 and #bece0c, creating a warm and inviting visual experience.
 
 ![colors used](readme-documents/features/main-colors-used.PNG)
+
+</details>
 
 ## Testing
 
