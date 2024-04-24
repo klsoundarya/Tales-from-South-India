@@ -283,9 +283,9 @@ The color scheme chosen for this website consists of a harmonious color scheme t
 
 - Tales from South India website is tested and verified with no issues in different browsers:
   
-  - Google Chrome
-  - Mozilla Firefox
-  - Microsoft Edge
+  - [Google Chrome](https://www.google.com/intl/en_in/chrome/)
+  - [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/)
+  - [Microsoft Edge](https://www.microsoft.com/en-us/edge/welcome?form=MA13FJ)
 
 - Tales from South India website is tested and verified that my website is responsive in various screen devices by using Google chrome web developer tools
   
