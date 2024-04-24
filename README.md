@@ -98,3 +98,126 @@ I have used [Canva](https://www.canva.com/) to design my website wireframes for 
 ![Laptop and desktop Wireframes](readme/wireframes/home-about-page.PNG)
 ![Laptop and desktop Wireframes](readme/wireframes/gallery-contact_page.PNG)
 </details>
+
+## Deployment
+
+### GitHub Pages
+
+<details>
+<summary>The project was deployed to GitHub Pages using the following steps...</summary>
+<br>
+
+1. Log in to GitHub and locate [Tales-from-South-India Repository](https://github.com/klsoundarya/Tales-from-South-India)
+2. At the top of the Repository, locate the "Settings" Button on the menu.
+3. Scroll down to "GitHub Pages" Section in Settings page.
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+5. The page will automatically refresh.
+6. Scroll back down through the page to locate the now published site [link](https://klsoundarya.github.io/Tales-from-South-India/) in the "GitHub Pages" section.
+
+If using Gitpod, you can click below to create your own workspace using this repository.
+
+#### Forking
+
+By forking the GitHub Repository, we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original owner's repository.
+
+You can fork this repository by using the following steps:
+
+1. Log in to GitHub and locate the [Tales-from-South-India Repository](https://github.com/klsoundarya/Tales-from-South-India)
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3. Once clicked, you should now have a copy of the original repository in your own GitHub account!
+
+### Making a Local Clone
+
+1. Log in to GitHub and locate the [Tales-from-South-India Repository](https://github.com/klsoundarya/Tales-from-South-India)
+2. Find the Code button situated above the file list and give it a click.
+3. Choose your preferred cloning method — whether it's HTTPS, SSH, or GitHub and hit the copy button to copy the URL to your clipboard.
+4. Launch Git Bash or Terminal.
+5. Navigate to the directory where you want the cloned directory to reside.
+6. In your IDE Terminal, input the following command to clone the repository:
+
+> git clone <https://github.com/klsoundarya/Tales-from-South-India>
+
+7. Press Enter and your local clone will be created.
+
+</details>
+
+## Features
+
+<details>
+<summary>Project Features</summary>
+<br>
+
+### Existing Features
+
+- __Navigation__
+
+  - The navigation features the logo image on the left side of the nav bar on all four pages and other element links to the right of the nav bar.
+  - The links include Home, About, Gallery, and Contact with a hovering feature.
+  - The user can experience hassle-free navigation on our website with the burger toggle icon for responsive media screens and,
+  - Users can navigate through the four navigation elements - Home, About, Gallery, and Contact from page to page across all devices without having to press "back" button.
+
+There are four media query breakpoints used: 425px, 768px, 992px, 1200px. This convenient feature allows users to easily access different sections of the website, making the browsing experience smoother and more efficient. Users can Simply click on the burger icon to reveal the navigation menu and can also click the link of the pages, providing quick and intuitive access to all the important pages and sections of the website.
+
+![Nav look on phone, tablet and Laptop](readme/features/nav.PNG)
+
+- __The landing page__
+
+  - The landing page will be the first user interaction where it includes a hero banner that features a captivating image that draws users in.
+  - This is accompanied by a transparent background short text that provides a brief description of South India's highlights, enticing users to learn more.
+  - The buttons below the text offer quick access to the About and Gallery pages, encouraging users to explore more content.
+
+![landing page look on phone and Laptop](readme/features/landing-page.PNG)
+
+- __About page__
+
+  - The goal is to paint a vivid and captivating portrait of South India States, inviting readers to immerse themselves in its beauty and culture firsthand.
+  - Added a captivating visual video, to enhance the storytelling experience and give readers a glimpse of what South India has to offer.
+  - Included an interactive clickable element like maps to further engage readers and help them plan their own adventures.
+  - Added hover to the State names to make the state names highlighted.
+
+![about page look on phone and Laptop](readme/features/about-page.PNG)
+
+- __Gallery page__
+
+  - The page features stunning images of tourist destinations in South India, including Telangana, Andhra Pradesh, Tamil Nadu, Kerala, and Karnataka.
+  - The images are neatly organized under each state, making it easy for visitors to browse through the different destinations.
+  - Each image is accompanied by a name description, providing context and enhancing the viewer's experience.
+
+![gallery page look on phone & laptop](readme/features/gallery-page.PNG)
+
+- __Contact page__
+
+  - The purpose of a contact page is to provide readers with a way to easily get in touch with the me.
+  - It serves as a communication gateway, allowing readers to ask questions, provide feedback, report issues, or engage in further discussions related to the website.
+  - The form is created by keeping user in mind by enhancing user experience by making it convenient for readers to reach out, ultimately fostering a stronger connection between the website and its audience.
+  - The form includes clear labels for each input field, making it easy for users to understand what information is required.
+  - The rating buttons allow users to easily rate my work, providing valuable feedback and suggestions.
+  - The form prominently displays a "Submit" button, encouraging users to send their message or feedback easily.
+
+![contact page look on phone & laptop](readme/features/contact-page.PNG)
+
+- __Thank-You page__
+
+  - Added a fullscreen video background that adds a dynamic and engaging element to the page, making it visually appealing.
+  - The layout appears to be responsive, adjusting appropriately to different screen sizes for a consistent user experience.
+  - The thank you message is clear and prominently displayed, letting users know that their submission was successful.
+
+![thankyou page look on phone & laptop](readme/features/thankyou-page.PNG)
+
+- __Footer__
+
+  - Have included links to Facebook, YouTube, Instagram, and LinkedIn pages making it easy for visitors to connect on various social media platforms.
+  - It also has a link to a map, that allows visitors to explore the locations talking about more easily.
+  - The thank you message is clear and prominently displayed, letting users know that their submission was successful.
+
+![footer page look on phone & laptop](readme/features/footer.PNG)
+
+## Features to Implement
+
+- I will Integrate maps to showcase tourist spots, hotels, and transport availabilities.
+  - Will add an calendar of local events and festivals for travelers to take an experience of cultural experience in south india.
+  - Develop detailed travel guides for each state, covering attractions, culture, cuisine, and tips.
+  - I will Expand the content with engaging blogs, images and articles sharing travel stories and tips.
+  - Will add a dark mode toggle in the future to allow users to switch between a light and dark color scheme. This feature gives users the option to choose the mode that is more comfortable for them, especially in low-light environments or for those who prefer darker interfaces.
+
+  </details>
