@@ -221,3 +221,61 @@ There are four media query breakpoints used: 425px, 768px, 992px, 1200px. This c
   - Will add a dark mode toggle in the future to allow users to switch between a light and dark color scheme. This feature gives users the option to choose the mode that is more comfortable for them, especially in low-light environments or for those who prefer darker interfaces.
 
   </details>
+
+### Design
+
+## UX
+
+<details>
+<summary>User Experience</summary>
+<br>
+
+### Five Planes of User Experience
+
+The five planes are like layers that designers think about when making things for people to use. It starts with big ideas and end with the actual look and feel of what users interact with.
+
+#### The Strategy Plane
+
+The strategy reason for my website is to create a platform that showcases the unique culture, heritage, and tourist attractions of South India. It aims to provide a valuable resource for travelers who want to explore the beauty and diversity of South India, offering them insights, tips, and information to plan their trips effectively. The website also seeks to engage with its audience through storytelling and interactive elements, fostering a sense of connection and community among those who share a love for travel and exploration.
+
+#### The Scope Plane
+
+Based on the Strategy Plane, the scope of my website includes the topics, regions, and aspects of South India that will be covered, as well as the specific features and functionalities that will be implemented, such as interactive maps, travel guides, and cultural insights. It helps ensure that the project stays focused and on track, avoiding unnecessary complexity or scope creep.
+
+#### The Structure Plane
+
+After the Scope Plane were decided then its time to create a structure for my website. It includes the layout of pages, navigation menus, and the overall of information. My website may have a homepage with a hero banner and buttons leading to other sections like About, Gallery, and Contact. Each of these sections would then have its own layout and content, creating a easy-to-navigate structure for users.
+
+![structure design](readme/features/structure-design.PNG)
+
+#### The Skeleton Plane
+
+Please refer to the [Wireframes](#wireframes) section.
+
+#### The Surface Plane
+
+[View the live site here.](https://klsoundarya.github.io/Tales-from-South-India/)
+
+</details>
+
+<details>
+<summary>Design Overview</summary>
+<br>
+
+#### Typography
+
+The font used in the logo is Lemonada-It has a friendly and unique look, which can make the logo stand out, and for all headings the font is Oldenburg-It is decorative and adds a touch of elegance to the headings, making them more visually appealing. The font that is used in text is Georgia-It is a classic serif font that is easy to read, providing a comfortable reading experience for your website visitors. Used a fallback serif font to ensure that even if the custom fonts fail to load, the overall design and readability of the website are maintained.
+
+#### Gallery
+<!-- used shorten link to incorporate the Google link (https://tinyurl.com/app) -->
+The images featured on the Home and gallery page is sourced from various websites and google images, [Tamilnadu Tourism](https://www.tamilnadutourism.tn.gov.in/destinations/pykara-ooty), [Travel Triangle](https://traveltriangle.com/blog/tourist-places-in-south-india-during-summer/), [Indian Holiday](https://www.indianholiday.com/blog/tourist-places-in-south-india/), and [Google](https://tinyurl.com/55mv3mfw).
+The nav logo and background video for the Thankyou section page was sourced from [Canva](https://www.canva.com/).
+
+#### Color Scheme
+
+The color scheme chosen for this website consists of a harmonious color scheme that uses earthy tones like #3e6545 and accent colors like #ffd700 and #bece0c, creating a warm and inviting visual experience.
+
+![Primary colors used](readme/features/primary-colors-used.PNG)
+
+</details>
+
