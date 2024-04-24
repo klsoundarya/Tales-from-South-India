@@ -94,7 +94,7 @@ I have used [Canva](https://www.canva.com/) to design my website wireframes for 
 <br>
 
 ![Laptop Wireframes](readme-documents/wireframes/home-about-page.PNG)
-![Laptop Wireframes](readme-documents/wireframes/gallery-contact_page.PNG)
+![Laptop Wireframes](readme-documents/wireframes/gallery-contact-page.PNG)
 </details>
 
 ## Deployment
@@ -136,6 +136,7 @@ You can fork this repository by using the following steps:
 > git clone <https://github.com/klsoundarya/Tales-from-South-India>
 
 7. Press Enter and your local clone will be created.
+
 </details>
 
 ## Features
@@ -155,9 +156,9 @@ You can fork this repository by using the following steps:
 
 There are four media query breakpoints used: 425px, 768px, 992px, 1200px. This convenient feature allows users to easily access different sections of the website, making the browsing experience smoother and more efficient. Users can Simply click on the burger icon to reveal the navigation menu and can also click the link of the pages, providing quick and intuitive access to all the important pages and sections of the website.
 
-![Tales from South India-website Nav look on phone & Laptop](readme-documents/features/laptop-phone-nav.PNG)
+![Tales from South India-website Nav look on phone & Laptop](readme-documents/features/Laptop-phone-nav.PNG)
 
-- __The landing page__
+<!-- - __The landing page__
 
   - The landing page will be the first user interaction where it includes a hero banner that features a captivating image that draws users in.
   - This is accompanied by a transparent background short text that provides a brief description of South India's highlights, enticing users to learn more.
@@ -265,23 +266,23 @@ The font used in the logo is Lemonada-It has a friendly and unique look, which c
 
 #### Gallery
 <!-- used shorten link to incorporate the Google link (https://tinyurl.com/app) -->
-The images featured on the Home and gallery page is sourced from various websites and google images, [Tamilnadu Tourism](https://www.tamilnadutourism.tn.gov.in/destinations/pykara-ooty), [Travel Triangle](https://traveltriangle.com/blog/tourist-places-in-south-india-during-summer/), [Indian Holiday](https://www.indianholiday.com/blog/tourist-places-in-south-india/), and [Google](https://tinyurl.com/55mv3mfw).
-The nav logo and background video for the Thankyou section page was sourced from [Canva](https://www.canva.com/).
+<!-- The images featured on the Home and gallery page is sourced from various websites and google images, [Tamilnadu Tourism](https://www.tamilnadutourism.tn.gov.in/destinations/pykara-ooty), [Travel Triangle](https://traveltriangle.com/blog/tourist-places-in-south-india-during-summer/), [Indian Holiday](https://www.indianholiday.com/blog/tourist-places-in-south-india/), and [Google](https://tinyurl.com/55mv3mfw).
+The nav logo and background video for the Thankyou section page was sourced from [Canva](https://www.canva.com/). -->
 
 #### Color Scheme
 
-The color scheme chosen for this website consists of a harmonious color scheme that uses earthy tones like #3e6545 and accent colors like #ffd700 and #bece0c, creating a warm and inviting visual experience.
+<!-- The color scheme chosen for this website consists of a harmonious color scheme that uses earthy tones like #3e6545 and accent colors like #ffd700 and #bece0c, creating a warm and inviting visual experience.
 
-![colors used](readme-documents/features/main-colors-used.PNG)
+![colors used](readme-documents/features/main-colors-used.PNG) -->
 
-</details>
+<!-- </details> -->
 
-## Testing
+<!-- ## Testing
 
-### Manual Testing
+### Manual Testing -->
 
 <!-- Created Table from Table generator -->
-<details>
+<!-- <details>
 <summary>User Testing</summary>
 <br>
 
@@ -328,9 +329,9 @@ CSS stylesheet have passed through the [W3 CSS Validator](https://jigsaw.w3.org/
 
 - ![CSS stylesheet passed through the CSS validator](readme-documents/testing-validators/css-validator.PNG)
 
-</details>
+</details> -->
 
-### Bugs
+<!-- ### Bugs
 
 <details>
 <summary>Bugs Fixed</summary>
@@ -381,8 +382,8 @@ The following technologies were used in this overall project.
 - I want to express my gratitude to several individuals and groups who supported me throughout this project, My Code Institute mentor, [Dick Vlaanderen](https://github.com/dickvla), for his invaluable support, encouragement, and feedback throughout this project.
 - I would like to thank my Cohort Facilitator, [Amy](https://github.com/amylour), for her guidance, providing us with the relevant learning materials, and steering our team in the right direction that kept me going forward without having a self doubt and
 - The [Code Institute](https://codeinstitute.net) tutor team for their prompt responses and assistance in resolving GitPod issues.
-- I personally want to thank my partner, family and my two friends for unwavering support, belief, and feedback, which helped me transition into software development. They also helped me by conducting user testing and providing me with their feedback so that I can fix the bugs and improve my website.
+- I personally want to thank my partner, family and my two friends for unwavering support, belief, and feedback, which helped me transition into software development. They also helped me by conducting user testing and providing me with their feedback so that I can fix the bugs and improve my website. -->
 
-#### Git Commit Mistakes-
+<!-- #### Git Commit Mistakes-
 
-After receiving guidance from my mentor [Dick Vlaanderen](https://github.com/dickvla) during a recent call, I have implemented improvements in the way I compose Git commit messages. Previously, I had inadvertently made spelling errors and used incorrect syntax in my messages. However, following our discussion, I have begun adhering to proper conventions for Git commit messages. This adjustment not only enhances the clarity and professionalism of my contributions but also ensures consistency within our collaborative development environment.
+After receiving guidance from my mentor [Dick Vlaanderen](https://github.com/dickvla) during a recent call, I have implemented improvements in the way I compose Git commit messages. Previously, I had inadvertently made spelling errors and used incorrect syntax in my messages. However, following our discussion, I have begun adhering to proper conventions for Git commit messages. This adjustment not only enhances the clarity and professionalism of my contributions but also ensures consistency within our collaborative development environment. --> -->
