@@ -7,7 +7,7 @@ The beauty of the southern region of India is not just in its landscapes and arc
 GitHub Profile: <https://github.com/klsoundarya/Tales-from-South-India>
 Deployed Site: <https://klsoundarya.github.io/Tales-from-South-India/>
 
-![Tales from South India-website look on various screen sizes](readme-documents/am-i-responsive/responsive-screens.PNG)
+![Am I Responsive](readme/am-i-responsive/responsive-screens.PNG)
 
 ## Table of contents
 
@@ -40,11 +40,13 @@ Deployed Site: <https://klsoundarya.github.io/Tales-from-South-India/>
     - [Unfixed Bugs](#unfixed-bugs)
 - [Credits](#credits)
   - [Tools & Technologies Used](#tools--technologies-used)
-  - [Acknowledgements](#acknowledgements)
+  - [Acknowledgments](#acknowledgements)
   - [Git Commit Mistakes](#git-commit-mistakes)
+
 
 ### User Stories
 <!-- Read few README documents of previous batches to understand user stories and wrote accordingly -->
+
 #### First time User Goals
 
 - As a user, I want to learn about the culture, history, and tourist attractions of South India through the website.
@@ -72,7 +74,7 @@ Deployed Site: <https://klsoundarya.github.io/Tales-from-South-India/>
 
 The tales-from-South-India website is for people who love to travel and want to explore unique experiences, history, culture, and nature in South India. It is to captivate individuals who appreciate storytelling that brings a destination to life, drawing them to explore the vibrant beauty of South India's landscapes, history, and culture through engaging narratives and insightful travel guides.
 
-The purpose of this website is to showcase the unique culture, heritage, and tourist attractions of South India in an effective and informative way. View the live site [here](https://klsoundarya.github.io/Tales-from-South-India/).
+The purpose of this website is to showcase the unique culture, heritage, and tourist attractions of South India in an effective and informative way.
 
 ### Wireframes
 
@@ -80,11 +82,12 @@ I have used [Canva](https://www.canva.com/) to design my website wireframes for 
 
 ### Mobile Wireframes
 <!-- learnt the dropdown from https://dev.to/asyraf/how-to-add-dropdown-in-markdown-o78 -->
+
 <details>
 <summary>Mobile Wireframes</summary>
 <br>
 
-![phone wireframes](readme-documents/wireframes/phone-wireframes.PNG)
+![phone wireframes](readme/wireframes/phone-wireframes.PNG)
 </details>
 
 ### Laptop & Desktop Wireframes
@@ -93,8 +96,8 @@ I have used [Canva](https://www.canva.com/) to design my website wireframes for 
 <summary>Laptop & Desktop Wireframes</summary>
 <br>
 
-![Laptop Wireframes](readme-documents/wireframes/home-about-page.PNG)
-![Laptop Wireframes](readme-documents/wireframes/gallery-contact_page.PNG)
+![Laptop and desktop Wireframes](readme/wireframes/home-about-page.PNG)
+![Laptop and desktop Wireframes](readme/wireframes/gallery-contact_page.PNG)
 </details>
 
 ## Deployment
@@ -135,7 +138,8 @@ You can fork this repository by using the following steps:
 
 > git clone <https://github.com/klsoundarya/Tales-from-South-India>
 
-7. Press Enter and your local clone will be created.
+__Press Enter and your local clone will be created.__
+
 </details>
 
 ## Features
@@ -155,7 +159,7 @@ You can fork this repository by using the following steps:
 
 There are four media query breakpoints used: 425px, 768px, 992px, 1200px. This convenient feature allows users to easily access different sections of the website, making the browsing experience smoother and more efficient. Users can Simply click on the burger icon to reveal the navigation menu and can also click the link of the pages, providing quick and intuitive access to all the important pages and sections of the website.
 
-![Tales from South India-website Nav look on phone & Laptop](readme-documents/features/laptop-phone-nav.PNG)
+![Nav look on phone, tablet and Laptop](readme/features/nav.PNG)
 
 - __The landing page__
 
@@ -163,7 +167,7 @@ There are four media query breakpoints used: 425px, 768px, 992px, 1200px. This c
   - This is accompanied by a transparent background short text that provides a brief description of South India's highlights, enticing users to learn more.
   - The buttons below the text offer quick access to the About and Gallery pages, encouraging users to explore more content.
 
-![Tales from South India-website landing page look on phone & laptop](readme-documents/features/laptop-phone-landing-page.PNG)
+![landing page look on phone and Laptop](readme/features/landing-page.PNG)
 
 - __About page__
 
@@ -172,7 +176,7 @@ There are four media query breakpoints used: 425px, 768px, 992px, 1200px. This c
   - Included an interactive clickable element like maps to further engage readers and help them plan their own adventures.
   - Added hover to the State names to make the state names highlighted.
 
-![Tales from South India-website About page look on phone & laptop](readme-documents/features/about-page.PNG)
+![about page look on phone and Laptop](readme/features/about-page.PNG)
 
 - __Gallery page__
 
@@ -180,7 +184,7 @@ There are four media query breakpoints used: 425px, 768px, 992px, 1200px. This c
   - The images are neatly organized under each state, making it easy for visitors to browse through the different destinations.
   - Each image is accompanied by a name description, providing context and enhancing the viewer's experience.
 
-![Tales from South India-website gallery page look on phone & laptop](readme-documents/features/laptop-phone-gallery-page.PNG)
+![gallery page look on phone & laptop](readme/features/gallery-page.PNG)
 
 - __Contact page__
 
@@ -191,7 +195,7 @@ There are four media query breakpoints used: 425px, 768px, 992px, 1200px. This c
   - The rating buttons allow users to easily rate my work, providing valuable feedback and suggestions.
   - The form prominently displays a "Submit" button, encouraging users to send their message or feedback easily.
 
-![Tales from South India-website contact page look on phone & laptop](readme-documents/features/laptop-phone-contact-page.PNG)
+![contact page look on phone & laptop](readme/features/contact-page.PNG)
 
 - __Thank-You page__
 
@@ -199,7 +203,7 @@ There are four media query breakpoints used: 425px, 768px, 992px, 1200px. This c
   - The layout appears to be responsive, adjusting appropriately to different screen sizes for a consistent user experience.
   - The thank you message is clear and prominently displayed, letting users know that their submission was successful.
 
-![Tales from South India-website thankyou page look on phone, Galaxy-fold & laptop](readme-documents/features/laptop-phone-thankyou-page.PNG)
+![thankyou page look on phone & laptop](readme/features/thankyou-page.PNG)
 
 - __Footer__
 
@@ -207,7 +211,7 @@ There are four media query breakpoints used: 425px, 768px, 992px, 1200px. This c
   - It also has a link to a map, that allows visitors to explore the locations talking about more easily.
   - The thank you message is clear and prominently displayed, letting users know that their submission was successful.
 
-![Tales from South India-website Footer look on phone & laptop](readme-documents/features/laptop-phone-footer.PNG)
+![footer page look on phone & laptop](readme/features/footer.PNG)
 
 ## Features to Implement
 
@@ -243,7 +247,7 @@ Based on the Strategy Plane, the scope of my website includes the topics, region
 
 After the Scope Plane were decided then its time to create a structure for my website. It includes the layout of pages, navigation menus, and the overall of information. My website may have a homepage with a hero banner and buttons leading to other sections like About, Gallery, and Contact. Each of these sections would then have its own layout and content, creating a easy-to-navigate structure for users.
 
-![structure-plane](readme-documents/features/structure-plane.PNG)
+![structure design](readme/features/structure-design.PNG)
 
 #### The Skeleton Plane
 
@@ -272,7 +276,7 @@ The nav logo and background video for the Thankyou section page was sourced from
 
 The color scheme chosen for this website consists of a harmonious color scheme that uses earthy tones like #3e6545 and accent colors like #ffd700 and #bece0c, creating a warm and inviting visual experience.
 
-![colors used](readme-documents/features/main-colors-used.PNG)
+![Primary colors used](readme/features/primary-colors-used.PNG)
 
 </details>
 
@@ -287,11 +291,11 @@ The color scheme chosen for this website consists of a harmonious color scheme t
 
 | Page     | Action                                                                                | Expected Behavior                                                              | Pass/Fail  |
 |--------- |-------------------------------------------------------------------------------------- |------------------------------------------------------------------------------- |----------- |
-| Home     | ![index](readme-documents/testing-validators/index-page-manual-testing.PNG)           | After conducting manual testing, it has been verified that the home page displays a banner with a short text and two buttons for "About" and "Gallery." These buttons correctly link to the respective pages (about.html and `gallery.html) and open them when clicked. The layout, styling, and content of the banner are as expected, providing a positive user experience. | Pass       |
-| About    | ![about](readme-documents/testing-validators/about-page-manual-testing.PNG)           | When a user clicks on the "About" button from index page or from nav bar section, it will be directed to the "about.html" page, where it contains information about the tourists places to see in South India and a map that links all the states. The page functions correctly and it will provide a seamless user experience across different devices and browsers. | Pass       |
-| Gallery  | ![gallery](readme-documents/testing-validators/gallery-page-manual-testing.PNG)       | Similarly, when a user clicks on the "Gallery" button, it will be directed to the "gallery.html" page, which showcases a collection of images related to South India. The page functions correctly as expected| Pass       |
-| Contact  | ![contact](readme-documents/testing-validators/contact-form-page-manual-testing.PNG)  | The contact page contains a form that requires users to fill in their first name, last name, and email address. These fields are mandatory, and the form cannot be submitted unless they are filled. After submission, users are redirected to a thank you page, and all input areas work smoothly. | Pass       |
-| Footer   | ![footer](readme-documents/testing-validators/footer-links.png)                       | When a user clicks on any of the social media icons (Facebook, Instagram, LinkedIn, YouTube) or the map icon, each link opens in a new tab and functions correctly, providing users with seamless access to the respective platforms.  | Pass       |
+| Home     | ![index](readme/testing-validators/index-page.PNG)           | After conducting manual testing, it has been verified that the home page displays a banner with a short text and two buttons for "About" and "Gallery." These buttons correctly link to the respective pages (about.html and `gallery.html) and open them when clicked. The layout, styling, and content of the banner are as expected, providing a positive user experience. | Pass       |
+| About    | ![about](readme/testing-validators/about-page.PNG)           | When a user clicks on the "About" button from index page or from nav bar section, it will be directed to the "about.html" page, where it contains information about the tourists places to see in South India and a map that links all the states. The page functions correctly and it will provide a seamless user experience across different devices and browsers. | Pass       |
+| Gallery  | ![gallery](readme/testing-validators/gallery-page.PNG)       | Similarly, when a user clicks on the "Gallery" button, it will be directed to the "gallery.html" page, which showcases a collection of images related to South India. The page functions correctly as expected| Pass       |
+| Contact  | ![contact](readme/testing-validators/contact-form-page.PNG)  | The contact page contains a form that requires users to fill in their first name, last name, and email address. These fields are mandatory, and the form cannot be submitted unless they are filled. After submission, users are redirected to a thank you page, and all input areas work smoothly. | Pass       |
+| Footer   | ![footer](readme/testing-validators/footer-links.png)                       | When a user clicks on any of the social media icons (Facebook, Instagram, LinkedIn, YouTube) or the map icon, each link opens in a new tab and functions correctly, providing users with seamless access to the respective platforms.  | Pass       |
 
 - Tales from South India website is tested and verified with no issues in different browsers:
   
@@ -310,23 +314,23 @@ The color scheme chosen for this website consists of a harmonious color scheme t
 
 All pages passed through the Lighthouse test
 
-- [Lighthouse test for Home Page](readme-documents/testing-validators/lighthouse-test-home-page.PNG)
-- [Lighthouse test for About Page](readme-documents/testing-validators/lighthouse-test-about-page.PNG)
-- [Lighthouse test for Gallery Page](readme-documents/testing-validators/lighthouse-test-gallery-page.PNG)
-- [Lighthouse test for Contact Page](readme-documents/testing-validators/lighthouse-test-contact-page.PNG)
-- [Lighthouse test for thankyou Page](readme-documents/testing-validators/lighthouse-test-thankyou-page.PNG)
+- [Lighthouse test for Home Page](readme/testing-validators/lighthouse-test-home-page.PNG)
+- [Lighthouse test for About Page](readme/testing-validators/lighthouse-test-about-page.PNG)
+- [Lighthouse test for Gallery Page](readme/testing-validators/lighthouse-test-gallery-page.PNG)
+- [Lighthouse test for Contact Page](readme/testing-validators/lighthouse-test-contact-page.PNG)
+- [Lighthouse test for thankyou Page](readme/testing-validators/lighthouse-test-thankyou-page.PNG)
 
 ### HTML
 
 All pages have passed through the [W3 Markup HTML Validator](https://validator.w3.org/)
 
-- ![All pages passed through the HTML validator](readme-documents/testing-validators/all-html-pages.png)
+- ![All pages passed through the HTML validator](readme/testing-validators/all-html-pages.png)
 
 ### CSS
 
 CSS stylesheet have passed through the [W3 CSS Validator](https://jigsaw.w3.org/css-validator/)
 
-- ![CSS stylesheet passed through the CSS validator](readme-documents/testing-validators/css-validator.PNG)
+- ![CSS stylesheet passed through the CSS validator](readme/testing-validators/css-validator.PNG)
 
 </details>
 
@@ -338,12 +342,12 @@ CSS stylesheet have passed through the [W3 CSS Validator](https://jigsaw.w3.org/
 
 | No.  | Bugs                                                                         | Solution                                                                                                                                                                                                                                               | Notes          |
 |----- |----------------------------------------------------------------------------- |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |--------------- |
-| 1    | ![Bug 1](readme-documents/errors/burger-icon-issue.PNG)                      | The burger icon should properly be aligned with the logo in nav, but it is postioned wrongly. I I have adjusted the toggle by applying margins and padding to ensure they are evenly aligned with the logo.                                            | Fixed the Bug  |
-| 2    | ![Bug 2](readme-documents/errors/buttons-too-close.PNG)                      | The buttons in the homepage text were too close to each other, which shouldn't be. I I adjusted them by using display: inline-block and also by applying margins and padding to ensure they are evenly distributed within the transparent background.  | Fixed the Bug  |
-| 3    | ![Bug 3](readme-documents/errors/css-error.PNG)                              | The number should have a unit after it. I have entered the unit px after the number.                                                                                                                                                                   | Fixed the Bug  |
-| 4    | ![Bug 4](readme-documents/errors/error405-when-submitting-contact-form.PNG)  | After form submission, it should redirect to the thank you message page, but it was showing a 405 error. I fixed the bug by removing the POST method and setting the action file to thankyou.html.                                                     | Fixed the Bug  |
-| 5    | ![Bug 5](readme-documents/errors/hero-banner-errors.PNG)                     | When a user clicks on any of the social media icons (Facebook, Instagram, LinkedIn, YouTube) or the map icon, each link opens in a new tab and functions correctly, providing users with seamless access to the respective platforms.                  | Fixed the Bug  |
-| 6    | ![Bug 6](readme-documents/errors/videoborder-content-close.PNG)              | The video border and the text content below it were too close together, lacking a gap between them. I resolved this issue by adding a specific value to the padding and margin.                                                                        | Fixed the Bug  |
+| 1    | ![Bug 1](readme/bugs/burger-icon-issue.PNG)                      | The burger icon should properly be aligned with the logo in nav, but it is postioned wrongly. I I have adjusted the toggle by applying margins and padding to ensure they are evenly aligned with the logo.                                            | Fixed the Bug  |
+| 2    | ![Bug 2](readme/bugs/buttons-too-close.PNG)                      | The buttons in the homepage text were too close to each other, which shouldn't be. I I adjusted them by using display: inline-block and also by applying margins and padding to ensure they are evenly distributed within the transparent background.  | Fixed the Bug  |
+| 3    | ![Bug 3](readme/bugs/css-error.PNG)                              | The number should have a unit after it. I have entered the unit px after the number.                                                                                                                                                                   | Fixed the Bug  |
+| 4    | ![Bug 4](readme/bugs/error405-when-submitting-contact-form.PNG)  | After form submission, it should redirect to the thank you message page, but it was showing a 405 error. I fixed the bug by removing the POST method that i added and setting the action file to thankyou.html.                                                     | Fixed the Bug  |
+| 5    | ![Bug 5](readme/bugs/hero-banner-errors.PNG)                     | The banner image and the transparent is out of the place. I have fixed this bug by keeping height as 100vh and gave padding and margin to keep the tranparent text image to the centre.                 | Fixed the Bug  |
+| 6    | ![Bug 6](readme/bugs/videoborder-content-close.PNG)              | The video border and the text content below it were too close together, lacking a gap between them. I resolved this issue by adding a specific value to the padding and margin.                                                                        | Fixed the Bug  |
 
 ### Unfixed Bugs
 
@@ -376,13 +380,13 @@ The following technologies were used in this overall project.
 - [GitHub Pages](https://pages.github.com) used for hosting the deployed front-end site.
 - [Git](https://git-scm.com/) was used for version control by utilizing the command line terminal in VS code and GitPod to commit and Push to GitHub.
 
-### Acknowledgements-
+### Acknowledgements
 
 - I want to express my gratitude to several individuals and groups who supported me throughout this project, My Code Institute mentor, [Dick Vlaanderen](https://github.com/dickvla), for his invaluable support, encouragement, and feedback throughout this project.
 - I would like to thank my Cohort Facilitator, [Amy](https://github.com/amylour), for her guidance, providing us with the relevant learning materials, and steering our team in the right direction that kept me going forward without having a self doubt and
 - The [Code Institute](https://codeinstitute.net) tutor team for their prompt responses and assistance in resolving GitPod issues.
 - I personally want to thank my partner, family and my two friends for unwavering support, belief, and feedback, which helped me transition into software development. They also helped me by conducting user testing and providing me with their feedback so that I can fix the bugs and improve my website.
 
-#### Git Commit Mistakes-
+### Git Commit Mistakes
 
 After receiving guidance from my mentor [Dick Vlaanderen](https://github.com/dickvla) during a recent call, I have implemented improvements in the way I compose Git commit messages. Previously, I had inadvertently made spelling errors and used incorrect syntax in my messages. However, following our discussion, I have begun adhering to proper conventions for Git commit messages. This adjustment not only enhances the clarity and professionalism of my contributions but also ensures consistency within our collaborative development environment.
