@@ -1,7 +1,5 @@
 # Tales from South India
 
-## Introduction
-
 South India is in the southern region of India, known for its diverse landscapes, rich cultural heritage, and vibrant traditions. It comprises Kerala, Tamil Nadu, Karnataka, Telangana, and Andhra Pradesh states, along with the union territories of Puducherry and Lakshadweep, and offers a unique mix of history, spirituality, and natural beauty.
 
 The beauty of the southern region of India is not just in its landscapes and architecture, but also in its people and their warm hospitality. The people of South India offers a truly unforgettable experience by making it a welcoming destination for travelers from around the world welcoming with open arms and treated to delicious cuisine.
@@ -13,7 +11,6 @@ Deployed Site: <https://klsoundarya.github.io/Tales-from-South-India/>
 
 ## Table of contents
 
-- [Introduction](#introduction)
 - [User Stories](#user-stories)
   - [First Time User Goals](#first-time-user-goals)
   - [Returning Site Users](#returning-site-users)
@@ -85,6 +82,7 @@ I have used [Canva](https://www.canva.com/) to design my website wireframes for 
 <details>
 <summary>Mobile Wireframes</summary>
 <br>
+
 ![phone wireframes](readme-documents/wireframes/Phone_wireframes.PNG)
 </details>
 
@@ -93,6 +91,7 @@ I have used [Canva](https://www.canva.com/) to design my website wireframes for 
 <details>
 <summary>Laptop & Desktop Wireframes</summary>
 <br>
+
 ![Laptop Wireframes](readme-documents/wireframes/home_about_page.PNG)
 ![Laptop Wireframes](readme-documents/wireframes/gallery_contact_page.PNG)
 </details>
@@ -104,6 +103,7 @@ I have used [Canva](https://www.canva.com/) to design my website wireframes for 
 <details>
 <summary>The project was deployed to GitHub Pages using the following steps...</summary>
 <br>
+
 1. Log in to GitHub and locate [Tales-from-South-India Repository](https://github.com/klsoundarya/Tales-from-South-India)
 2. At the top of the Repository, locate the "Settings" Button on the menu.
 3. Scroll down to "GitHub Pages" Section in Settings page.
@@ -216,6 +216,10 @@ There are four media query breakpoints used: 425px, 768px, 992px, 1200px. This c
 
 ## UX
 
+<details>
+<summary>User Experience</summary>
+<br>
+
 ### Five Planes of User Experience
 
 The five planes are like layers that designers think about when making things for people to use. It starts with big ideas and end with the actual look and feel of what users interact with.
@@ -256,12 +260,16 @@ The nav logo and background video for the Thankyou section page was sourced from
 The color scheme chosen for this website consists of a harmonious color scheme that uses earthy tones like #3e6545 and accent colors like #ffd700 and #bece0c, creating a warm and inviting visual experience.
 
 ![colors used](readme-documents/Features/Main-colors-used.PNG)
+</details>
 
 ## Testing
 
 ### Manual Testing
 
 <!-- Created Table from Table generator -->
+<details>
+<summary>User Testing</summary>
+<br>
 
 | Page     | Action                                                                                | Expected Behavior                                                              | Pass/Fail  |
 |--------- |-------------------------------------------------------------------------------------- |------------------------------------------------------------------------------- |----------- |
@@ -270,6 +278,7 @@ The color scheme chosen for this website consists of a harmonious color scheme t
 | Gallery  | ![gallery](readme-documents/testing-validators/Gallery-page-manual-testing.PNG)       | Similarly, when a user clicks on the "Gallery" button, it will be directed to the "gallery.html" page, which showcases a collection of images related to South India. The page functions correctly as expected| Pass       |
 | Contact  | ![contact](readme-documents/testing-validators/Contact-form-page-manual-testing.PNG)  | The contact page contains a form that requires users to fill in their first name, last name, and email address. These fields are mandatory, and the form cannot be submitted unless they are filled. After submission, users are redirected to a thank you page, and all input areas work smoothly. | Pass       |
 | Footer   | ![footer](readme-documents/testing-validators/footer-links.png)                       | When a user clicks on any of the social media icons (Facebook, Instagram, LinkedIn, YouTube) or the map icon, each link opens in a new tab and functions correctly, providing users with seamless access to the respective platforms.  | Pass       |
+</details>
 
 - Tales from South India website is tested and verified with no issues in different browsers:
   
@@ -321,7 +330,7 @@ CSS stylesheet have passed through the [W3 CSS Validator](https://jigsaw.w3.org/
 | 5    | ![Bug 5](readme-documents/Errors/Hero-banner-errors.PNG)                     | When a user clicks on any of the social media icons (Facebook, Instagram, LinkedIn, YouTube) or the map icon, each link opens in a new tab and functions correctly, providing users with seamless access to the respective platforms.                  | Fixed the Bug  |
 | 6    | ![Bug 6](readme-documents/Errors/videoborder-content-close.PNG)              | The video border and the text content below it were too close together, lacking a gap between them. I resolved this issue by adding a specific value to the padding and margin.                                                                        | Fixed the Bug  |
 
-<details>
+</details>
 
 ### Unfixed Bugs
 
@@ -345,6 +354,7 @@ The following technologies were used in this overall project.
 - [ChatGPT](https://chat.openai.com/), [Grammarly](https://app.grammarly.com/), and a [plagiarism checker](https://www.duplichecker.com/) is used to review the text and ensure there were no grammar or spelling mistakes.
 - [Learn UI Design](https://www.learnui.design/tools/accessible-color-generator.html) was used to identify primary colours, compliment and contrast color combination for the website's design.
 - I used [Canva](https://www.canva.com/) to create the navigation logo, graphics used in readme, favicon image, "Am I Responsive" design, wireframes, and background video for the Thank You section page. Additionally, I used it to resize all images to a consistent size.
+- [wikipedia](https://en.wikipedia.org/wiki/South_India) is used for content research.
 - I referred to resources such as [MDN](https://developer.mozilla.org/en-US/), [stack overflow](https://stackoverflow.com/), [W3Schools](https://www.w3schools.com/css/default.asp) for assistance in understanding code in few places and finding answers to questions relevant to my website.
 - [Visual Studio Code](https://code.visualstudio.com/) used as a remote code editor.
 - [Gitpod](https://gitpod.io) used as a cloud-based IDE for development.
