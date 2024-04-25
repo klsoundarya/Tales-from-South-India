@@ -177,10 +177,16 @@ h1 {
 }
 
 /* Main content for about page */
+
+.container {
+    margin: 0 auto;
+    width: 95%;
+  }
+
 #South-India-highpoints {
     margin-top: 60px;
     margin-bottom: 9px;
-    padding: 10px 15px 10px 9px;
+    padding: 10px 15px 10px 9px; 
     color: #0f0f0e;
     font-size: 14px;
     height: 20px;
