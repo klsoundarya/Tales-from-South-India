@@ -390,3 +390,7 @@ The following technologies were used in this overall project.
 ### Git Commit Mistakes
 
 After receiving guidance from my mentor [Dick Vlaanderen](https://github.com/dickvla) during a recent call, I have implemented improvements in the way I compose Git commit messages. Previously, I had inadvertently made spelling errors and used incorrect syntax in my messages. However, following our discussion, I have begun adhering to proper conventions for Git commit messages. This adjustment not only enhances the clarity and professionalism of my contributions but also ensures consistency within our collaborative development environment.
+
+**Disclaimer**
+
+> I created a feature branch  within the main branch specifically to address the broken image links in the README file and in contact page background image. Since these issues were impacting the functionality of my main branch project, I decided to isolate the changes in a separate branch named 'feature'. After fixing the bugs and ensuring the stability of the changes, I merged the feature branch into the main branch.
