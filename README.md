@@ -42,7 +42,7 @@ Deployed Site: <https://klsoundarya.github.io/Tales-from-South-India/>
   - [Tools & Technologies Used](#tools--technologies-used)
   - [Acknowledgments](#acknowledgements)
   - [Git Commit Mistakes](#git-commit-mistakes)
-
+  - [disclaimer](#disclaimer)
 
 ### User Stories
 <!-- Read few README documents of previous batches to understand user stories and wrote accordingly -->
@@ -348,6 +348,7 @@ CSS stylesheet have passed through the [W3 CSS Validator](https://jigsaw.w3.org/
 | 4    | ![Bug 4](readme/bugs/error405-when-submitting-contact-form.PNG)  | After form submission, it should redirect to the thank you message page, but it was showing a 405 error. I fixed the bug by removing the POST method that i added and setting the action file to thankyou.html.                                                     | Fixed the Bug  |
 | 5    | ![Bug 5](readme/bugs/hero-banner-errors.PNG)                     | The banner image and the transparent is out of the place. I have fixed this bug by keeping height as 100vh and gave padding and margin to keep the tranparent text image to the centre.                 | Fixed the Bug  |
 | 6    | ![Bug 6](readme/bugs/videoborder-content-close.PNG)              | The video border and the text content below it were too close together, lacking a gap between them. I resolved this issue by adding a specific value to the padding and margin.                                                                        | Fixed the Bug  |
+| 7   |  ![Bug 7](readme/bugs/CORS.PNG)   | Despite attempting various troubleshooting methods, the problem persists. I even switched to a new Font Awesome kit to address the CORS error, the issue persisted even when the kit was downloaded and hosted locally. Attempts to resolve the error using a CORS extension were unsuccessful. However, the server eventually resolved the issue on its own, and the icons began displaying correctly.  | partial pass  |
 
 ### Unfixed Bugs
 
@@ -391,6 +392,6 @@ The following technologies were used in this overall project.
 
 After receiving guidance from my mentor [Dick Vlaanderen](https://github.com/dickvla) during a recent call, I have implemented improvements in the way I compose Git commit messages. Previously, I had inadvertently made spelling errors and used incorrect syntax in my messages. However, following our discussion, I have begun adhering to proper conventions for Git commit messages. This adjustment not only enhances the clarity and professionalism of my contributions but also ensures consistency within our collaborative development environment.
 
-**Disclaimer**
+### Disclaimer
 
 > I created a feature branch  within the main branch specifically to address the broken image links in the README file and in contact page background image. Since these issues were impacting the functionality of my main branch project, I decided to isolate the changes in a separate branch named 'feature'. After fixing the bugs and ensuring the stability of the changes, I merged the feature branch into the main branch.
