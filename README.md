@@ -42,7 +42,7 @@ Deployed Site: <https://klsoundarya.github.io/Tales-from-South-India/>
   - [Tools & Technologies Used](#tools--technologies-used)
   - [Acknowledgments](#acknowledgements)
   - [Git Commit Mistakes](#git-commit-mistakes)
-  - [disclaimer](#disclaimer)
+  - [Disclaimer](#disclaimer)
 
 ### User Stories
 <!-- Read few README documents of previous batches to understand user stories and wrote accordingly -->
@@ -295,7 +295,7 @@ The color scheme chosen for this website consists of a harmonious color scheme t
 | About    | ![about](readme/testing-validators/about-page.PNG)           | When a user clicks on the "About" button from index page or from nav bar section, it will be directed to the "about.html" page, where it contains information about the tourists places to see in South India and a map that links all the states. The page functions correctly and it will provide a seamless user experience across different devices and browsers. | Pass       |
 | Gallery  | ![gallery](readme/testing-validators/gallery-page.PNG)       | Similarly, when a user clicks on the "Gallery" button, it will be directed to the "gallery.html" page, which showcases a collection of images related to South India. The page functions correctly as expected| Pass       |
 | Contact  | ![contact](readme/testing-validators/contact-form-page.PNG)  | The contact page contains a form that requires users to fill in their first name, last name, and email address. These fields are mandatory, and the form cannot be submitted unless they are filled. After submission, users are redirected to a thank you page, and all input areas work smoothly. | Pass       |
-| Footer   | ![footer](readme/testing-validators/footer-links.png)                       | When a user clicks on any of the social media icons (Facebook, Instagram, LinkedIn, YouTube) or the map icon, each link opens in a new tab and functions correctly, providing users with seamless access to the respective platforms.  | Pass       |
+| Footer   | ![footer](readme/testing-validators/footer-links.png)                       | When a user clicks on any of the social media icons (Facebook, Github, LinkedIn, YouTube or the map icon), each link opens in a new tab and functions correctly, providing users with seamless access to the respective platforms.  | Pass       |
 
 - Tales from South India website is tested and verified with no issues in different browsers:
   
