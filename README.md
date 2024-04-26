@@ -361,7 +361,7 @@ There are no more bugs to be fixed.
 
 The following technologies were used in this overall project.
 
-- I have used semantic [HTML](https://en.wikipedia.org/wiki/HTML5) elements like header, nav, main, body, footer, h1, p, strong, em, and a appropriately, which helps the readers to understand the technologies & structure of my content.
+- I have used semantic [HTML](https://en.wikipedia.org/wiki/HTML5) elements like <header>, <nav>, <main>, <body>, <footer>, <h1>, <p>, <strong>, <em>, and <a> appropriately, which helps the readers to understand the technologies & structure of my content.
 - Added high contrast text against the background color in many places, which improves readability for users with visual impairments.
 - Provided descriptive alt & aria label attributes for images, which is essential for users who rely on screen readers to understand the content of the images.
 - Focus [CSS](https://en.wikipedia.org/wiki/CSS) styles are applied to interactive elements like links and buttons, making it easier for keyboard users to navigate your site.
@@ -376,7 +376,7 @@ The following technologies were used in this overall project.
 - I used [Canva](https://www.canva.com/) to create the navigation logo, graphics used in readme, favicon image, "Am I Responsive" design, wireframes, and background video for the Thank You section page. Additionally, I used it to resize all images to a consistent size.
 - [wikipedia](https://en.wikipedia.org/wiki/South_India) is used for content research.
 - I referred to resources such as [MDN](https://developer.mozilla.org/en-US/), [stack overflow](https://stackoverflow.com/), [W3Schools](https://www.w3schools.com/css/default.asp) for assistance in understanding code in few places and finding answers to questions relevant to my website.
-- [TravelTriangle](https://www.youtube.com/watch?v=JY4UzICqo5U) used video from their source to my about page.
+- I used [TravelTriangle](https://www.youtube.com/watch?v=JY4UzICqo5U) video to my about page.
 - [google maps](https://www.google.com/maps) is used in the footer to show the travellers about the south indian states.
 - [Visual Studio Code](https://code.visualstudio.com/) used as a remote code editor.
 - [Gitpod](https://gitpod.io) used as a cloud-based IDE for development.
