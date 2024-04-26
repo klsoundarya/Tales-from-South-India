@@ -157,7 +157,7 @@ __Press Enter and your local clone will be created.__
   - The user can experience hassle-free navigation on our website with the burger toggle icon for responsive media screens and,
   - Users can navigate through the four navigation elements - Home, About, Gallery, and Contact from page to page across all devices without having to press "back" button.
 
-There are four media query breakpoints used: 425px, 768px, 992px, 1200px. This convenient feature allows users to easily access different sections of the website, making the browsing experience smoother and more efficient. Users can Simply click on the burger icon to reveal the navigation menu and can also click the link of the pages, providing quick and intuitive access to all the important pages and sections of the website.
+There are five media query breakpoints used: 375px, 425px, 768px, 992px, 1200px. This convenient feature allows users to easily access different sections of the website, making the browsing experience smoother and more efficient. Users can Simply click on the burger icon to reveal the navigation menu and can also click the link of the pages, providing quick and intuitive access to all the important pages and sections of the website.
 
 ![Nav look on phone, tablet and Laptop](readme/features/nav.PNG)
 
@@ -361,7 +361,7 @@ There are no more bugs to be fixed.
 
 The following technologies were used in this overall project.
 
-- I have used semantic [HTML](https://en.wikipedia.org/wiki/HTML5) elements like <header>, <nav>, <main>, <body>, <footer>, <h1>, <p>, <strong>, <em>, and <a> appropriately, which helps the readers to understand the technologies & structure of my content.
+- I have used semantic [HTML](https://en.wikipedia.org/wiki/HTML5) elements appropriately, which helps the readers to understand the technologies & structure of my content.
 - Added high contrast text against the background color in many places, which improves readability for users with visual impairments.
 - Provided descriptive alt & aria label attributes for images, which is essential for users who rely on screen readers to understand the content of the images.
 - Focus [CSS](https://en.wikipedia.org/wiki/CSS) styles are applied to interactive elements like links and buttons, making it easier for keyboard users to navigate your site.
@@ -376,8 +376,8 @@ The following technologies were used in this overall project.
 - I used [Canva](https://www.canva.com/) to create the navigation logo, graphics used in readme, favicon image, "Am I Responsive" design, wireframes, and background video for the Thank You section page. Additionally, I used it to resize all images to a consistent size.
 - [wikipedia](https://en.wikipedia.org/wiki/South_India) is used for content research.
 - I referred to resources such as [MDN](https://developer.mozilla.org/en-US/), [stack overflow](https://stackoverflow.com/), [W3Schools](https://www.w3schools.com/css/default.asp) for assistance in understanding code in few places and finding answers to questions relevant to my website.
-- I used [TravelTriangle](https://www.youtube.com/watch?v=JY4UzICqo5U) video to my about page.
-- [google maps](https://www.google.com/maps) is used in the footer to show the travellers about the south indian states.
+- I used [TravelTriangle](https://www.youtube.com/watch?v=JY4UzICqo5U) video source to my about page.
+- [google maps](https://www.google.com/maps) is linked to show the south inidan states in the footer for the travellers to plan their trip.
 - [Visual Studio Code](https://code.visualstudio.com/) used as a remote code editor.
 - [Gitpod](https://gitpod.io) used as a cloud-based IDE for development.
 - [GitHub](https://github.com) used for secure online code storage.
