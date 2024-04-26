@@ -883,14 +883,6 @@ footer {
     /* Large devices (1200px) */
     @media screen and (min-width: 1200px) {
 
-        /* breif description on South India */
-        /* #short-text {
-            width: 400px;
-            right: 500px;
-            left: 140px;
-            margin-left: 360px;
-        } */
-
         /* about page styling */
         hr {
             display: none;
