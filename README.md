@@ -367,6 +367,7 @@ The following technologies were used in this overall project.
 - Focus [CSS](https://en.wikipedia.org/wiki/CSS) styles are applied to interactive elements like links and buttons, making it easier for keyboard users to navigate your site.
 - Used media queries and responsive design principles to ensure that website is accessible on a variety of devices, including mobile phones and tablets.
 - [Favicon.io](https://favicon.io/favicon-converter/) is used to create the various favicon files for my website.
+- [Font Awesome](https://fontawesome.com/) icons were used throughout my project.
 - Used [TinyPNG](https://tinypng.com/) to compress images and convert them to .webp.
 - [cloud convert](https://cloudconvert.com/png-to-webp) was used to for the gallery images to convert from PNG to webp.
 - I utilized Font Joy and Google Fonts for font pairing and to visualize the look and feel of my website.
@@ -375,11 +376,14 @@ The following technologies were used in this overall project.
 - I used [Canva](https://www.canva.com/) to create the navigation logo, graphics used in readme, favicon image, "Am I Responsive" design, wireframes, and background video for the Thank You section page. Additionally, I used it to resize all images to a consistent size.
 - [wikipedia](https://en.wikipedia.org/wiki/South_India) is used for content research.
 - I referred to resources such as [MDN](https://developer.mozilla.org/en-US/), [stack overflow](https://stackoverflow.com/), [W3Schools](https://www.w3schools.com/css/default.asp) for assistance in understanding code in few places and finding answers to questions relevant to my website.
+- [TravelTriangle](https://www.youtube.com/watch?v=JY4UzICqo5U) used video from their source to my about page.
+- [google maps](https://www.google.com/maps) is used in the footer to show the travellers about the south indian states.
 - [Visual Studio Code](https://code.visualstudio.com/) used as a remote code editor.
 - [Gitpod](https://gitpod.io) used as a cloud-based IDE for development.
 - [GitHub](https://github.com) used for secure online code storage.
 - [GitHub Pages](https://pages.github.com) used for hosting the deployed front-end site.
 - [Git](https://git-scm.com/) was used for version control by utilizing the command line terminal in VS code and GitPod to commit and Push to GitHub.
+- My project is inspired from [code institute](https://learn.codeinstitute.net/) Love Running Walkthrough Project.
 
 ### Acknowledgements
 
