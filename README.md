@@ -4,8 +4,8 @@ South India is in the southern region of India, known for its diverse landscapes
 
 The beauty of the southern region of India is not just in its landscapes and architecture, but also in its people and their warm hospitality. The people of South India offers a truly unforgettable experience by making it a welcoming destination for travelers from around the world welcoming with open arms and treated to delicious cuisine.
 
-GitHub Profile: <https://github.com/klsoundarya/Tales-from-South-India>
-Deployed Site: <https://klsoundarya.github.io/Tales-from-South-India/>
+- GitHub Profile: <https://github.com/klsoundarya/Tales-from-South-India>
+- Deployed Site: <https://klsoundarya.github.io/Tales-from-South-India/>
 
 ![Am I Responsive](readme/am-i-responsive/responsive-screens.PNG)
 
